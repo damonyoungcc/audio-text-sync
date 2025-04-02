@@ -21,10 +21,10 @@ audio-text-sync/
 │   ├── 2019/
 │   │   └── q1/
 │   │       ├── audio.mp3
-│   │       └── transcript.vtt
+│   │       └── audio.json
 │   └── 2020/
 │       └── q1/
 │           ├── audio.mp3
-│           └── transcript.vtt
+│           └── audio.json
 └── README.md
 ```

@@ -1,0 +1,16 @@
+{
+  "2019": {
+    "q1": {
+      "path": "data/2019/q1",
+      "audio_file": "audio.m4a",
+      "json": "audio.json"
+    }
+  },
+  "2020": {
+    "q2": {
+      "path": "data/2020/q2",
+      "audio_file": "audio1.MP3",
+      "json": "audio1.json"
+    }
+  }
+}
