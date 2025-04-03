@@ -58,35 +58,28 @@ async function loadData(year, question) {
   const entry = configData[year]?.[question];
   if (!entry) return;
 
-  const jsonPath = `${entry.path}/${entry.json}`;
   const audioPath = `${entry.path}/${entry.audio_file}`;
   audio.src = audioPath;
 
-  const res = await fetch(jsonPath);
-  const json = await res.json();
-  renderTranscript(json.segments);
+  // 使用 word_json 字段加载转写内容
+  const transcriptPath = `${entry.path}/${entry.word_json}`;
+  const res = await fetch(transcriptPath);
+  const transcriptJson = await res.json();
+
+  // 如果 JSON 对象包含 word_segments 字段，则使用它，否则假定 transcriptJson 是数组
+  const wordsArray = transcriptJson.word_segments || transcriptJson;
+  renderTranscript(wordsArray);
 }
 
-function renderTranscript(segments) {
+// wordsArray 是直接包含单词对象的数组，每个对象应具有 word 和 start 属性，没有就不执行
+function renderTranscript(wordsArray) {
   transcriptDiv.innerHTML = "";
-
-  segments.forEach((segment) => {
-    const container = document.createElement("div");
-    container.className = `segment type-${segment.type || "dialogue"}`;
-
-    if (segment.speaker) {
-      const label = document.createElement("span");
-      label.className = "speaker";
-      label.textContent =
-        segment.speaker === "male" ? "男：" :
-        segment.speaker === "female" ? "女：" : "";
-      container.appendChild(label);
-    }
-
-    segment.words.forEach(({ word, start }) => {
-      const span = document.createElement("span");
-      span.textContent = word;
-      span.className = "word";
+  wordsArray.forEach(({ word, start }) => {
+    const span = document.createElement("span");
+    span.textContent = word;
+    span.className = "word";
+    // 如果存在 start 值，则设置数据和点击事件，否则不添加事件
+    if (typeof start !== "undefined" && start !== null) {
       span.dataset.start = start;
       span.addEventListener("click", () => {
         document.body.style.userSelect = "none";
@@ -96,10 +89,8 @@ function renderTranscript(segments) {
         audio.currentTime = start;
         if (audio.paused) audio.play();
       });
-      container.appendChild(span);
-    });
-
-    transcriptDiv.appendChild(container);
+    }
+    transcriptDiv.appendChild(span);
   });
 }
 
@@ -141,6 +132,8 @@ window.addEventListener("DOMContentLoaded", async () => {
   const { year, question } = loadFromStorage();
   yearSelect.value = year;
   const firstQuestion = populateQuestionSelect(year);
-  questionSelect.value = configData[year]?.[question] ? question : firstQuestion;
+  questionSelect.value = configData[year]?.[question]
+    ? question
+    : firstQuestion;
   loadData(year, questionSelect.value);
 });

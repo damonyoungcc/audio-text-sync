@@ -1,5 +1,5 @@
 body {
-  font-family: sans-serif;
+  font-family: "Hiragino Kaku Gothic Pro", Meiryo, "Yu Gothic", "Helvetica Neue", sans-serif;
   padding: 20px;
 }
 
@@ -10,45 +10,17 @@ body {
 #transcript {
   max-height: 60vh;
   overflow-y: auto;
-  line-height: 2em;
+  line-height: 1.5em;
   white-space: pre-wrap;
 }
 
 .word {
   cursor: pointer;
-  padding: 0 0.5px;
+  padding: 0 1px;
 }
 
 .highlight {
   background: yellow;
   color: black;
   font-weight: bold;
-}
-
-.segment {
-  margin-bottom: 1em;
-}
-
-.speaker {
-  font-weight: bold;
-  display: inline-block;
-  min-width: 2em;
-}
-
-.type-intro,
-.type-question,
-.type-choice {
-  font-weight: bold;
-}
-
-.type-dialogue {
-  margin-left: 0.5em;
-}
-
-.line {
-  text-indent: 2em;
-}
-
-.line:first-child {
-  text-indent: 0;
 }
