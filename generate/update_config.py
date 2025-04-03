@@ -33,15 +33,15 @@ def update_dir_config():
                 continue
 
             base_name, _ = os.path.splitext(audio_file)
-            json_file = f"{base_name}.json"
-            json_path = os.path.join(q_path, json_file)
-            if not os.path.exists(json_path):
+            word_json_file = f"{base_name}.word.json"
+            word_json_path = os.path.join(q_path, word_json_file)
+            if not os.path.exists(word_json_path):
                 continue
 
             questions[q] = {
                 "path": os.path.join("data", year, q).replace("\\", "/"),
                 "audio_file": audio_file,
-                "json": json_file
+                "word_json": word_json_file
             }
 
         if questions:
