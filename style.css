@@ -8,6 +8,7 @@ html, body {
   background-color: #fffefc;
   -webkit-overflow-scrolling: touch;
   /* iOS 平滑效果 */
+  user-select: none;
 }
 
 #app {
@@ -83,10 +84,13 @@ html, body {
 }
 
 .highlight {
-  background: yellow;
+  background-color: #fffb00;
   color: black;
   font-weight: bold;
+  font-size: 1.1em;
+  transition: background 0.2s ease;
 }
+
 
 /* 换行 + 浅色分割线 */
 .line-break {
@@ -101,4 +105,68 @@ html, body {
   font-size: 1.2em;
   margin-right: 6px;
   display: inline-block;
+}
+
+.fab-button {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  background-color: rgba(29, 155, 240, 0.8);
+  /* 推特蓝半透明 */
+  border: none;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+  z-index: 9999;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 0.2s ease;
+}
+
+.fab-button:hover {
+  background-color: rgba(29, 155, 240, 1);
+}
+
+/* 图标容器 */
+.fab-button .icon {
+  display: inline-block;
+  width: 0;
+  height: 0;
+}
+
+/* ▶️ 播放图标（三角形） */
+.fab-button .play {
+  border-style: solid;
+  border-width: 10px 0 10px 16px;
+  border-color: transparent transparent transparent white;
+  margin-left: 2px;
+}
+
+/* ⏸️ 暂停图标（两条竖线） */
+.fab-button .pause {
+  width: 14px;
+  height: 16px;
+  position: relative;
+}
+
+.fab-button .pause::before,
+.fab-button .pause::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  width: 4px;
+  height: 100%;
+  background: white;
+  border-radius: 1px;
+}
+
+.fab-button .pause::before {
+  left: 0;
+}
+
+.fab-button .pause::after {
+  right: 0;
 }

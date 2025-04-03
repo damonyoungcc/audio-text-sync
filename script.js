@@ -79,7 +79,7 @@ function renderTranscript(wordsArray) {
   transcriptDiv.innerHTML = "";
 
   wordsArray.forEach((item) => {
-    // 换行和分割线
+    // 换行
     if (item.role === "line-break") {
       const divider = document.createElement("div");
       divider.className = "line-break";
@@ -87,19 +87,19 @@ function renderTranscript(wordsArray) {
       return;
     }
 
-    // 角色加粗标签（如：男：）
+    // 角色标签
     if (item.role === "speaker-label") {
       const span = document.createElement("span");
       span.textContent = item.word;
       span.className = "word speaker-label";
-      if (typeof item.start !== "undefined" && item.start !== null) {
+      if (typeof item.start === "number") {
         span.dataset.start = item.start;
+        if (typeof item.end === "number") {
+          span.dataset.end = item.end;
+        }
         span.addEventListener("click", () => {
-          document.body.style.userSelect = "none";
-          setTimeout(() => {
-            document.body.style.userSelect = "";
-          }, 300);
           audio.currentTime = item.start;
+          updateHighlight(item.start); // 手动触发
           if (audio.paused) audio.play();
         });
       }
@@ -107,36 +107,45 @@ function renderTranscript(wordsArray) {
       return;
     }
 
-    // 普通文字
+    // 普通词
     const span = document.createElement("span");
     span.textContent = item.word;
     span.className = "word";
-    if (typeof item.start !== "undefined" && item.start !== null) {
+
+    if (typeof item.start === "number") {
       span.dataset.start = item.start;
+    }
+    if (typeof item.end === "number") {
+      span.dataset.end = item.end;
+    }
+
+    if (item.start !== undefined) {
       span.addEventListener("click", () => {
-        document.body.style.userSelect = "none";
-        setTimeout(() => {
-          document.body.style.userSelect = "";
-        }, 300);
         audio.currentTime = item.start;
+        updateHighlight(item.start);
         if (audio.paused) audio.play();
       });
     }
+
     transcriptDiv.appendChild(span);
   });
 }
 
 function updateHighlight(currentTime) {
+  const tolerance = 0.0; // 可设为 0.1~0.2 秒提前量
   const words = transcriptDiv.querySelectorAll(".word");
+
   for (let i = 0; i < words.length; i++) {
     const start = parseFloat(words[i].dataset.start);
-    const nextStart =
-      i + 1 < words.length ? parseFloat(words[i + 1].dataset.start) : Infinity;
-    if (currentTime >= start && currentTime < nextStart) {
+    const end = parseFloat(words[i].dataset.end);
+
+    if (isNaN(start) || isNaN(end)) continue;
+
+    if (currentTime >= start - tolerance && currentTime < end) {
       words.forEach((w) => w.classList.remove("highlight"));
       words[i].classList.add("highlight");
+
       if (Date.now() - lastScrollTime > timeCountDown * 1000) {
-        // 如果在 3 秒内没有滚动，就居中当前单词
         words[i].scrollIntoView({ block: "center", behavior: "smooth" });
       }
       break;
@@ -183,3 +192,22 @@ transcriptDiv.addEventListener("scroll", () => {
     lastScrollTime = 0;
   }, 5000);
 });
+
+const fabBtn = document.getElementById("fabPlayToggle");
+const iconSpan = fabBtn.querySelector(".icon");
+
+function updateFabIcon() {
+  iconSpan.className = "icon " + (audio.paused ? "play" : "pause");
+}
+
+fabBtn.addEventListener("click", () => {
+  if (audio.paused) {
+    audio.play();
+  } else {
+    audio.pause();
+  }
+  updateFabIcon();
+});
+
+audio.addEventListener("play", updateFabIcon);
+audio.addEventListener("pause", updateFabIcon);
