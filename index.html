@@ -7,16 +7,20 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div id="controls">
-      <label>
-        <select id="yearSelect"></select>
-      </label>
-      <label>
-        <select id="questionSelect"></select>
-      </label>
+    <div id="app">
+      <div id="controls">
+        <label>
+          <select id="yearSelect"></select>
+        </label>
+        <label>
+          <select id="questionSelect"></select>
+        </label>
+      </div>
+      <div class="audio-container">
+        <audio id="audio" controls></audio>
+      </div>
+      <div id="transcript"></div>
     </div>
-    <audio id="audio" controls></audio>
-    <div id="transcript"></div>
 
     <script src="script.js"></script>
   </body>
