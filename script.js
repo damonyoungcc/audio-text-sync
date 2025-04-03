@@ -74,19 +74,48 @@ async function loadData(year, question) {
 // wordsArray 是直接包含单词对象的数组，每个对象应具有 word 和 start 属性，没有就不执行
 function renderTranscript(wordsArray) {
   transcriptDiv.innerHTML = "";
-  wordsArray.forEach(({ word, start }) => {
+
+  wordsArray.forEach((item) => {
+    // 换行和分割线
+    if (item.role === "line-break") {
+      const divider = document.createElement("div");
+      divider.className = "line-break";
+      transcriptDiv.appendChild(divider);
+      return;
+    }
+
+    // 角色加粗标签（如：男：）
+    if (item.role === "speaker-label") {
+      const span = document.createElement("span");
+      span.textContent = item.word;
+      span.className = "word speaker-label";
+      if (typeof item.start !== "undefined" && item.start !== null) {
+        span.dataset.start = item.start;
+        span.addEventListener("click", () => {
+          document.body.style.userSelect = "none";
+          setTimeout(() => {
+            document.body.style.userSelect = "";
+          }, 300);
+          audio.currentTime = item.start;
+          if (audio.paused) audio.play();
+        });
+      }
+      transcriptDiv.appendChild(span);
+      return;
+    }
+
+    // 普通文字
     const span = document.createElement("span");
-    span.textContent = word;
+    span.textContent = item.word;
     span.className = "word";
-    // 如果存在 start 值，则设置数据和点击事件，否则不添加事件
-    if (typeof start !== "undefined" && start !== null) {
-      span.dataset.start = start;
+    if (typeof item.start !== "undefined" && item.start !== null) {
+      span.dataset.start = item.start;
       span.addEventListener("click", () => {
         document.body.style.userSelect = "none";
         setTimeout(() => {
           document.body.style.userSelect = "";
         }, 300);
-        audio.currentTime = start;
+        audio.currentTime = item.start;
         if (audio.paused) audio.play();
       });
     }

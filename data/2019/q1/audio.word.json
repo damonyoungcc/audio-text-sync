@@ -1,5 +1,11 @@
 [
   {
+    "role": "speaker-label",
+    "word": "男:",
+    "start": 0.471,
+    "end": 0.691
+  },
+  {
     "word": "森",
     "start": 0.471,
     "end": 0.691,
@@ -29,6 +35,9 @@
     "end": 1.892,
     "score": 1.0,
     "speaker": "SPEAKER_00"
+  },
+  {
+    "word": "、"
   },
   {
     "word": "来",
@@ -157,13 +166,6 @@
     "start": 4.754,
     "end": 4.834,
     "score": 0.94,
-    "speaker": "SPEAKER_00"
-  },
-  {
-    "word": "を",
-    "start": 4.834,
-    "end": 4.954,
-    "score": 0.925,
     "speaker": "SPEAKER_00"
   },
   {
@@ -417,17 +419,20 @@
     "word": "?"
   },
   {
+    "role": "line-break",
+    "word": ""
+  },
+  {
+    "word": "女:",
+    "start": 11.799,
+    "end": 11.959,
+    "role": "speaker-label"
+  },
+  {
     "word": "う",
     "start": 11.799,
     "end": 11.959,
     "score": 0.876,
-    "speaker": "SPEAKER_01"
-  },
-  {
-    "word": "ー",
-    "start": 11.959,
-    "end": 11.999,
-    "score": 0.5,
     "speaker": "SPEAKER_01"
   },
   {
@@ -518,7 +523,24 @@
     "speaker": "SPEAKER_01"
   },
   {
+    "word": "あ",
+    "start": 14.561,
+    "end": 15.481,
+    "score": 1.0,
+    "speaker": "SPEAKER_01"
+  },
+  {
     "word": "。"
+  },
+  {
+    "role": "line-break",
+    "word": ""
+  },
+  {
+    "word": "男:",
+    "start": 15.481,
+    "end": 15.701,
+    "role": "speaker-label"
   },
   {
     "word": "そ",
@@ -580,6 +602,9 @@
     "speaker": "SPEAKER_00"
   },
   {
+    "word": "、"
+  },
+  {
     "word": "確",
     "start": 18.483,
     "end": 18.703,
@@ -594,14 +619,14 @@
     "speaker": "SPEAKER_00"
   },
   {
-    "word": "素",
+    "word": "粗",
     "start": 18.964,
     "end": 19.104,
     "score": 0.875,
     "speaker": "SPEAKER_00"
   },
   {
-    "word": "材",
+    "word": "大",
     "start": 19.104,
     "end": 19.284,
     "score": 0.89,
@@ -709,6 +734,16 @@
     "word": "。"
   },
   {
+    "role": "line-break",
+    "word": ""
+  },
+  {
+    "word": "女:",
+    "start": 21.28,
+    "end": 21.42,
+    "role": "speaker-label"
+  },
+  {
     "word": "う",
     "start": 21.28,
     "end": 21.42,
@@ -723,7 +758,7 @@
     "speaker": "SPEAKER_01"
   },
   {
-    "word": "。"
+    "word": "、"
   },
   {
     "word": "法",
@@ -841,17 +876,10 @@
     "speaker": "SPEAKER_01"
   },
   {
-    "word": "と",
+    "word": "時",
     "start": 24.782,
     "end": 24.922,
     "score": 0.994,
-    "speaker": "SPEAKER_01"
-  },
-  {
-    "word": "き",
-    "start": 24.922,
-    "end": 25.022,
-    "score": 0.99,
     "speaker": "SPEAKER_01"
   },
   {
@@ -973,6 +1001,16 @@
     "word": "。"
   },
   {
+    "role": "line-break",
+    "word": ""
+  },
+  {
+    "word": "男:",
+    "role": "speaker-label",
+    "start": 27.843,
+    "end": 27.963
+  },
+  {
     "word": "そ",
     "start": 27.843,
     "end": 27.963,
@@ -1078,6 +1116,16 @@
   },
   {
     "word": "?"
+  },
+  {
+    "role": "line-break",
+    "word": ""
+  },
+  {
+    "word": "女:",
+    "role": "speaker-label",
+    "start": 30.965,
+    "end": 31.125
   },
   {
     "word": "市",
@@ -1308,6 +1356,9 @@
     "end": 36.948,
     "score": 1.0,
     "speaker": "SPEAKER_01"
+  },
+  {
+    "word": "、"
   },
   {
     "word": "手",
@@ -1578,7 +1629,17 @@
     "word": "。"
   },
   {
-    "word": "え",
+    "role": "line-break",
+    "word": ""
+  },
+  {
+    "word": "男:",
+    "role": "speaker-label",
+    "start": 42.951,
+    "end": 43.311
+  },
+  {
+    "word": "えっ",
     "start": 42.951,
     "end": 43.311,
     "score": 0.964,
@@ -1624,6 +1685,16 @@
   },
   {
     "word": "。"
+  },
+  {
+    "role": "line-break",
+    "word": ""
+  },
+  {
+    "word": "女:",
+    "role": "speaker-label",
+    "start": 44.292,
+    "end": 44.412
   },
   {
     "word": "そ",
@@ -1817,7 +1888,7 @@
     "speaker": "SPEAKER_01"
   },
   {
-    "word": "ょ",
+    "word": "ょう",
     "start": 48.994,
     "end": 49.594,
     "score": 0.848,
@@ -1825,6 +1896,16 @@
   },
   {
     "word": "?"
+  },
+  {
+    "role": "line-break",
+    "word": ""
+  },
+  {
+    "word": "男:",
+    "role": "speaker-label",
+    "start": 49.594,
+    "end": 49.694
   },
   {
     "word": "わ",
@@ -1894,6 +1975,16 @@
   },
   {
     "word": "。"
+  },
+  {
+    "role": "line-break",
+    "word": ""
+  },
+  {
+    "word": "问题:",
+    "role": "speaker-label",
+    "start": 57.184,
+    "end": 57.324
   },
   {
     "word": "男",

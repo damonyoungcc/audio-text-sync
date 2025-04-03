@@ -58,3 +58,18 @@ body {
   color: black;
   font-weight: bold;
 }
+
+/* 换行 + 浅色分割线 */
+.line-break {
+  border-top: 1px solid #dedcdc;
+  margin: 4px 0;
+  height: 1px;
+}
+
+/* 加粗角色标签 */
+.speaker-label {
+  font-weight: bold;
+  font-size: 1.2em;
+  margin-right: 6px;
+  display: inline-block;
+}
