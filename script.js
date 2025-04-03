@@ -2,6 +2,9 @@ const basePath = "data/";
 const configPath = `${basePath}dir_config.json`;
 let defaultYear;
 let defaultQuestion;
+let lastScrollTime = 0;
+let scrollTimeout;
+const timeCountDown = 3;
 
 const yearSelect = document.getElementById("yearSelect");
 const questionSelect = document.getElementById("questionSelect");
@@ -132,7 +135,10 @@ function updateHighlight(currentTime) {
     if (currentTime >= start && currentTime < nextStart) {
       words.forEach((w) => w.classList.remove("highlight"));
       words[i].classList.add("highlight");
-      words[i].scrollIntoView({ block: "center", behavior: "smooth" });
+      if (Date.now() - lastScrollTime > timeCountDown * 1000) {
+        // 如果在 3 秒内没有滚动，就居中当前单词
+        words[i].scrollIntoView({ block: "center", behavior: "smooth" });
+      }
       break;
     }
   }
@@ -165,4 +171,15 @@ window.addEventListener("DOMContentLoaded", async () => {
     ? question
     : firstQuestion;
   loadData(year, questionSelect.value);
+});
+
+transcriptDiv.addEventListener("scroll", () => {
+  lastScrollTime = Date.now();
+
+  if (scrollTimeout) clearTimeout(scrollTimeout);
+
+  // 如果 5 秒内没有再次滚动，就触发“居中”逻辑
+  scrollTimeout = setTimeout(() => {
+    lastScrollTime = 0;
+  }, 5000);
 });
