@@ -85,8 +85,14 @@ html, body {
   }
 
   #fabPlayToggle {
-    bottom: 20px;
     right: 20px;
+    bottom: 60px;
+    transform: scale(0.8);
+  }
+
+  #fabToggleFurigana {
+    right: 20px;
+    transform: scale(0.8);
   }
 }
 
@@ -119,7 +125,7 @@ html, body {
 
 .fab-button {
   position: fixed;
-  bottom: 60px;
+  bottom: 80px;
   right: 40px;
   width: 56px;
   height: 56px;
@@ -180,6 +186,25 @@ html, body {
 
 .fab-button .pause::after {
   right: 0;
+}
+
+.furigana-button {
+  position: fixed;
+  bottom: 10px;
+  right: 40px;
+  font-size: 1.2em;
+  color: white;
+  text-align: center;
+}
+
+#fabToggleFurigana.toggle-on {
+  background-color: rgba(29, 155, 240, 0.8);
+  opacity: 0.6;
+}
+
+#fabToggleFurigana.toggle-off {
+  background-color: rgba(100, 100, 100, 0.4);
+  opacity: 0.3;
 }
 
 ruby rt {

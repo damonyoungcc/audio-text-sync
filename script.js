@@ -239,3 +239,20 @@ fabBtn.addEventListener("click", () => {
 
 audio.addEventListener("play", updateFabIcon);
 audio.addEventListener("pause", updateFabIcon);
+
+const furiganaToggleBtn = document.getElementById("fabToggleFurigana");
+let showFurigana = true;
+
+furiganaToggleBtn.addEventListener("click", () => {
+  showFurigana = !showFurigana;
+
+  // 显示 / 隐藏 <rt> 标签（恢复默认布局用 ""）
+  const rts = transcriptDiv.querySelectorAll("rt");
+  rts.forEach((rt) => {
+    rt.style.display = showFurigana ? "" : "none";
+  });
+
+  // 按钮状态切换
+  furiganaToggleBtn.classList.toggle("toggle-on", showFurigana);
+  furiganaToggleBtn.classList.toggle("toggle-off", !showFurigana);
+});
