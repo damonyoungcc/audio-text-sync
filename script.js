@@ -109,8 +109,19 @@ function renderTranscript(wordsArray) {
 
     // 普通词
     const span = document.createElement("span");
-    span.textContent = item.word;
     span.className = "word";
+
+    if (item.furigana) {
+      const ruby = document.createElement("ruby");
+      ruby.textContent = item.word;
+
+      const rt = document.createElement("rt");
+      rt.textContent = item.furigana;
+      ruby.appendChild(rt);
+      span.appendChild(ruby);
+    } else {
+      span.textContent = item.word;
+    }
 
     if (typeof item.start === "number") {
       span.dataset.start = item.start;
