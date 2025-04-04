@@ -1,3 +1,6 @@
+# 目前汉字对应假名的效果不太理想，所以暂时不使用
+# 目前是在让chatgpt生成original.txt时，给出汉字对应假名的映射表，手动来
+# 还没有更准确的方案，待续
 import os
 import json
 from fugashi import Tagger
