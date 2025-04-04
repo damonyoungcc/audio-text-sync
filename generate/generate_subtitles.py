@@ -6,11 +6,9 @@ import sys
 import json
 import config
 
+from target_config import YEAR, QUESTION_NUM
+
 # ======== 可配置部分 ========
-# 修改这里的年份和题号，就可以处理不同年份和题号的音频文件
-# 例如：2020年第一题的音频文件，年份为2020，题号为q1
-YEAR = "2020"  # 年份
-QUESTION_NUM = "q2"  # 题号
 MIN_SPEAKERS = "2" #最小说话人数
 MAX_SPEAKERS = "2"  #说话人数
 SUPPORTED_AUDIO_TYPES = ["mp3", "m4a"] # 支持的音频格式
@@ -46,12 +44,12 @@ def generate_subtitles():
     print(f"🎧 使用音频文件: {AUDIO_PATH}")
 
     # 清理文件夹中非当前音频，这里是每次运行都会清理
-    print("\n🧹 清理文件夹中除当前音频以外的所有文件...")
-    for filename in os.listdir(BASE_PATH):
-        full_path = os.path.join(BASE_PATH, filename)
-        if os.path.isfile(full_path) and filename != audio_file_found:
-            print(f"  🗑 删除: {filename}")
-            os.remove(full_path)
+    # print("\n🧹 清理文件夹中除当前音频以外的所有文件...")
+    # for filename in os.listdir(BASE_PATH):
+    #     full_path = os.path.join(BASE_PATH, filename)
+    #     if os.path.isfile(full_path) and filename != audio_file_found:
+    #         print(f"  🗑 删除: {filename}")
+    #         os.remove(full_path)
 
     # 构建 whisperx 命令
     cmd = [

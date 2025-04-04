@@ -1,10 +1,7 @@
 import json
 from copy import deepcopy
 from pathlib import Path
-
-# ✅ 修改这两个值来指定目标音频
-year = "2020"
-question = "q2"
+from target_config import YEAR, QUESTION_NUM
 
 def correct_json_by_text(json_data, text_data):
     fixed_items = []
@@ -46,9 +43,9 @@ def find_file_with_suffixes_case_insensitive(folder: Path, suffixes: list[str]):
                 return path
     return None
 
-def main(year: str, question: str):
+def run_corrector():
     script_dir = Path(__file__).resolve().parent  # generate/
-    data_dir = script_dir.parent / "data" / year / question
+    data_dir = script_dir.parent / "data" / YEAR / QUESTION_NUM
 
     # 获取音频文件（忽略后缀大小写）
     audio_file = find_file_with_suffixes_case_insensitive(data_dir, [".mp3", ".m4a"])
@@ -86,4 +83,4 @@ def main(year: str, question: str):
     print(f"✅ 修正完成：{output_path.relative_to(script_dir.parent)}")
 
 if __name__ == "__main__":
-    main(year, question)
+    run_corrector()
