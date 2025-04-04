@@ -1,26 +1,41 @@
+// === 设定与全局变量 ===
 const basePath = "data/";
 const configPath = `${basePath}dir_config.json`;
+const timeCountDown = 3;
+
 let defaultYear;
 let defaultQuestion;
 let lastScrollTime = 0;
 let scrollTimeout;
-const timeCountDown = 3;
+let configData = {};
 
 const yearSelect = document.getElementById("yearSelect");
 const questionSelect = document.getElementById("questionSelect");
 const audio = document.getElementById("audio");
 const transcriptDiv = document.getElementById("transcript");
+const fabBtn = document.getElementById("fabPlayToggle");
+const iconSpan = fabBtn.querySelector(".icon");
 const furiganaToggleBtn = document.getElementById("fabToggleFurigana");
 
-// ✅ 读取状态：默认显示（localStorage 没有值或为 "true"）
 let showFurigana = localStorage.getItem("showFurigana") !== "false";
 
-let configData = {};
+// === 初始化逻辑 ===
+window.addEventListener("DOMContentLoaded", async () => {
+  await fetchConfig();
+  populateYearSelect();
+  const { year, question } = loadFromStorage();
+  yearSelect.value = year;
+  const firstQuestion = populateQuestionSelect(year);
+  questionSelect.value = configData[year]?.[question]
+    ? question
+    : firstQuestion;
+  loadData(year, questionSelect.value);
+});
 
+// === 配置与数据加载 ===
 async function fetchConfig() {
   const res = await fetch(configPath);
   configData = await res.json();
-
   const yearKeys = Object.keys(configData);
   defaultYear = yearKeys[0];
   const questionKeys = Object.keys(configData[defaultYear] || {});
@@ -65,18 +80,14 @@ async function loadData(year, question) {
   const entry = configData[year]?.[question];
   if (!entry) return;
 
-  const audioPath = `${entry.path}/${entry.audio_file}`;
-  audio.src = audioPath;
-
-  const transcriptPath = `${entry.path}/${entry.word_corrected_json}`;
-  const res = await fetch(transcriptPath);
+  audio.src = `${entry.path}/${entry.audio_file}`;
+  const res = await fetch(`${entry.path}/${entry.word_corrected_json}`);
   const transcriptJson = await res.json();
   const wordsArray = transcriptJson.word_segments || transcriptJson;
-
   renderTranscript(wordsArray);
 }
 
-// ✅ 渲染 transcript，支持 ruby + 显示/隐藏控制
+// === 字幕渲染逻辑（含假名） ===
 function renderTranscript(wordsArray) {
   transcriptDiv.innerHTML = "";
 
@@ -88,29 +99,13 @@ function renderTranscript(wordsArray) {
       return;
     }
 
-    if (item.role === "speaker-label") {
-      const span = document.createElement("span");
-      span.textContent = item.word;
-      span.className = "word speaker-label";
-      if (typeof item.start === "number") {
-        span.dataset.start = item.start;
-        if (typeof item.end === "number") {
-          span.dataset.end = item.end;
-        }
-        span.addEventListener("click", () => {
-          audio.currentTime = item.start;
-          updateHighlight(item.start);
-          if (audio.paused) audio.play();
-        });
-      }
-      transcriptDiv.appendChild(span);
-      return;
-    }
-
     const span = document.createElement("span");
     span.className = "word";
 
-    if (item.furigana) {
+    if (item.role === "speaker-label") {
+      span.textContent = item.word;
+      span.classList.add("speaker-label");
+    } else if (item.furigana) {
       const ruby = document.createElement("ruby");
       ruby.textContent = item.word;
 
@@ -138,11 +133,11 @@ function renderTranscript(wordsArray) {
     transcriptDiv.appendChild(span);
   });
 
-  // ✅ 渲染完后，更新按钮状态样式
   furiganaToggleBtn.classList.toggle("toggle-on", showFurigana);
   furiganaToggleBtn.classList.toggle("toggle-off", !showFurigana);
 }
 
+// === 高亮逻辑 ===
 function updateHighlight(currentTime) {
   const tolerance = 0.05;
   const words = transcriptDiv.querySelectorAll(".word");
@@ -159,14 +154,13 @@ function updateHighlight(currentTime) {
     if (currentTime >= start - tolerance && currentTime <= end + tolerance) {
       bestIndex = i;
     }
-
     if (start <= currentTime && start > closestBeforeTime) {
       closestBefore = i;
       closestBeforeTime = start;
     }
   }
 
-  let indexToHighlight = bestIndex !== -1 ? bestIndex : closestBefore;
+  const indexToHighlight = bestIndex !== -1 ? bestIndex : closestBefore;
   if (indexToHighlight !== -1) {
     words.forEach((w) => w.classList.remove("highlight"));
     const wordEl = words[indexToHighlight];
@@ -178,9 +172,8 @@ function updateHighlight(currentTime) {
   }
 }
 
-audio.addEventListener("timeupdate", () => {
-  updateHighlight(audio.currentTime);
-});
+// === 控件事件绑定 ===
+audio.addEventListener("timeupdate", () => updateHighlight(audio.currentTime));
 
 yearSelect.addEventListener("change", () => {
   const year = yearSelect.value;
@@ -195,18 +188,6 @@ questionSelect.addEventListener("change", () => {
   loadData(year, question);
 });
 
-window.addEventListener("DOMContentLoaded", async () => {
-  await fetchConfig();
-  populateYearSelect();
-  const { year, question } = loadFromStorage();
-  yearSelect.value = year;
-  const firstQuestion = populateQuestionSelect(year);
-  questionSelect.value = configData[year]?.[question]
-    ? question
-    : firstQuestion;
-  loadData(year, questionSelect.value);
-});
-
 transcriptDiv.addEventListener("scroll", () => {
   lastScrollTime = Date.now();
   if (scrollTimeout) clearTimeout(scrollTimeout);
@@ -215,26 +196,21 @@ transcriptDiv.addEventListener("scroll", () => {
   }, 5000);
 });
 
-const fabBtn = document.getElementById("fabPlayToggle");
-const iconSpan = fabBtn.querySelector(".icon");
-
+// === 播放按钮逻辑 ===
 function updateFabIcon() {
   iconSpan.className = "icon " + (audio.paused ? "play" : "pause");
 }
 
 fabBtn.addEventListener("click", () => {
-  if (audio.paused) {
-    audio.play();
-  } else {
-    audio.pause();
-  }
+  if (audio.paused) audio.play();
+  else audio.pause();
   updateFabIcon();
 });
 
 audio.addEventListener("play", updateFabIcon);
 audio.addEventListener("pause", updateFabIcon);
 
-// ✅ 假名开关按钮
+// === 假名开关按钮逻辑 ===
 furiganaToggleBtn.addEventListener("click", () => {
   showFurigana = !showFurigana;
   localStorage.setItem("showFurigana", showFurigana.toString());
