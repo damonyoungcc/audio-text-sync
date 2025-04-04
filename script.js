@@ -1,22 +1,41 @@
+// === 设定与全局变量 ===
 const basePath = "data/";
 const configPath = `${basePath}dir_config.json`;
+const timeCountDown = 3;
+
 let defaultYear;
 let defaultQuestion;
 let lastScrollTime = 0;
 let scrollTimeout;
-const timeCountDown = 3;
+let configData = {};
 
 const yearSelect = document.getElementById("yearSelect");
 const questionSelect = document.getElementById("questionSelect");
 const audio = document.getElementById("audio");
 const transcriptDiv = document.getElementById("transcript");
+const fabBtn = document.getElementById("fabPlayToggle");
+const iconSpan = fabBtn.querySelector(".icon");
+const furiganaToggleBtn = document.getElementById("fabToggleFurigana");
 
-let configData = {};
+let showFurigana = localStorage.getItem("showFurigana") !== "false";
 
+// === 初始化逻辑 ===
+window.addEventListener("DOMContentLoaded", async () => {
+  await fetchConfig();
+  populateYearSelect();
+  const { year, question } = loadFromStorage();
+  yearSelect.value = year;
+  const firstQuestion = populateQuestionSelect(year);
+  questionSelect.value = configData[year]?.[question]
+    ? question
+    : firstQuestion;
+  loadData(year, questionSelect.value);
+});
+
+// === 配置与数据加载 ===
 async function fetchConfig() {
   const res = await fetch(configPath);
   configData = await res.json();
-
   const yearKeys = Object.keys(configData);
   defaultYear = yearKeys[0];
   const questionKeys = Object.keys(configData[defaultYear] || {});
@@ -42,7 +61,7 @@ function populateQuestionSelect(year) {
     option.textContent = q.toUpperCase();
     questionSelect.appendChild(option);
   });
-  return questions[0]; // 返回第一个问题作为默认值
+  return questions[0];
 }
 
 function loadFromStorage() {
@@ -61,25 +80,18 @@ async function loadData(year, question) {
   const entry = configData[year]?.[question];
   if (!entry) return;
 
-  const audioPath = `${entry.path}/${entry.audio_file}`;
-  audio.src = audioPath;
-
-  // 使用 word_json 字段加载转写内容
-  const transcriptPath = `${entry.path}/${entry.word_corrected_json}`;
-  const res = await fetch(transcriptPath);
+  audio.src = `${entry.path}/${entry.audio_file}`;
+  const res = await fetch(`${entry.path}/${entry.word_corrected_json}`);
   const transcriptJson = await res.json();
-
-  // 如果 JSON 对象包含 word_segments 字段，则使用它，否则假定 transcriptJson 是数组
   const wordsArray = transcriptJson.word_segments || transcriptJson;
   renderTranscript(wordsArray);
 }
 
-// wordsArray 是直接包含单词对象的数组，每个对象应具有 word 和 start 属性，没有就不执行
+// === 字幕渲染逻辑（含假名） ===
 function renderTranscript(wordsArray) {
   transcriptDiv.innerHTML = "";
 
   wordsArray.forEach((item) => {
-    // 换行
     if (item.role === "line-break") {
       const divider = document.createElement("div");
       divider.className = "line-break";
@@ -87,48 +99,28 @@ function renderTranscript(wordsArray) {
       return;
     }
 
-    // 角色标签
-    if (item.role === "speaker-label") {
-      const span = document.createElement("span");
-      span.textContent = item.word;
-      span.className = "word speaker-label";
-      if (typeof item.start === "number") {
-        span.dataset.start = item.start;
-        if (typeof item.end === "number") {
-          span.dataset.end = item.end;
-        }
-        span.addEventListener("click", () => {
-          audio.currentTime = item.start;
-          updateHighlight(item.start); // 手动触发
-          if (audio.paused) audio.play();
-        });
-      }
-      transcriptDiv.appendChild(span);
-      return;
-    }
-
-    // 普通词
     const span = document.createElement("span");
     span.className = "word";
 
-    if (item.furigana) {
+    if (item.role === "speaker-label") {
+      span.textContent = item.word;
+      span.classList.add("speaker-label");
+    } else if (item.furigana) {
       const ruby = document.createElement("ruby");
       ruby.textContent = item.word;
 
       const rt = document.createElement("rt");
       rt.textContent = item.furigana;
+      if (!showFurigana) rt.style.display = "none";
+
       ruby.appendChild(rt);
       span.appendChild(ruby);
     } else {
       span.textContent = item.word;
     }
 
-    if (typeof item.start === "number") {
-      span.dataset.start = item.start;
-    }
-    if (typeof item.end === "number") {
-      span.dataset.end = item.end;
-    }
+    if (typeof item.start === "number") span.dataset.start = item.start;
+    if (typeof item.end === "number") span.dataset.end = item.end;
 
     if (item.start !== undefined) {
       span.addEventListener("click", () => {
@@ -140,10 +132,14 @@ function renderTranscript(wordsArray) {
 
     transcriptDiv.appendChild(span);
   });
+
+  furiganaToggleBtn.classList.toggle("toggle-on", showFurigana);
+  furiganaToggleBtn.classList.toggle("toggle-off", !showFurigana);
 }
 
+// === 高亮逻辑 ===
 function updateHighlight(currentTime) {
-  const tolerance = 0.05; // 避免浮点误差
+  const tolerance = 0.05;
   const words = transcriptDiv.querySelectorAll(".word");
 
   let bestIndex = -1;
@@ -153,23 +149,18 @@ function updateHighlight(currentTime) {
   for (let i = 0; i < words.length; i++) {
     const start = parseFloat(words[i].dataset.start);
     const end = parseFloat(words[i].dataset.end);
-
     if (isNaN(start) || isNaN(end)) continue;
 
-    // 优先使用当前时间落在某字 start~end 之间的
     if (currentTime >= start - tolerance && currentTime <= end + tolerance) {
       bestIndex = i;
     }
-
-    // 备选：找到最接近当前时间的开始时间
     if (start <= currentTime && start > closestBeforeTime) {
       closestBefore = i;
       closestBeforeTime = start;
     }
   }
 
-  let indexToHighlight = bestIndex !== -1 ? bestIndex : closestBefore;
-
+  const indexToHighlight = bestIndex !== -1 ? bestIndex : closestBefore;
   if (indexToHighlight !== -1) {
     words.forEach((w) => w.classList.remove("highlight"));
     const wordEl = words[indexToHighlight];
@@ -181,9 +172,8 @@ function updateHighlight(currentTime) {
   }
 }
 
-audio.addEventListener("timeupdate", () => {
-  updateHighlight(audio.currentTime);
-});
+// === 控件事件绑定 ===
+audio.addEventListener("timeupdate", () => updateHighlight(audio.currentTime));
 
 yearSelect.addEventListener("change", () => {
   const year = yearSelect.value;
@@ -198,61 +188,38 @@ questionSelect.addEventListener("change", () => {
   loadData(year, question);
 });
 
-window.addEventListener("DOMContentLoaded", async () => {
-  await fetchConfig();
-  populateYearSelect();
-  const { year, question } = loadFromStorage();
-  yearSelect.value = year;
-  const firstQuestion = populateQuestionSelect(year);
-  questionSelect.value = configData[year]?.[question]
-    ? question
-    : firstQuestion;
-  loadData(year, questionSelect.value);
-});
-
 transcriptDiv.addEventListener("scroll", () => {
   lastScrollTime = Date.now();
-
   if (scrollTimeout) clearTimeout(scrollTimeout);
-
-  // 如果 5 秒内没有再次滚动，就触发“居中”逻辑
   scrollTimeout = setTimeout(() => {
     lastScrollTime = 0;
   }, 5000);
 });
 
-const fabBtn = document.getElementById("fabPlayToggle");
-const iconSpan = fabBtn.querySelector(".icon");
-
+// === 播放按钮逻辑 ===
 function updateFabIcon() {
   iconSpan.className = "icon " + (audio.paused ? "play" : "pause");
 }
 
 fabBtn.addEventListener("click", () => {
-  if (audio.paused) {
-    audio.play();
-  } else {
-    audio.pause();
-  }
+  if (audio.paused) audio.play();
+  else audio.pause();
   updateFabIcon();
 });
 
 audio.addEventListener("play", updateFabIcon);
 audio.addEventListener("pause", updateFabIcon);
 
-const furiganaToggleBtn = document.getElementById("fabToggleFurigana");
-let showFurigana = true;
-
+// === 假名开关按钮逻辑 ===
 furiganaToggleBtn.addEventListener("click", () => {
   showFurigana = !showFurigana;
+  localStorage.setItem("showFurigana", showFurigana.toString());
 
-  // 显示 / 隐藏 <rt> 标签（恢复默认布局用 ""）
   const rts = transcriptDiv.querySelectorAll("rt");
   rts.forEach((rt) => {
     rt.style.display = showFurigana ? "" : "none";
   });
 
-  // 按钮状态切换
   furiganaToggleBtn.classList.toggle("toggle-on", showFurigana);
   furiganaToggleBtn.classList.toggle("toggle-off", !showFurigana);
 });
