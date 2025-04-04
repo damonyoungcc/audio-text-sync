@@ -9,6 +9,7 @@ html, body {
   -webkit-overflow-scrolling: touch;
   /* iOS 平滑效果 */
   user-select: none;
+  touch-action: manipulation;
 }
 
 #app {
