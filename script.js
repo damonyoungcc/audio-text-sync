@@ -132,8 +132,12 @@ function renderTranscript(wordsArray) {
 }
 
 function updateHighlight(currentTime) {
-  const tolerance = 0.0; // 可设为 0.1~0.2 秒提前量
+  const tolerance = 0.05; // 避免浮点误差
   const words = transcriptDiv.querySelectorAll(".word");
+
+  let bestIndex = -1;
+  let closestBefore = -1;
+  let closestBeforeTime = -Infinity;
 
   for (let i = 0; i < words.length; i++) {
     const start = parseFloat(words[i].dataset.start);
@@ -141,14 +145,27 @@ function updateHighlight(currentTime) {
 
     if (isNaN(start) || isNaN(end)) continue;
 
-    if (currentTime >= start - tolerance && currentTime < end) {
-      words.forEach((w) => w.classList.remove("highlight"));
-      words[i].classList.add("highlight");
+    // 优先使用当前时间落在某字 start~end 之间的
+    if (currentTime >= start - tolerance && currentTime <= end + tolerance) {
+      bestIndex = i;
+    }
 
-      if (Date.now() - lastScrollTime > timeCountDown * 1000) {
-        words[i].scrollIntoView({ block: "center", behavior: "smooth" });
-      }
-      break;
+    // 备选：找到最接近当前时间的开始时间
+    if (start <= currentTime && start > closestBeforeTime) {
+      closestBefore = i;
+      closestBeforeTime = start;
+    }
+  }
+
+  let indexToHighlight = bestIndex !== -1 ? bestIndex : closestBefore;
+
+  if (indexToHighlight !== -1) {
+    words.forEach((w) => w.classList.remove("highlight"));
+    const wordEl = words[indexToHighlight];
+    wordEl.classList.add("highlight");
+
+    if (Date.now() - lastScrollTime > timeCountDown * 1000) {
+      wordEl.scrollIntoView({ block: "center", behavior: "smooth" });
     }
   }
 }
