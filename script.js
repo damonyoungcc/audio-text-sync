@@ -65,7 +65,7 @@ async function loadData(year, question) {
   audio.src = audioPath;
 
   // 使用 word_json 字段加载转写内容
-  const transcriptPath = `${entry.path}/${entry.word_json}`;
+  const transcriptPath = `${entry.path}/${entry.word_corrected_json}`;
   const res = await fetch(transcriptPath);
   const transcriptJson = await res.json();
 

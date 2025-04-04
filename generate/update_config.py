@@ -33,7 +33,8 @@ def update_dir_config():
                 continue
 
             base_name, _ = os.path.splitext(audio_file)
-            word_json_file = f"{base_name}.word.json"
+            # ✅ 修改后的文件名格式
+            word_json_file = f"{base_name}.corrected.word.json"
             word_json_path = os.path.join(q_path, word_json_file)
             if not os.path.exists(word_json_path):
                 continue
@@ -41,7 +42,7 @@ def update_dir_config():
             questions[q] = {
                 "path": os.path.join("data", year, q).replace("\\", "/"),
                 "audio_file": audio_file,
-                "word_json": word_json_file
+                "word_corrected_json": word_json_file  # ✅ 字段名保持一致
             }
 
         if questions:
