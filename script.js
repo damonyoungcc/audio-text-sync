@@ -34,7 +34,7 @@ window.addEventListener("DOMContentLoaded", async () => {
 
 // === 配置与数据加载 ===
 async function fetchConfig() {
-  const res = await fetch(configPath);
+  const res = await fetch(`${configPath}?_=${Date.now()}`);
   configData = await res.json();
   const yearKeys = Object.keys(configData);
   defaultYear = yearKeys[0];
@@ -65,8 +65,18 @@ function populateQuestionSelect(year) {
 }
 
 function loadFromStorage() {
-  const year = localStorage.getItem("year") || defaultYear;
-  const question = localStorage.getItem("question") || defaultQuestion;
+  let year = localStorage.getItem("year");
+  let question = localStorage.getItem("question");
+
+  if (!configData[year]) {
+    year = defaultYear;
+  }
+
+  const validQuestions = Object.keys(configData[year] || {});
+  if (!validQuestions.includes(question)) {
+    question = validQuestions[0];
+  }
+
   return { year, question };
 }
 
