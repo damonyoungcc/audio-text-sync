@@ -48,28 +48,18 @@ def enrich_corrected_json_with_furigana(year=YEAR, question=QUESTION_NUM):
     ]
     furigana_kanji = [list(d.keys())[0] for d in furigana_map]
     # 打印长度对比
-    print(f"word_data 中的汉字数：{len(kanji_words)}")
-    print(f"映射表中的汉字数：{len(furigana_kanji)}")
+    if len(kanji_words) != len(furigana_kanji) or kanji_words != furigana_kanji:
+        print("❌ 汉字数量或顺序不一致")
+        print(f"word_data 中的汉字数：{len(kanji_words)}")
+        print(f"映射表中的汉字数：{len(furigana_kanji)}")
 
-    if len(kanji_words) != len(furigana_kanji):
-        print("❌ 汉字数不一致：")
-        print("word_data 中的汉字：", kanji_words)
-        print("映射表中的汉字：", furigana_kanji)
-        return
-
-    if kanji_words != furigana_kanji:
-        print("❌ 汉字顺序不一致！请检查 word_data 中汉字序列是否与假名表一致")
-        print("对比差异：")
-        diff_lines = []
+        print("🔍 对比内容如下：")
         max_len = max(len(kanji_words), len(furigana_kanji))
         for i in range(max_len):
-            word_char = kanji_words[i] if i < len(kanji_words) else "缺失"
-            mapping_char = furigana_kanji[i] if i < len(furigana_kanji) else "缺失"
-            diff_lines.append(f"{word_char} {mapping_char}")
-        # 将所有差异用换行符连接后一次性打印
-        print("\n".join(diff_lines))
+            w1 = kanji_words[i] if i < len(kanji_words) else "x"
+            w2 = furigana_kanji[i] if i < len(furigana_kanji) else "x"
+            print(f"{w1}  {w2}")
         return
-
 
     print("✅ 校验通过：顺序一致、长度一致，准备开始标注...")
 
