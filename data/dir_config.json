@@ -1,19 +1,14 @@
 {
   "2019-7-N2": {
-    "q1": {
-      "path": "data/2019-7-N2/q1",
+    "1-1": {
+      "path": "data/2019-7-N2/1-1",
       "audio_file": "audio.m4a",
       "word_corrected_json": "audio.corrected.word.json"
     },
-    "q2": {
-      "path": "data/2019-7-N2/q2",
-      "audio_file": "audio2.mp3",
-      "word_corrected_json": "audio2.corrected.word.json"
-    },
-    "q3": {
-      "path": "data/2019-7-N2/q3",
-      "audio_file": "audio3.mp3",
-      "word_corrected_json": "audio3.corrected.word.json"
+    "1-2": {
+      "path": "data/2019-7-N2/1-2",
+      "audio_file": "1-2.m4a",
+      "word_corrected_json": "1-2.corrected.word.json"
     }
   },
   "2024-7-N2": {

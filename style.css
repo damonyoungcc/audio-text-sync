@@ -216,3 +216,7 @@ ruby rt {
 .bold-word {
   font-weight: bold;
 }
+.bold-word::after {
+  content: " ";
+  display: inline-block;
+}
