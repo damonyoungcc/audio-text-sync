@@ -26,6 +26,11 @@
       "path": "data/2024-7-N2/1-2",
       "audio_file": "2024-7-N2-1-2.mp3",
       "word_corrected_json": "2024-7-N2-1-2.corrected.word.json"
+    },
+    "1-3": {
+      "path": "data/2024-7-N2/1-3",
+      "audio_file": "2024-7-N2-1-3.mp3",
+      "word_corrected_json": "2024-7-N2-1-3.corrected.word.json"
     }
   }
 }
