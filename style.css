@@ -8,7 +8,7 @@ html, body {
   background-color: #fffefc;
   -webkit-overflow-scrolling: touch;
   /* iOS 平滑效果 */
-  user-select: none;
+  /* user-select: none; */
   touch-action: manipulation;
 }
 
@@ -211,4 +211,8 @@ html, body {
 ruby rt {
   font-size: 0.6em;
   color: #565656;
+}
+
+.bold-word {
+  font-weight: bold;
 }

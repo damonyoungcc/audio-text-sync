@@ -115,6 +115,9 @@ function renderTranscript(wordsArray) {
     if (item.role === "speaker-label") {
       span.textContent = item.word;
       span.classList.add("speaker-label");
+    } else if (item.role === "bold-word") {
+      span.textContent = item.word;
+      span.classList.add("bold-word"); // 添加 bold-word 类名
     } else if (item.furigana) {
       const ruby = document.createElement("ruby");
       ruby.textContent = item.word;

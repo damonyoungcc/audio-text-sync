@@ -6,7 +6,6 @@ from target_config import YEAR, QUESTION_NUM
 def correct_json_by_text(json_data, text_data):
     fixed_items = []
     json_idx = 0
-    text_chars = list(text_data)
     json_len = len(json_data)
 
     def copy_time_from(idx):
@@ -16,10 +15,33 @@ def correct_json_by_text(json_data, text_data):
             base = {"start": 0.0, "end": 0.0}
         return base.get("start", 0.0), base.get("end", 0.0)
 
-    for ch in text_chars:
-        if ch == "\n":
+    # 定义不附加时间戳的标点符号
+    punctuation_chars = "、。！？「」（）"
+    # 定义特殊前缀，注意数字前缀仅支持"1."、"2."、"3."、"4."
+    special_tokens = ["M:", "F:", "Q:", "1.", "2.", "3.", "4."]
+
+    i = 0
+    while i < len(text_data):
+        # 遇到换行符，插入换行标识
+        if text_data[i] == "\n":
             fixed_items.append({"role": "line-break", "word": ""})
-        elif ch in "、。！？「」（）":
+            i += 1
+            continue
+
+        # 检查是否在当前位置出现了特殊前缀
+        token_found = None
+        for token in special_tokens:
+            if text_data[i:i+len(token)] == token:
+                token_found = token
+                break
+        if token_found is not None:
+            fixed_items.append({"role": "bold-word", "word": token_found})
+            i += len(token_found)
+            continue
+
+        # 正常处理单个字符
+        ch = text_data[i]
+        if ch in punctuation_chars:
             fixed_items.append({"word": ch})
         else:
             if json_idx >= json_len:
@@ -30,6 +52,7 @@ def correct_json_by_text(json_data, text_data):
                 item["word"] = ch
                 fixed_items.append(item)
                 json_idx += 1
+        i += 1
 
     return fixed_items
 
