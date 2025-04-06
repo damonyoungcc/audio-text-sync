@@ -1,9 +1,7 @@
 [
   {
-    "role": "speaker-label",
-    "word": "男:",
-    "start": 0.471,
-    "end": 0.691
+    "role": "bold-word",
+    "word": "M:"
   },
   {
     "word": "森",
@@ -431,17 +429,15 @@
     "speaker": "SPEAKER_00"
   },
   {
-    "word": "?"
+    "word": "？"
   },
   {
     "role": "line-break",
     "word": ""
   },
   {
-    "word": "女:",
-    "start": 11.799,
-    "end": 11.959,
-    "role": "speaker-label"
+    "role": "bold-word",
+    "word": "F:"
   },
   {
     "word": "う",
@@ -458,7 +454,9 @@
     "speaker": "SPEAKER_01"
   },
   {
-    "word": "、"
+    "start": 0.0,
+    "end": 0.0,
+    "word": "…"
   },
   {
     "word": "ち",
@@ -554,10 +552,8 @@
     "word": ""
   },
   {
-    "word": "男:",
-    "start": 15.481,
-    "end": 15.701,
-    "role": "speaker-label"
+    "role": "bold-word",
+    "word": "M:"
   },
   {
     "word": "そ",
@@ -656,14 +652,14 @@
     "furigana": "だい"
   },
   {
-    "word": "ゴ",
+    "word": "ご",
     "start": 19.284,
     "end": 19.404,
     "score": 0.839,
     "speaker": "SPEAKER_00"
   },
   {
-    "word": "ミ",
+    "word": "み",
     "start": 19.404,
     "end": 19.484,
     "score": 0.817,
@@ -762,10 +758,8 @@
     "word": ""
   },
   {
-    "word": "女:",
-    "start": 21.28,
-    "end": 21.42,
-    "role": "speaker-label"
+    "role": "bold-word",
+    "word": "F:"
   },
   {
     "word": "う",
@@ -806,9 +800,6 @@
     "end": 23.181,
     "score": 1.0,
     "speaker": "SPEAKER_01"
-  },
-  {
-    "word": "、"
   },
   {
     "word": "い",
@@ -1038,10 +1029,8 @@
     "word": ""
   },
   {
-    "word": "男:",
-    "role": "speaker-label",
-    "start": 27.843,
-    "end": 27.963
+    "role": "bold-word",
+    "word": "M:"
   },
   {
     "word": "そ",
@@ -1150,17 +1139,15 @@
     "speaker": "SPEAKER_00"
   },
   {
-    "word": "?"
+    "word": "。"
   },
   {
     "role": "line-break",
     "word": ""
   },
   {
-    "word": "女:",
-    "role": "speaker-label",
-    "start": 30.965,
-    "end": 31.125
+    "role": "bold-word",
+    "word": "F:"
   },
   {
     "word": "市",
@@ -1268,13 +1255,6 @@
     "score": 0.974,
     "speaker": "SPEAKER_01",
     "furigana": "ひ"
-  },
-  {
-    "word": "っ",
-    "start": 34.146,
-    "end": 34.186,
-    "score": 0.5,
-    "speaker": "SPEAKER_01"
   },
   {
     "word": "越",
@@ -1484,13 +1464,6 @@
     "furigana": "ひ"
   },
   {
-    "word": "っ",
-    "start": 38.669,
-    "end": 38.709,
-    "score": 0.5,
-    "speaker": "SPEAKER_01"
-  },
-  {
     "word": "越",
     "start": 38.709,
     "end": 38.829,
@@ -1692,20 +1665,23 @@
     "word": ""
   },
   {
-    "word": "男:",
-    "role": "speaker-label",
-    "start": 42.951,
-    "end": 43.311
+    "role": "bold-word",
+    "word": "M:"
   },
   {
-    "word": "えっ",
+    "start": 0.0,
+    "end": 0.0,
+    "word": "え"
+  },
+  {
+    "word": "っ",
     "start": 42.951,
     "end": 43.311,
     "score": 0.964,
     "speaker": "SPEAKER_01"
   },
   {
-    "word": "、"
+    "word": "。"
   },
   {
     "word": "そ",
@@ -1750,10 +1726,8 @@
     "word": ""
   },
   {
-    "word": "女:",
-    "role": "speaker-label",
-    "start": 44.292,
-    "end": 44.412
+    "role": "bold-word",
+    "word": "F:"
   },
   {
     "word": "そ",
@@ -1770,12 +1744,16 @@
     "speaker": "SPEAKER_01"
   },
   {
-    "word": "方",
+    "start": 0.0,
+    "end": 0.0,
+    "word": "ほ"
+  },
+  {
+    "word": "う",
     "start": 44.532,
     "end": 44.712,
     "score": 0.877,
-    "speaker": "SPEAKER_01",
-    "furigana": "ほう"
+    "speaker": "SPEAKER_01"
   },
   {
     "word": "が",
@@ -1868,7 +1846,7 @@
     "speaker": "SPEAKER_01"
   },
   {
-    "word": "?"
+    "word": "？"
   },
   {
     "word": "来",
@@ -1955,24 +1933,27 @@
     "speaker": "SPEAKER_01"
   },
   {
-    "word": "ょう",
+    "start": 0.0,
+    "end": 0.0,
+    "word": "ょ"
+  },
+  {
+    "word": "う",
     "start": 48.994,
     "end": 49.594,
     "score": 0.848,
     "speaker": "SPEAKER_01"
   },
   {
-    "word": "?"
+    "word": "。"
   },
   {
     "role": "line-break",
     "word": ""
   },
   {
-    "word": "男:",
-    "role": "speaker-label",
-    "start": 49.594,
-    "end": 49.694
+    "role": "bold-word",
+    "word": "M:"
   },
   {
     "word": "わ",
@@ -2048,10 +2029,8 @@
     "word": ""
   },
   {
-    "word": "問題:",
-    "role": "speaker-label",
-    "start": 57.184,
-    "end": 57.324
+    "role": "bold-word",
+    "word": "Q:"
   },
   {
     "word": "男",
@@ -2106,6 +2085,22 @@
     "furigana": "あと"
   },
   {
+    "word": "（"
+  },
+  {
+    "start": 0.0,
+    "end": 0.0,
+    "word": "あ"
+  },
+  {
+    "start": 0.0,
+    "end": 0.0,
+    "word": "と"
+  },
+  {
+    "word": "）"
+  },
+  {
     "word": "何",
     "start": 59.149,
     "end": 59.45,
@@ -2147,5 +2142,8 @@
     "end": 60.052,
     "score": 1.0,
     "speaker": "SPEAKER_01"
+  },
+  {
+    "word": "。"
   }
 ]

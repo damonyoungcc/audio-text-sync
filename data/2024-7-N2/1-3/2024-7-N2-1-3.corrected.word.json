@@ -1823,157 +1823,157 @@
   },
   {
     "word": "調",
-    "start": 51.133,
-    "end": 52.294,
-    "score": 1.0,
+    "start": 52.294,
+    "end": 52.514,
+    "score": 0.91,
     "speaker": "SPEAKER_01",
     "furigana": "ちょう"
   },
   {
     "word": "理",
-    "start": 52.294,
-    "end": 52.514,
-    "score": 0.91,
+    "start": 52.514,
+    "end": 52.674,
+    "score": 0.998,
     "speaker": "SPEAKER_01",
     "furigana": "り"
   },
   {
     "word": "す",
-    "start": 52.514,
-    "end": 52.674,
-    "score": 0.998,
-    "speaker": "SPEAKER_01"
-  },
-  {
-    "word": "る",
     "start": 52.674,
     "end": 52.774,
     "score": 1.0,
     "speaker": "SPEAKER_01"
   },
   {
-    "word": "人",
+    "word": "る",
     "start": 52.774,
     "end": 52.894,
+    "score": 1.0,
+    "speaker": "SPEAKER_01"
+  },
+  {
+    "word": "人",
+    "start": 52.894,
+    "end": 53.074,
     "score": 1.0,
     "speaker": "SPEAKER_01",
     "furigana": "ひと"
   },
   {
     "word": "の",
-    "start": 52.894,
-    "end": 53.074,
+    "start": 53.074,
+    "end": 53.214,
     "score": 1.0,
     "speaker": "SPEAKER_01"
   },
   {
     "word": "写",
-    "start": 53.074,
-    "end": 53.214,
+    "start": 53.214,
+    "end": 53.394,
     "score": 1.0,
     "speaker": "SPEAKER_01",
     "furigana": "しゃ"
   },
   {
     "word": "真",
-    "start": 53.214,
-    "end": 53.394,
+    "start": 53.394,
+    "end": 53.674,
     "score": 1.0,
     "speaker": "SPEAKER_01",
     "furigana": "しん"
   },
   {
     "word": "は",
-    "start": 53.394,
-    "end": 53.674,
+    "start": 53.674,
+    "end": 54.155,
     "score": 1.0,
     "speaker": "SPEAKER_01"
   },
   {
     "word": "店",
-    "start": 53.674,
-    "end": 54.155,
-    "score": 1.0,
+    "start": 54.155,
+    "end": 54.475,
+    "score": 0.938,
     "speaker": "SPEAKER_01",
     "furigana": "みせ"
   },
   {
     "word": "に",
-    "start": 54.155,
-    "end": 54.475,
-    "score": 0.938,
-    "speaker": "SPEAKER_01"
-  },
-  {
-    "word": "よ",
     "start": 54.475,
     "end": 54.595,
     "score": 1.0,
     "speaker": "SPEAKER_01"
   },
   {
-    "word": "っ",
+    "word": "よ",
     "start": 54.595,
     "end": 54.735,
     "score": 1.0,
     "speaker": "SPEAKER_01"
   },
   {
-    "word": "て",
+    "word": "っ",
     "start": 54.735,
     "end": 54.775,
     "score": 0.503,
     "speaker": "SPEAKER_01"
   },
   {
-    "word": "は",
+    "word": "て",
     "start": 54.775,
     "end": 54.895,
     "score": 1.0,
     "speaker": "SPEAKER_01"
   },
   {
-    "word": "掲",
+    "word": "は",
     "start": 54.895,
     "end": 55.075,
     "score": 1.0,
+    "speaker": "SPEAKER_01"
+  },
+  {
+    "word": "掲",
+    "start": 55.075,
+    "end": 55.315,
+    "score": 0.917,
     "speaker": "SPEAKER_01",
     "furigana": "けい"
   },
   {
     "word": "載",
-    "start": 55.075,
-    "end": 55.315,
-    "score": 0.917,
+    "start": 55.315,
+    "end": 55.515,
+    "score": 0.9,
     "speaker": "SPEAKER_01",
     "furigana": "さい"
   },
   {
     "word": "し",
-    "start": 55.315,
-    "end": 55.515,
-    "score": 0.9,
-    "speaker": "SPEAKER_01"
-  },
-  {
-    "word": "ま",
     "start": 55.515,
     "end": 55.635,
     "score": 1.0,
     "speaker": "SPEAKER_01"
   },
   {
-    "word": "す",
+    "word": "ま",
     "start": 55.635,
     "end": 55.796,
     "score": 1.0,
     "speaker": "SPEAKER_01"
   },
   {
-    "word": "が",
+    "word": "す",
     "start": 55.796,
     "end": 55.896,
     "score": 1.0,
+    "speaker": "SPEAKER_01"
+  },
+  {
+    "word": "が",
+    "start": 55.896,
+    "end": 56.436,
+    "score": 0.963,
     "speaker": "SPEAKER_01"
   },
   {
@@ -1981,103 +1981,103 @@
   },
   {
     "word": "こ",
-    "start": 55.896,
-    "end": 56.436,
-    "score": 0.963,
-    "speaker": "SPEAKER_01"
-  },
-  {
-    "word": "ち",
     "start": 56.436,
     "end": 56.616,
     "score": 1.0,
     "speaker": "SPEAKER_01"
   },
   {
-    "word": "ら",
+    "word": "ち",
     "start": 56.616,
     "end": 56.716,
     "score": 1.0,
     "speaker": "SPEAKER_01"
   },
   {
-    "word": "は",
+    "word": "ら",
     "start": 56.716,
     "end": 56.836,
     "score": 1.0,
     "speaker": "SPEAKER_01"
   },
   {
-    "word": "掲",
+    "word": "は",
     "start": 56.836,
     "end": 56.996,
     "score": 1.0,
+    "speaker": "SPEAKER_01"
+  },
+  {
+    "word": "掲",
+    "start": 56.996,
+    "end": 57.256,
+    "score": 0.926,
     "speaker": "SPEAKER_01",
     "furigana": "けい"
   },
   {
     "word": "載",
-    "start": 56.996,
-    "end": 57.256,
-    "score": 0.926,
+    "start": 57.256,
+    "end": 57.456,
+    "score": 0.9,
     "speaker": "SPEAKER_01",
     "furigana": "さい"
   },
   {
     "word": "不",
-    "start": 57.256,
-    "end": 57.456,
-    "score": 0.9,
+    "start": 57.456,
+    "end": 57.576,
+    "score": 0.963,
     "speaker": "SPEAKER_01",
     "furigana": "ふ"
   },
   {
     "word": "可",
-    "start": 57.456,
-    "end": 57.576,
-    "score": 0.963,
+    "start": 57.576,
+    "end": 57.717,
+    "score": 0.859,
     "speaker": "SPEAKER_01",
     "furigana": "か"
   },
   {
     "word": "と",
-    "start": 57.576,
-    "end": 57.717,
-    "score": 0.859,
-    "speaker": "SPEAKER_01"
-  },
-  {
-    "word": "の",
     "start": 57.717,
     "end": 57.817,
     "score": 0.999,
     "speaker": "SPEAKER_01"
   },
   {
-    "word": "こ",
+    "word": "の",
     "start": 57.817,
     "end": 57.937,
     "score": 1.0,
     "speaker": "SPEAKER_01"
   },
   {
-    "word": "と",
+    "word": "こ",
     "start": 57.937,
     "end": 58.057,
     "score": 1.0,
     "speaker": "SPEAKER_01"
   },
   {
-    "word": "で",
+    "word": "と",
     "start": 58.057,
     "end": 58.177,
     "score": 1.0,
     "speaker": "SPEAKER_01"
   },
   {
-    "word": "す",
+    "word": "で",
     "start": 58.177,
     "end": 58.317,
+    "score": 1.0,
+    "speaker": "SPEAKER_01"
+  },
+  {
+    "word": "す",
+    "start": 58.317,
+    "end": 58.337,
     "score": 1.0,
     "speaker": "SPEAKER_01"
   },
@@ -2094,16 +2094,16 @@
   },
   {
     "word": "は",
-    "start": 58.317,
-    "end": 58.337,
-    "score": 1.0,
-    "speaker": "SPEAKER_01"
-  },
-  {
-    "word": "い",
     "start": 58.914,
     "end": 59.054,
     "score": 0.829,
+    "speaker": "SPEAKER_00"
+  },
+  {
+    "word": "い",
+    "start": 59.054,
+    "end": 59.814,
+    "score": 0.996,
     "speaker": "SPEAKER_00"
   },
   {
@@ -2119,174 +2119,174 @@
   },
   {
     "word": "外",
-    "start": 59.054,
-    "end": 59.814,
-    "score": 0.996,
-    "speaker": "SPEAKER_00",
+    "start": 59.814,
+    "end": 60.074,
+    "score": 0.931,
+    "speaker": "SPEAKER_01",
     "furigana": "そと"
   },
   {
     "word": "か",
-    "start": 59.814,
-    "end": 60.074,
-    "score": 0.931,
-    "speaker": "SPEAKER_01"
-  },
-  {
-    "word": "ら",
     "start": 60.074,
     "end": 60.174,
     "score": 1.0,
     "speaker": "SPEAKER_01"
   },
   {
-    "word": "見",
+    "word": "ら",
     "start": 60.174,
     "end": 60.334,
     "score": 1.0,
+    "speaker": "SPEAKER_01"
+  },
+  {
+    "word": "見",
+    "start": 60.334,
+    "end": 60.474,
+    "score": 0.982,
     "speaker": "SPEAKER_01",
     "furigana": "み"
   },
   {
     "word": "た",
-    "start": 60.334,
-    "end": 60.474,
-    "score": 0.982,
+    "start": 60.474,
+    "end": 60.634,
+    "score": 0.999,
     "speaker": "SPEAKER_01"
   },
   {
     "word": "入",
-    "start": 60.474,
-    "end": 60.634,
-    "score": 0.999,
+    "start": 60.634,
+    "end": 60.815,
+    "score": 1.0,
     "speaker": "SPEAKER_01",
     "furigana": "い"
   },
   {
     "word": "口",
-    "start": 60.634,
-    "end": 60.815,
+    "start": 60.815,
+    "end": 61.055,
     "score": 1.0,
     "speaker": "SPEAKER_01",
     "furigana": "りぐち"
   },
   {
     "word": "の",
-    "start": 60.815,
-    "end": 61.055,
+    "start": 61.055,
+    "end": 61.195,
     "score": 1.0,
     "speaker": "SPEAKER_01"
   },
   {
     "word": "写",
-    "start": 61.055,
-    "end": 61.195,
+    "start": 61.195,
+    "end": 61.355,
     "score": 1.0,
     "speaker": "SPEAKER_01",
     "furigana": "しゃ"
   },
   {
     "word": "真",
-    "start": 61.195,
-    "end": 61.355,
+    "start": 61.355,
+    "end": 61.595,
     "score": 1.0,
     "speaker": "SPEAKER_01",
     "furigana": "しん"
   },
   {
     "word": "は",
-    "start": 61.355,
-    "end": 61.595,
+    "start": 61.595,
+    "end": 62.175,
     "score": 1.0,
     "speaker": "SPEAKER_01"
   },
   {
     "word": "天",
-    "start": 61.595,
-    "end": 62.175,
-    "score": 1.0,
+    "start": 62.175,
+    "end": 62.435,
+    "score": 0.972,
     "speaker": "SPEAKER_01",
     "furigana": "てん"
   },
   {
     "word": "候",
-    "start": 62.175,
-    "end": 62.435,
-    "score": 0.972,
+    "start": 62.435,
+    "end": 62.635,
+    "score": 0.931,
     "speaker": "SPEAKER_01",
     "furigana": "こう"
   },
   {
     "word": "に",
-    "start": 62.435,
-    "end": 62.635,
-    "score": 0.931,
+    "start": 62.635,
+    "end": 62.815,
+    "score": 1.0,
     "speaker": "SPEAKER_01"
   },
   {
     "word": "左",
-    "start": 62.635,
-    "end": 62.815,
+    "start": 62.815,
+    "end": 62.995,
     "score": 1.0,
     "speaker": "SPEAKER_01",
     "furigana": "さ"
   },
   {
     "word": "右",
-    "start": 62.815,
-    "end": 62.995,
-    "score": 1.0,
+    "start": 62.995,
+    "end": 63.155,
+    "score": 0.999,
     "speaker": "SPEAKER_01",
     "furigana": "ゆう"
   },
   {
     "word": "さ",
-    "start": 62.995,
-    "end": 63.155,
-    "score": 0.999,
-    "speaker": "SPEAKER_01"
-  },
-  {
-    "word": "れ",
     "start": 63.155,
     "end": 63.275,
     "score": 1.0,
     "speaker": "SPEAKER_01"
   },
   {
-    "word": "る",
+    "word": "れ",
     "start": 63.275,
     "end": 63.375,
     "score": 1.0,
     "speaker": "SPEAKER_01"
   },
   {
-    "word": "か",
+    "word": "る",
     "start": 63.375,
     "end": 63.515,
     "score": 1.0,
     "speaker": "SPEAKER_01"
   },
   {
-    "word": "ら",
+    "word": "か",
     "start": 63.515,
     "end": 63.615,
     "score": 1.0,
     "speaker": "SPEAKER_01"
   },
   {
-    "word": "先",
+    "word": "ら",
     "start": 63.615,
     "end": 64.335,
     "score": 1.0,
+    "speaker": "SPEAKER_01"
+  },
+  {
+    "word": "先",
+    "start": 64.335,
+    "end": 64.536,
+    "score": 0.993,
     "speaker": "SPEAKER_01",
     "furigana": "せん"
   },
   {
     "word": "日",
-    "start": 64.335,
-    "end": 64.536,
-    "score": 0.993,
+    "start": 64.536,
+    "end": 64.816,
+    "score": 1.0,
     "speaker": "SPEAKER_01",
     "furigana": "じつ"
   },
@@ -2295,155 +2295,155 @@
   },
   {
     "word": "天",
-    "start": 64.536,
-    "end": 64.816,
-    "score": 1.0,
+    "start": 64.816,
+    "end": 65.036,
+    "score": 0.998,
     "speaker": "SPEAKER_01",
     "furigana": "てん"
   },
   {
     "word": "気",
-    "start": 64.816,
-    "end": 65.036,
-    "score": 0.998,
+    "start": 65.036,
+    "end": 65.136,
+    "score": 0.99,
     "speaker": "SPEAKER_01",
     "furigana": "き"
   },
   {
     "word": "が",
-    "start": 65.036,
-    "end": 65.136,
-    "score": 0.99,
+    "start": 65.136,
+    "end": 65.316,
+    "score": 1.0,
     "speaker": "SPEAKER_01"
   },
   {
     "word": "良",
-    "start": 65.136,
-    "end": 65.316,
-    "score": 1.0,
+    "start": 65.316,
+    "end": 65.416,
+    "score": 0.8,
     "speaker": "SPEAKER_01",
     "furigana": "よ"
   },
   {
     "word": "い",
-    "start": 65.316,
-    "end": 65.416,
-    "score": 0.8,
+    "start": 65.416,
+    "end": 65.496,
+    "score": 0.759,
     "speaker": "SPEAKER_01"
   },
   {
     "word": "日",
-    "start": 65.416,
-    "end": 65.496,
-    "score": 0.759,
+    "start": 65.496,
+    "end": 65.616,
+    "score": 0.955,
     "speaker": "SPEAKER_01",
     "furigana": "ひ"
   },
   {
     "word": "に",
-    "start": 65.496,
-    "end": 65.616,
-    "score": 0.955,
+    "start": 65.616,
+    "end": 65.776,
+    "score": 1.0,
     "speaker": "SPEAKER_01"
   },
   {
     "word": "済",
-    "start": 65.616,
-    "end": 65.776,
-    "score": 1.0,
+    "start": 65.776,
+    "end": 65.916,
+    "score": 0.865,
     "speaker": "SPEAKER_01",
     "furigana": "す"
   },
   {
     "word": "ま",
-    "start": 65.776,
-    "end": 65.916,
-    "score": 0.865,
-    "speaker": "SPEAKER_01"
-  },
-  {
-    "word": "せ",
     "start": 65.916,
     "end": 66.036,
     "score": 1.0,
     "speaker": "SPEAKER_01"
   },
   {
-    "word": "て",
+    "word": "せ",
     "start": 66.036,
     "end": 66.176,
     "score": 1.0,
     "speaker": "SPEAKER_01"
   },
   {
-    "word": "き",
+    "word": "て",
     "start": 66.176,
     "end": 66.296,
     "score": 1.0,
     "speaker": "SPEAKER_01"
   },
   {
-    "word": "ま",
+    "word": "き",
     "start": 66.296,
     "end": 66.396,
     "score": 0.858,
     "speaker": "SPEAKER_01"
   },
   {
-    "word": "し",
+    "word": "ま",
     "start": 66.396,
     "end": 66.536,
     "score": 1.0,
     "speaker": "SPEAKER_01"
   },
   {
-    "word": "た",
+    "word": "し",
     "start": 66.536,
     "end": 66.616,
     "score": 1.0,
     "speaker": "SPEAKER_01"
   },
   {
-    "word": "の",
+    "word": "た",
     "start": 66.616,
     "end": 66.716,
     "score": 1.0,
     "speaker": "SPEAKER_01"
   },
   {
-    "word": "で",
+    "word": "の",
     "start": 66.716,
     "end": 66.836,
     "score": 1.0,
     "speaker": "SPEAKER_01"
   },
   {
-    "word": "結",
+    "word": "で",
     "start": 66.836,
     "end": 67.156,
+    "score": 1.0,
+    "speaker": "SPEAKER_01"
+  },
+  {
+    "word": "結",
+    "start": 67.156,
+    "end": 67.376,
     "score": 1.0,
     "speaker": "SPEAKER_01",
     "furigana": "けっ"
   },
   {
     "word": "構",
-    "start": 67.156,
-    "end": 67.376,
-    "score": 1.0,
+    "start": 67.376,
+    "end": 67.556,
+    "score": 0.999,
     "speaker": "SPEAKER_01",
     "furigana": "こう"
   },
   {
     "word": "で",
-    "start": 67.376,
-    "end": 67.556,
-    "score": 0.999,
+    "start": 67.556,
+    "end": 67.716,
+    "score": 1.0,
     "speaker": "SPEAKER_01"
   },
   {
     "word": "す",
-    "start": 67.556,
-    "end": 67.716,
+    "start": 67.716,
+    "end": 68.617,
     "score": 1.0,
     "speaker": "SPEAKER_01"
   },
@@ -2452,72 +2452,72 @@
   },
   {
     "word": "よ",
-    "start": 67.716,
-    "end": 68.617,
-    "score": 1.0,
-    "speaker": "SPEAKER_01"
-  },
-  {
-    "word": "ろ",
     "start": 68.617,
     "end": 68.717,
     "score": 0.915,
     "speaker": "SPEAKER_01"
   },
   {
-    "word": "し",
+    "word": "ろ",
     "start": 68.717,
     "end": 68.857,
     "score": 0.857,
     "speaker": "SPEAKER_01"
   },
   {
-    "word": "く",
+    "word": "し",
     "start": 68.857,
     "end": 68.957,
     "score": 1.0,
     "speaker": "SPEAKER_01"
   },
   {
-    "word": "お",
+    "word": "く",
     "start": 68.957,
     "end": 69.037,
     "score": 0.988,
     "speaker": "SPEAKER_01"
   },
   {
-    "word": "願",
+    "word": "お",
     "start": 69.037,
     "end": 69.117,
+    "score": 1.0,
+    "speaker": "SPEAKER_01"
+  },
+  {
+    "word": "願",
+    "start": 69.117,
+    "end": 69.337,
     "score": 1.0,
     "speaker": "SPEAKER_01",
     "furigana": "ねが"
   },
   {
     "word": "い",
-    "start": 69.117,
-    "end": 69.337,
-    "score": 1.0,
-    "speaker": "SPEAKER_01"
-  },
-  {
-    "word": "し",
     "start": 69.337,
     "end": 69.417,
     "score": 1.0,
     "speaker": "SPEAKER_01"
   },
   {
-    "word": "ま",
+    "word": "し",
     "start": 69.417,
     "end": 69.537,
     "score": 1.0,
     "speaker": "SPEAKER_01"
   },
   {
-    "word": "す",
+    "word": "ま",
     "start": 69.537,
     "end": 69.697,
+    "score": 1.0,
+    "speaker": "SPEAKER_01"
+  },
+  {
+    "word": "す",
+    "start": 69.697,
+    "end": 70.257,
     "score": 1.0,
     "speaker": "SPEAKER_01"
   },
@@ -2534,43 +2534,43 @@
   },
   {
     "word": "わ",
-    "start": 69.697,
-    "end": 70.257,
-    "score": 1.0,
-    "speaker": "SPEAKER_01"
-  },
-  {
-    "word": "か",
     "start": 70.257,
     "end": 70.377,
     "score": 0.833,
     "speaker": "SPEAKER_00"
   },
   {
-    "word": "り",
+    "word": "か",
     "start": 70.377,
     "end": 70.477,
     "score": 0.8,
     "speaker": "SPEAKER_00"
   },
   {
-    "word": "ま",
+    "word": "り",
     "start": 70.477,
     "end": 70.557,
     "score": 1.0,
     "speaker": "SPEAKER_00"
   },
   {
-    "word": "し",
+    "word": "ま",
     "start": 70.557,
     "end": 70.677,
     "score": 1.0,
     "speaker": "SPEAKER_00"
   },
   {
-    "word": "た",
+    "word": "し",
     "start": 70.677,
     "end": 70.757,
+    "score": 1.0,
+    "speaker": "SPEAKER_00"
+  },
+  {
+    "word": "た",
+    "start": 70.757,
+    "end": 77.199,
     "score": 1.0,
     "speaker": "SPEAKER_00"
   },
@@ -2587,154 +2587,154 @@
   },
   {
     "word": "男",
-    "start": 70.757,
-    "end": 77.199,
+    "start": 77.199,
+    "end": 77.319,
     "score": 1.0,
     "speaker": "SPEAKER_00",
     "furigana": "おとこ"
   },
   {
     "word": "の",
-    "start": 77.199,
-    "end": 77.319,
+    "start": 77.319,
+    "end": 77.459,
     "score": 1.0,
     "speaker": "SPEAKER_00"
   },
   {
     "word": "人",
-    "start": 77.319,
-    "end": 77.459,
+    "start": 77.459,
+    "end": 77.739,
     "score": 1.0,
     "speaker": "SPEAKER_00",
     "furigana": "ひと"
   },
   {
     "word": "は",
-    "start": 77.459,
-    "end": 77.739,
+    "start": 77.739,
+    "end": 78.379,
     "score": 1.0,
     "speaker": "SPEAKER_00"
   },
   {
     "word": "何",
-    "start": 77.739,
-    "end": 78.379,
+    "start": 78.379,
+    "end": 78.599,
     "score": 1.0,
     "speaker": "SPEAKER_00",
     "furigana": "なん"
   },
   {
     "word": "の",
-    "start": 78.379,
-    "end": 78.599,
+    "start": 78.599,
+    "end": 78.759,
     "score": 1.0,
     "speaker": "SPEAKER_00"
   },
   {
     "word": "写",
-    "start": 78.599,
-    "end": 78.759,
+    "start": 78.759,
+    "end": 78.919,
     "score": 1.0,
     "speaker": "SPEAKER_00",
     "furigana": "しゃ"
   },
   {
     "word": "真",
-    "start": 78.759,
-    "end": 78.919,
+    "start": 78.919,
+    "end": 79.14,
     "score": 1.0,
     "speaker": "SPEAKER_00",
     "furigana": "しん"
   },
   {
     "word": "を",
-    "start": 78.919,
-    "end": 79.14,
+    "start": 79.14,
+    "end": 79.28,
     "score": 1.0,
     "speaker": "SPEAKER_00"
   },
   {
     "word": "撮",
-    "start": 79.14,
-    "end": 79.28,
-    "score": 1.0,
+    "start": 79.28,
+    "end": 79.38,
+    "score": 0.833,
     "speaker": "SPEAKER_00",
     "furigana": "と"
   },
   {
     "word": "ら",
-    "start": 79.28,
-    "end": 79.38,
-    "score": 0.833,
-    "speaker": "SPEAKER_00"
-  },
-  {
-    "word": "な",
     "start": 79.38,
     "end": 79.52,
     "score": 0.999,
     "speaker": "SPEAKER_00"
   },
   {
-    "word": "け",
+    "word": "な",
     "start": 79.52,
     "end": 79.64,
     "score": 1.0,
     "speaker": "SPEAKER_00"
   },
   {
-    "word": "れ",
+    "word": "け",
     "start": 79.64,
     "end": 79.74,
     "score": 0.801,
     "speaker": "SPEAKER_00"
   },
   {
-    "word": "ば",
+    "word": "れ",
     "start": 79.74,
     "end": 79.86,
     "score": 1.0,
     "speaker": "SPEAKER_00"
   },
   {
-    "word": "な",
+    "word": "ば",
     "start": 79.86,
     "end": 79.98,
     "score": 1.0,
     "speaker": "SPEAKER_00"
   },
   {
-    "word": "り",
+    "word": "な",
     "start": 79.98,
     "end": 80.08,
     "score": 1.0,
     "speaker": "SPEAKER_00"
   },
   {
-    "word": "ま",
+    "word": "り",
     "start": 80.08,
     "end": 80.18,
     "score": 1.0,
     "speaker": "SPEAKER_00"
   },
   {
-    "word": "せ",
+    "word": "ま",
     "start": 80.18,
     "end": 80.32,
     "score": 1.0,
     "speaker": "SPEAKER_00"
   },
   {
-    "word": "ん",
+    "word": "せ",
     "start": 80.32,
     "end": 80.46,
     "score": 0.857,
     "speaker": "SPEAKER_00"
   },
   {
-    "word": "か",
+    "word": "ん",
     "start": 80.46,
     "end": 80.6,
+    "score": 1.0,
+    "speaker": "SPEAKER_00"
+  },
+  {
+    "word": "か",
+    "start": 80.6,
+    "end": 80.62,
     "score": 1.0,
     "speaker": "SPEAKER_00"
   },
