@@ -51,7 +51,6 @@ def correct_json_by_text(json_data, text_data):
     while i < len(text_data):
         ch = text_data[i]
 
-        # 特殊标记
         matched = next((t for t in special_tokens if text_data.startswith(t, i)), None)
         if matched:
             fixed_items.append({"role": "bold-word", "word": matched})
@@ -75,6 +74,42 @@ def correct_json_by_text(json_data, text_data):
         i += 1
 
     return fixed_items
+
+def fix_missing_timestamps(items):
+    length = len(items)
+    for i, item in enumerate(items):
+        if "word" not in item:
+            continue
+        if item.get("start", 0.0) > 0.0 and item.get("end", 0.0) > 0.0:
+            continue
+
+        # 找前一个有 end 的项
+        prev_end = None
+        for j in range(i - 1, -1, -1):
+            if items[j].get("end", 0.0) > 0:
+                prev_end = items[j]["end"]
+                break
+
+        # 找后一个有 start 的项
+        next_start = None
+        for j in range(i + 1, length):
+            if items[j].get("start", 0.0) > 0:
+                next_start = items[j]["start"]
+                break
+
+        if prev_end is not None and next_start is not None:
+            item["start"] = prev_end
+            item["end"] = next_start
+        elif prev_end is not None:
+            item["start"] = prev_end
+            item["end"] = prev_end + 0.01
+        elif next_start is not None:
+            item["start"] = next_start - 0.01
+            item["end"] = next_start
+        else:
+            item["start"] = 0.0
+            item["end"] = 0.01
+    return items
 
 def find_file_with_suffixes_case_insensitive(folder: Path, suffixes: list[str]):
     for path in folder.iterdir():
@@ -115,6 +150,7 @@ def run_corrector():
         word_items = json.load(f_json)
 
     corrected = correct_json_by_text(word_items, correct_text)
+    corrected = fix_missing_timestamps(corrected)
 
     with open(output_path, "w", encoding="utf-8") as f_out:
         json.dump(corrected, f_out, ensure_ascii=False, indent=2)
