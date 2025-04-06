@@ -48,6 +48,9 @@ def enrich_corrected_json_with_furigana(year=YEAR, question=QUESTION_NUM):
     ]
     furigana_kanji = [list(d.keys())[0] for d in furigana_map]
     # 打印长度对比
+    kanji_words = [item["word"].strip() for item in word_data if is_kanji(item.get("word", "")) and item.get("role") != "speaker-label"]
+    furigana_kanji = [list(d.keys())[0].strip() for d in furigana_map]
+
     if len(kanji_words) != len(furigana_kanji) or kanji_words != furigana_kanji:
         print("❌ 汉字数量或顺序不一致")
         print(f"word_data 中的汉字数：{len(kanji_words)}")
