@@ -10,7 +10,7 @@ from target_config import YEAR, QUESTION_NUM
 
 # ======== 可配置部分 ========
 MIN_SPEAKERS = "2" #最小说话人数
-MAX_SPEAKERS = "2"  #说话人数
+MAX_SPEAKERS = "3"  #说话人数
 SUPPORTED_AUDIO_TYPES = ["mp3", "m4a"] # 支持的音频格式
 # =========================
 
@@ -63,7 +63,8 @@ def generate_subtitles():
         "--diarize",
         "--min_speakers", MIN_SPEAKERS,
         "--max_speakers", MAX_SPEAKERS,
-        "--hf_token", HF_TOKEN
+        "--hf_token", HF_TOKEN,
+        "--chunk_size", "10",
     ]
 
     print("\n🚀 正在运行 whisperx：")

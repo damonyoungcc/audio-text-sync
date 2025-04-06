@@ -3,55 +3,75 @@ from copy import deepcopy
 from pathlib import Path
 from target_config import YEAR, QUESTION_NUM
 
-def correct_json_by_text(json_data, text_data):
-    fixed_items = []
-    json_idx = 0
-    json_len = len(json_data)
+def needleman_wunsch_align(seqA, seqB, match=0, mismatch=2, gap=1):
+    m, n = len(seqA), len(seqB)
+    dp = [[0]*(n+1) for _ in range(m+1)]
+    for i in range(m+1): dp[i][0] = i * gap
+    for j in range(n+1): dp[0][j] = j * gap
 
-    def copy_time_from(idx):
-        if 0 <= idx < json_len:
-            base = json_data[idx]
+    for i in range(1, m+1):
+        for j in range(1, n+1):
+            cost = match if seqA[i-1] == seqB[j-1] else mismatch
+            dp[i][j] = min(
+                dp[i-1][j-1] + cost,
+                dp[i-1][j] + gap,
+                dp[i][j-1] + gap
+            )
+
+    alignment = []
+    i, j = m, n
+    while i > 0 or j > 0:
+        if i > 0 and j > 0 and dp[i][j] == dp[i-1][j-1] + (match if seqA[i-1] == seqB[j-1] else mismatch):
+            alignment.append((seqA[i-1], seqB[j-1], i-1, j-1))
+            i -= 1
+            j -= 1
+        elif i > 0 and dp[i][j] == dp[i-1][j] + gap:
+            alignment.append((seqA[i-1], '-', i-1, None))
+            i -= 1
         else:
-            base = {"start": 0.0, "end": 0.0}
-        return base.get("start", 0.0), base.get("end", 0.0)
+            alignment.append(('-', seqB[j-1], None, j-1))
+            j -= 1
+    return alignment[::-1]
 
-    # 定义不附加时间戳的标点符号
+def correct_json_by_text(json_data, text_data):
     punctuation_chars = "、。！？「」（）"
-    # 定义特殊前缀，注意数字前缀仅支持"1."、"2."、"3."、"4."
     special_tokens = ["M:", "F:", "Q:", "1.", "2.", "3.", "4."]
+    whisper_tokens = [t for t in json_data if t.get("word") and not t.get("role") and t["word"] not in punctuation_chars]
+    whisper_chars = [t["word"] for t in whisper_tokens]
+    corrected_chars = [c for c in text_data if c not in punctuation_chars and c not in ['\n'] and all(not text_data.startswith(tok, text_data.index(c)) for tok in special_tokens)]
+    alignment = needleman_wunsch_align(corrected_chars, whisper_chars)
 
+    index_map = {}
+    for a, b, i, j in alignment:
+        if a != '-' and b != '-' and i is not None and j is not None:
+            index_map[i] = whisper_tokens[j]
+
+    fixed_items = []
     i = 0
     while i < len(text_data):
-        # 遇到换行符，插入换行标识
-        if text_data[i] == "\n":
+        ch = text_data[i]
+
+        # 特殊标记
+        matched = next((t for t in special_tokens if text_data.startswith(t, i)), None)
+        if matched:
+            fixed_items.append({"role": "bold-word", "word": matched})
+            i += len(matched)
+            continue
+
+        if ch == "\n":
             fixed_items.append({"role": "line-break", "word": ""})
             i += 1
             continue
 
-        # 检查是否在当前位置出现了特殊前缀
-        token_found = None
-        for token in special_tokens:
-            if text_data[i:i+len(token)] == token:
-                token_found = token
-                break
-        if token_found is not None:
-            fixed_items.append({"role": "bold-word", "word": token_found})
-            i += len(token_found)
-            continue
-
-        # 正常处理单个字符
-        ch = text_data[i]
         if ch in punctuation_chars:
             fixed_items.append({"word": ch})
-        else:
-            if json_idx >= json_len:
-                start, end = copy_time_from(json_idx - 1)
-                fixed_items.append({"word": ch, "start": start, "end": end})
-            else:
-                item = deepcopy(json_data[json_idx])
-                item["word"] = ch
-                fixed_items.append(item)
-                json_idx += 1
+            i += 1
+            continue
+
+        idx = len([x for x in text_data[:i] if x not in punctuation_chars and x != '\n' and all(not text_data.startswith(tok, text_data.index(x)) for tok in special_tokens)])
+        token = deepcopy(index_map.get(idx, {"start": 0.0, "end": 0.0}))
+        token["word"] = ch
+        fixed_items.append(token)
         i += 1
 
     return fixed_items
@@ -60,36 +80,32 @@ def find_file_with_suffixes_case_insensitive(folder: Path, suffixes: list[str]):
     for path in folder.iterdir():
         if not path.is_file():
             continue
-        lowercase = path.name.lower()
+        lower = path.name.lower()
         for suffix in suffixes:
-            if lowercase.endswith(suffix.lower()):
+            if lower.endswith(suffix.lower()):
                 return path
     return None
 
 def run_corrector():
-    script_dir = Path(__file__).resolve().parent  # generate/
+    script_dir = Path(__file__).resolve().parent
     data_dir = script_dir.parent / "data" / YEAR / QUESTION_NUM
 
-    # 获取音频文件（忽略后缀大小写）
     audio_file = find_file_with_suffixes_case_insensitive(data_dir, [".mp3", ".m4a"])
     if not audio_file:
         print(f"❌ 找不到音频文件（.mp3/.m4a）：{data_dir}")
         return
     audio_stem = audio_file.stem
 
-    # 获取 word.json 文件
     word_json = find_file_with_suffixes_case_insensitive(data_dir, [".word.json"])
     if not word_json:
         print(f"❌ 找不到 .word.json 文件：{data_dir}")
         return
 
-    # 获取原文文本文件
     txt_path = data_dir / "original.txt"
     if not txt_path.exists():
         print(f"❌ 缺少 original.txt 文件：{txt_path}")
         return
 
-    # 输出文件名与音频一致
     output_path = data_dir / f"{audio_stem}.corrected.word.json"
 
     with open(txt_path, "r", encoding="utf-8") as f_txt:
