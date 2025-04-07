@@ -79,10 +79,19 @@ html, body {
   font-size: 18px;
 }
 
+.word {
+  cursor: pointer;
+  padding: 3px 1px;
+}
+
 @media screen and (max-width: 768px) {
   #transcript {
     padding: 15px 10px 120px;
     font-size: 16px;
+  }
+
+  .word {
+    padding: 0 1px;
   }
 
   #fabPlayToggle {
@@ -97,10 +106,7 @@ html, body {
   }
 }
 
-.word {
-  cursor: pointer;
-  padding: 0 1px;
-}
+
 
 .highlight {
   background-color: #fffb00;
@@ -216,6 +222,7 @@ ruby rt {
 .bold-word {
   font-weight: bold;
 }
+
 .bold-word::after {
   content: " ";
   display: inline-block;
