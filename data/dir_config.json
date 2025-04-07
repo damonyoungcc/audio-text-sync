@@ -101,6 +101,11 @@
       "audio_file": "4-1-11.mp3",
       "path": "data/2024-7-N2/4-1-11",
       "word_corrected_json": "4-1-11.corrected.word.json"
+    },
+    "5-1": {
+      "audio_file": "2024-7-N2-5-1.mp3",
+      "path": "data/2024-7-N2/5-1",
+      "word_corrected_json": "2024-7-N2-5-1.corrected.word.json"
     }
   }
 }

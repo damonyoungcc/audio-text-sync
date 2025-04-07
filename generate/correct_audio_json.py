@@ -35,7 +35,7 @@ def needleman_wunsch_align(seqA, seqB, match=0, mismatch=2, gap=1):
 
 def correct_json_by_text(json_data, text_data):
     punctuation_chars = "、。！？「」（）"
-    special_tokens = ["M:", "F:", "Q:", "1.", "2.", "3.", "4."]
+    special_tokens = ["M:", "F:", "Q:", "1.", "2.", "3.", "4.","M1:","M2:"]
     whisper_tokens = [t for t in json_data if t.get("word") and not t.get("role") and t["word"] not in punctuation_chars]
     whisper_chars = [t["word"] for t in whisper_tokens]
     corrected_chars = [c for c in text_data if c not in punctuation_chars and c not in ['\n'] and all(not text_data.startswith(tok, text_data.index(c)) for tok in special_tokens)]
