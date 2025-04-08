@@ -526,9 +526,7 @@
   },
   {
     "role": "line-break",
-    "word": "",
-    "start": 39.652,
-    "end": 39.652
+    "word": ""
   },
   {
     "role": "bold-word",
@@ -1886,9 +1884,7 @@
   },
   {
     "role": "line-break",
-    "word": "",
-    "start": 84.662,
-    "end": 84.662
+    "word": ""
   },
   {
     "role": "bold-word",
@@ -2201,5 +2197,228 @@
     "word": "。",
     "start": 91.677,
     "end": 91.68700000000001
+  },
+  {
+    "role": "line-break",
+    "word": ""
+  },
+  {
+    "role": "copy-marker",
+    "word": "### NO_ALIGN_BELOW"
+  },
+  {
+    "role": "line-break",
+    "word": ""
+  },
+  {
+    "word": "1",
+    "start": null,
+    "end": null
+  },
+  {
+    "word": ".",
+    "start": null,
+    "end": null
+  },
+  {
+    "word": "高",
+    "start": null,
+    "end": null
+  },
+  {
+    "word": "い",
+    "start": null,
+    "end": null
+  },
+  {
+    "word": "ぎ",
+    "start": null,
+    "end": null
+  },
+  {
+    "word": "じ",
+    "start": null,
+    "end": null
+  },
+  {
+    "word": "ゅ",
+    "start": null,
+    "end": null
+  },
+  {
+    "word": "つ",
+    "start": null,
+    "end": null
+  },
+  {
+    "word": "カ",
+    "start": null,
+    "end": null
+  },
+  {
+    "role": "line-break",
+    "word": ""
+  },
+  {
+    "word": "2",
+    "start": null,
+    "end": null
+  },
+  {
+    "word": ".",
+    "start": null,
+    "end": null
+  },
+  {
+    "word": "高",
+    "start": null,
+    "end": null
+  },
+  {
+    "word": "い",
+    "start": null,
+    "end": null
+  },
+  {
+    "word": "身",
+    "start": null,
+    "end": null
+  },
+  {
+    "word": "体",
+    "start": null,
+    "end": null
+  },
+  {
+    "word": "能",
+    "start": null,
+    "end": null
+  },
+  {
+    "word": "力",
+    "start": null,
+    "end": null
+  },
+  {
+    "role": "line-break",
+    "word": ""
+  },
+  {
+    "word": "3",
+    "start": null,
+    "end": null
+  },
+  {
+    "word": ".",
+    "start": null,
+    "end": null
+  },
+  {
+    "word": "強",
+    "start": null,
+    "end": null
+  },
+  {
+    "word": "い",
+    "start": null,
+    "end": null
+  },
+  {
+    "word": "せ",
+    "start": null,
+    "end": null
+  },
+  {
+    "word": "い",
+    "start": null,
+    "end": null
+  },
+  {
+    "word": "し",
+    "start": null,
+    "end": null
+  },
+  {
+    "word": "ん",
+    "start": null,
+    "end": null
+  },
+  {
+    "word": "カ",
+    "start": null,
+    "end": null
+  },
+  {
+    "role": "line-break",
+    "word": ""
+  },
+  {
+    "word": "4",
+    "start": null,
+    "end": null
+  },
+  {
+    "word": ".",
+    "start": null,
+    "end": null
+  },
+  {
+    "word": "🐰",
+    "start": null,
+    "end": null
+  },
+  {
+    "word": "☞",
+    "start": null,
+    "end": null
+  },
+  {
+    "word": "す",
+    "start": null,
+    "end": null
+  },
+  {
+    "word": "ぐ",
+    "start": null,
+    "end": null
+  },
+  {
+    "word": "れ",
+    "start": null,
+    "end": null
+  },
+  {
+    "word": "た",
+    "start": null,
+    "end": null
+  },
+  {
+    "word": "は",
+    "start": null,
+    "end": null
+  },
+  {
+    "word": "ん",
+    "start": null,
+    "end": null
+  },
+  {
+    "word": "だ",
+    "start": null,
+    "end": null
+  },
+  {
+    "word": "ん",
+    "start": null,
+    "end": null
+  },
+  {
+    "word": "カ",
+    "start": null,
+    "end": null
+  },
+  {
+    "role": "line-break",
+    "word": ""
   }
 ]

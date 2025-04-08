@@ -121,9 +121,7 @@
   },
   {
     "role": "line-break",
-    "word": "",
-    "start": 8.478,
-    "end": 8.478
+    "word": ""
   },
   {
     "role": "bold-word",
@@ -1249,9 +1247,7 @@
   },
   {
     "role": "line-break",
-    "word": "",
-    "start": 48.415,
-    "end": 48.415
+    "word": ""
   },
   {
     "role": "bold-word",
@@ -1375,9 +1371,7 @@
   },
   {
     "role": "line-break",
-    "word": "",
-    "start": 54.934,
-    "end": 54.934
+    "word": ""
   },
   {
     "role": "bold-word",
@@ -1425,14 +1419,12 @@
   },
   {
     "role": "line-break",
-    "word": "",
-    "start": 55.656,
-    "end": 60.376
+    "word": ""
   },
   {
     "role": "bold-word",
     "word": "2.",
-    "start": 60.376,
+    "start": 55.656,
     "end": 60.376
   },
   {
@@ -1440,7 +1432,8 @@
     "start": 60.376,
     "end": 60.496,
     "score": 1.0,
-    "speaker": "SPEAKER_02"
+    "speaker": "SPEAKER_02",
+    "furigana": ""
   },
   {
     "word": "人",
@@ -1505,9 +1498,7 @@
   },
   {
     "role": "line-break",
-    "word": "",
-    "start": 66.786,
-    "end": 66.786
+    "word": ""
   },
   {
     "role": "bold-word",
@@ -1591,15 +1582,23 @@
   },
   {
     "role": "line-break",
-    "word": "",
-    "start": 68.348,
-    "end": 73.069
+    "word": ""
   },
   {
     "role": "bold-word",
     "word": "4.",
-    "start": 73.069,
+    "start": 68.348,
     "end": 73.069
+  },
+  {
+    "start": 73.069,
+    "end": 73.069,
+    "word": "🐰"
+  },
+  {
+    "start": 73.069,
+    "end": 73.069,
+    "word": "☞"
   },
   {
     "word": "自",

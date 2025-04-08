@@ -1,6 +1,6 @@
 import json
 from pathlib import Path
-from target_config import YEAR, QUESTION_NUM
+from target_config import YEAR, QUESTION_NUM, COPY_MARKER
 
 def find_file_with_suffixes_case_insensitive(path: Path, suffixes: list[str]):
     for suffix in suffixes:
@@ -40,15 +40,16 @@ def enrich_corrected_json_with_furigana(year=YEAR, question=QUESTION_NUM):
     with open(furigana_map_path, "r", encoding="utf-8") as f:
         furigana_map = json.load(f)
 
-    # 安全性校验：提取所有 word 中的汉字（排除 speaker-label）
-    kanji_words = [
-        item["word"]
-        for item in word_data
-        if is_kanji(item.get("word", "")) and item.get("role") != "speaker-label"
-    ]
-    furigana_kanji = [list(d.keys())[0] for d in furigana_map]
-    # 打印长度对比
-    kanji_words = [item["word"].strip() for item in word_data if is_kanji(item.get("word", "")) and item.get("role") != "speaker-label"]
+    # 过滤掉 COPY_MARKER 及其之后的所有内容
+    filtered_word_data = []
+    for item in word_data:
+        if item.get("role") == "copy-marker" and item.get("word") == COPY_MARKER:
+            break
+        filtered_word_data.append(item)
+
+    # 提取所有 word 中的汉字（排除 speaker-label），仅使用过滤后的内容
+    kanji_words = [item["word"].strip() for item in filtered_word_data 
+                   if is_kanji(item.get("word", "")) and item.get("role") != "speaker-label"]
     furigana_kanji = [list(d.keys())[0].strip() for d in furigana_map]
 
     if len(kanji_words) != len(furigana_kanji) or kanji_words != furigana_kanji:
@@ -72,6 +73,10 @@ def enrich_corrected_json_with_furigana(year=YEAR, question=QUESTION_NUM):
     update_count = 0
 
     for item in word_data:
+        # 如果 item 属于追加部分（即在 copy-marker 之后）则跳过，不参与汉字处理
+        if item.get("role") == "copy-marker" and item.get("word") == COPY_MARKER:
+            break
+
         word = item.get("word", "")
         if item.get("role") == "speaker-label" or not is_kanji(word):
             continue

@@ -16,11 +16,13 @@
     "furigana": "ばん"
   },
   {
-    "word": "、"
+    "word": "、",
+    "start": 3.394,
+    "end": 3.394
   },
   {
-    "start": 0.0,
-    "end": 0.0,
+    "start": 3.394,
+    "end": 3.394,
     "word": "う"
   },
   {
@@ -141,7 +143,9 @@
     "speaker": "SPEAKER_02"
   },
   {
-    "word": "。"
+    "word": "。",
+    "start": 6.843,
+    "end": 7.999
   },
   {
     "word": "2",
@@ -174,8 +178,8 @@
     "furigana": "ひ"
   },
   {
-    "start": 0.0,
-    "end": 0.0,
+    "start": 9.063,
+    "end": 9.063,
     "word": "っ"
   },
   {
@@ -267,7 +271,9 @@
     "speaker": "SPEAKER_02"
   },
   {
-    "word": "、"
+    "word": "、",
+    "start": 11.471,
+    "end": 11.471
   },
   {
     "word": "ど",
@@ -354,7 +360,9 @@
     "speaker": "SPEAKER_02"
   },
   {
-    "word": "。"
+    "word": "。",
+    "start": 12.876,
+    "end": 37.095
   },
   {
     "role": "line-break",
@@ -362,7 +370,9 @@
   },
   {
     "role": "bold-word",
-    "word": "F:"
+    "word": "F:",
+    "start": 37.095,
+    "end": 37.095
   },
   {
     "word": "引",
@@ -556,7 +566,9 @@
     "speaker": "SPEAKER_01"
   },
   {
-    "word": "、"
+    "word": "、",
+    "start": 40.962,
+    "end": 40.962
   },
   {
     "word": "予",
@@ -646,7 +658,9 @@
     "speaker": "SPEAKER_01"
   },
   {
-    "word": "。"
+    "word": "。",
+    "start": 43.827,
+    "end": 43.827
   },
   {
     "word": "今",
@@ -767,7 +781,9 @@
     "speaker": "SPEAKER_01"
   },
   {
-    "word": "。"
+    "word": "。",
+    "start": 46.292,
+    "end": 47.793
   },
   {
     "word": "荷",
@@ -1009,7 +1025,9 @@
     "speaker": "SPEAKER_01"
   },
   {
-    "word": "。"
+    "word": "。",
+    "start": 54.664,
+    "end": 54.664
   },
   {
     "role": "line-break",
@@ -1017,7 +1035,9 @@
   },
   {
     "role": "bold-word",
-    "word": "M:"
+    "word": "M:",
+    "start": 54.664,
+    "end": 54.664
   },
   {
     "word": "そ",
@@ -1034,7 +1054,9 @@
     "speaker": "SPEAKER_00"
   },
   {
-    "word": "、"
+    "word": "、",
+    "start": 54.945,
+    "end": 57.51
   },
   {
     "word": "大",
@@ -1118,7 +1140,9 @@
     "speaker": "SPEAKER_00"
   },
   {
-    "word": "。"
+    "word": "。",
+    "start": 60.133,
+    "end": 60.133
   },
   {
     "word": "え",
@@ -1142,7 +1166,9 @@
     "speaker": "SPEAKER_00"
   },
   {
-    "word": "、"
+    "word": "、",
+    "start": 61.374,
+    "end": 61.374
   },
   {
     "word": "大",
@@ -1252,7 +1278,9 @@
     "speaker": "SPEAKER_00"
   },
   {
-    "word": "、"
+    "word": "、",
+    "start": 64.737,
+    "end": 64.737
   },
   {
     "word": "冷",
@@ -1279,7 +1307,9 @@
     "furigana": "こ"
   },
   {
-    "word": "、"
+    "word": "、",
+    "start": 65.918,
+    "end": 65.918
   },
   {
     "word": "本",
@@ -1312,7 +1342,9 @@
     "speaker": "SPEAKER_00"
   },
   {
-    "word": "。"
+    "word": "。",
+    "start": 66.579,
+    "end": 67.49
   },
   {
     "role": "line-break",
@@ -1320,7 +1352,9 @@
   },
   {
     "role": "bold-word",
-    "word": "F:"
+    "word": "F:",
+    "start": 67.49,
+    "end": 67.49
   },
   {
     "word": "本",
@@ -1390,7 +1424,9 @@
     "speaker": "SPEAKER_01"
   },
   {
-    "word": "。"
+    "word": "。",
+    "start": 69.837,
+    "end": 69.837
   },
   {
     "word": "ソ",
@@ -1492,7 +1528,9 @@
     "speaker": "SPEAKER_01"
   },
   {
-    "word": "、"
+    "word": "、",
+    "start": 72.203,
+    "end": 72.203
   },
   {
     "word": "欲",
@@ -1623,7 +1661,9 @@
     "speaker": "SPEAKER_01"
   },
   {
-    "word": "。"
+    "word": "。",
+    "start": 74.83,
+    "end": 74.83
   },
   {
     "role": "line-break",
@@ -1631,7 +1671,9 @@
   },
   {
     "role": "bold-word",
-    "word": "M:"
+    "word": "M:",
+    "start": 74.83,
+    "end": 74.83
   },
   {
     "word": "そ",
@@ -1683,15 +1725,19 @@
     "speaker": "SPEAKER_00"
   },
   {
-    "word": "。"
+    "word": "。",
+    "start": 75.512,
+    "end": 77.187
   },
   {
-    "start": 0.0,
-    "end": 0.0,
+    "start": 77.187,
+    "end": 77.187,
     "word": "あ"
   },
   {
-    "word": "、"
+    "word": "、",
+    "start": 77.187,
+    "end": 77.187
   },
   {
     "word": "冷",
@@ -1747,7 +1793,9 @@
     "speaker": "SPEAKER_00"
   },
   {
-    "word": "、"
+    "word": "、",
+    "start": 78.91,
+    "end": 78.91
   },
   {
     "word": "こ",
@@ -1772,7 +1820,9 @@
     "furigana": "さい"
   },
   {
-    "word": "、"
+    "word": "、",
+    "start": 79.632,
+    "end": 79.632
   },
   {
     "word": "売",
@@ -1870,7 +1920,9 @@
     "speaker": "SPEAKER_01"
   },
   {
-    "word": "？"
+    "word": "？",
+    "start": 82.718,
+    "end": 82.718
   },
   {
     "role": "line-break",
@@ -1878,15 +1930,19 @@
   },
   {
     "role": "bold-word",
-    "word": "F:"
+    "word": "F:",
+    "start": 82.718,
+    "end": 82.718
   },
   {
-    "start": 0.0,
-    "end": 0.0,
+    "start": 82.718,
+    "end": 82.718,
     "word": "え"
   },
   {
-    "word": "？"
+    "word": "？",
+    "start": 82.718,
+    "end": 82.718
   },
   {
     "word": "冷",
@@ -1956,7 +2012,9 @@
     "speaker": "SPEAKER_01"
   },
   {
-    "word": "！"
+    "word": "！",
+    "start": 85.163,
+    "end": 85.163
   },
   {
     "word": "あ",
@@ -1966,7 +2024,9 @@
     "speaker": "SPEAKER_01"
   },
   {
-    "word": "、"
+    "word": "、",
+    "start": 85.704,
+    "end": 85.704
   },
   {
     "word": "そ",
@@ -1990,7 +2050,9 @@
     "speaker": "SPEAKER_01"
   },
   {
-    "word": "。"
+    "word": "。",
+    "start": 86.025,
+    "end": 86.747
   },
   {
     "word": "親",
@@ -2222,7 +2284,9 @@
     "speaker": "SPEAKER_01"
   },
   {
-    "word": "、"
+    "word": "、",
+    "start": 91.616,
+    "end": 91.616
   },
   {
     "word": "自",
@@ -2278,8 +2342,8 @@
     "furigana": "もつ"
   },
   {
-    "start": 0.0,
-    "end": 0.0,
+    "start": 92.798,
+    "end": 92.798,
     "word": "を"
   },
   {
@@ -2298,7 +2362,9 @@
     "speaker": "SPEAKER_01"
   },
   {
-    "word": "？"
+    "word": "？",
+    "start": 93.099,
+    "end": 93.76
   },
   {
     "role": "line-break",
@@ -2306,7 +2372,9 @@
   },
   {
     "role": "bold-word",
-    "word": "M:"
+    "word": "M:",
+    "start": 93.76,
+    "end": 93.76
   },
   {
     "word": "荷",
@@ -2429,7 +2497,9 @@
     "speaker": "SPEAKER_00"
   },
   {
-    "word": "。"
+    "word": "。",
+    "start": 97.745,
+    "end": 97.745
   },
   {
     "word": "や",
@@ -2613,7 +2683,9 @@
     "speaker": "SPEAKER_00"
   },
   {
-    "word": "？"
+    "word": "？",
+    "start": 100.388,
+    "end": 101.332
   },
   {
     "role": "line-break",
@@ -2621,7 +2693,9 @@
   },
   {
     "role": "bold-word",
-    "word": "F:"
+    "word": "F:",
+    "start": 101.332,
+    "end": 101.332
   },
   {
     "word": "う",
@@ -2638,7 +2712,9 @@
     "speaker": "SPEAKER_01"
   },
   {
-    "word": "、"
+    "word": "、",
+    "start": 102.715,
+    "end": 102.715
   },
   {
     "word": "そ",
@@ -2669,7 +2745,9 @@
     "speaker": "SPEAKER_01"
   },
   {
-    "word": "。"
+    "word": "。",
+    "start": 104.218,
+    "end": 104.359
   },
   {
     "word": "安",
@@ -2695,8 +2773,8 @@
     "furigana": "ひ"
   },
   {
-    "start": 0.0,
-    "end": 0.0,
+    "start": 104.94,
+    "end": 104.94,
     "word": "っ"
   },
   {
@@ -2809,7 +2887,9 @@
     "speaker": "SPEAKER_01"
   },
   {
-    "word": "、"
+    "word": "、",
+    "start": 106.563,
+    "end": 107.365
   },
   {
     "word": "費",
@@ -3066,7 +3146,9 @@
     "speaker": "SPEAKER_01"
   },
   {
-    "word": "。"
+    "word": "。",
+    "start": 113.344,
+    "end": 113.344
   },
   {
     "role": "line-break",
@@ -3074,7 +3156,9 @@
   },
   {
     "role": "bold-word",
-    "word": "M:"
+    "word": "M:",
+    "start": 113.344,
+    "end": 113.344
   },
   {
     "word": "う",
@@ -3091,7 +3175,9 @@
     "speaker": "SPEAKER_00"
   },
   {
-    "word": "、"
+    "word": "、",
+    "start": 113.926,
+    "end": 113.926
   },
   {
     "word": "そ",
@@ -3122,7 +3208,9 @@
     "speaker": "SPEAKER_00"
   },
   {
-    "word": "。"
+    "word": "。",
+    "start": 114.227,
+    "end": 120.518
   },
   {
     "role": "line-break",
@@ -3130,7 +3218,9 @@
   },
   {
     "role": "bold-word",
-    "word": "Q:"
+    "word": "Q:",
+    "start": 120.518,
+    "end": 120.518
   },
   {
     "word": "2",
@@ -3163,8 +3253,8 @@
     "furigana": "ひ"
   },
   {
-    "start": 0.0,
-    "end": 0.0,
+    "start": 121.702,
+    "end": 121.702,
     "word": "っ"
   },
   {
@@ -3256,7 +3346,9 @@
     "speaker": "SPEAKER_02"
   },
   {
-    "word": "、"
+    "word": "、",
+    "start": 124.171,
+    "end": 124.171
   },
   {
     "word": "ど",
@@ -3343,6 +3435,346 @@
     "speaker": "SPEAKER_02"
   },
   {
-    "word": "。"
+    "word": "。",
+    "start": 125.595,
+    "end": 125.605
+  },
+  {
+    "role": "line-break",
+    "word": ""
+  },
+  {
+    "role": "copy-marker",
+    "word": "### NO_ALIGN_BELOW"
+  },
+  {
+    "role": "line-break",
+    "word": ""
+  },
+  {
+    "word": "1",
+    "start": null,
+    "end": null
+  },
+  {
+    "word": ".",
+    "start": null,
+    "end": null
+  },
+  {
+    "word": "🐰",
+    "start": null,
+    "end": null
+  },
+  {
+    "word": "☞",
+    "start": null,
+    "end": null
+  },
+  {
+    "word": "ソ",
+    "start": null,
+    "end": null
+  },
+  {
+    "word": "フ",
+    "start": null,
+    "end": null
+  },
+  {
+    "word": "ァ",
+    "start": null,
+    "end": null
+  },
+  {
+    "word": "ー",
+    "start": null,
+    "end": null
+  },
+  {
+    "word": "を",
+    "start": null,
+    "end": null
+  },
+  {
+    "word": "も",
+    "start": null,
+    "end": null
+  },
+  {
+    "word": "ら",
+    "start": null,
+    "end": null
+  },
+  {
+    "word": "っ",
+    "start": null,
+    "end": null
+  },
+  {
+    "word": "て",
+    "start": null,
+    "end": null
+  },
+  {
+    "word": "く",
+    "start": null,
+    "end": null
+  },
+  {
+    "word": "れ",
+    "start": null,
+    "end": null
+  },
+  {
+    "word": "る",
+    "start": null,
+    "end": null
+  },
+  {
+    "word": "人",
+    "start": null,
+    "end": null
+  },
+  {
+    "word": "を",
+    "start": null,
+    "end": null
+  },
+  {
+    "word": "さ",
+    "start": null,
+    "end": null
+  },
+  {
+    "word": "が",
+    "start": null,
+    "end": null
+  },
+  {
+    "word": "す",
+    "start": null,
+    "end": null
+  },
+  {
+    "role": "line-break",
+    "word": ""
+  },
+  {
+    "word": "2",
+    "start": null,
+    "end": null
+  },
+  {
+    "word": ".",
+    "start": null,
+    "end": null
+  },
+  {
+    "word": "れ",
+    "start": null,
+    "end": null
+  },
+  {
+    "word": "い",
+    "start": null,
+    "end": null
+  },
+  {
+    "word": "ぞ",
+    "start": null,
+    "end": null
+  },
+  {
+    "word": "う",
+    "start": null,
+    "end": null
+  },
+  {
+    "word": "こ",
+    "start": null,
+    "end": null
+  },
+  {
+    "word": "を",
+    "start": null,
+    "end": null
+  },
+  {
+    "word": "売",
+    "start": null,
+    "end": null
+  },
+  {
+    "word": "る",
+    "start": null,
+    "end": null
+  },
+  {
+    "role": "line-break",
+    "word": ""
+  },
+  {
+    "word": "3",
+    "start": null,
+    "end": null
+  },
+  {
+    "word": ".",
+    "start": null,
+    "end": null
+  },
+  {
+    "word": "親",
+    "start": null,
+    "end": null
+  },
+  {
+    "word": "戚",
+    "start": null,
+    "end": null
+  },
+  {
+    "word": "に",
+    "start": null,
+    "end": null
+  },
+  {
+    "word": "ひ",
+    "start": null,
+    "end": null
+  },
+  {
+    "word": "っ",
+    "start": null,
+    "end": null
+  },
+  {
+    "word": "こ",
+    "start": null,
+    "end": null
+  },
+  {
+    "word": "し",
+    "start": null,
+    "end": null
+  },
+  {
+    "word": "を",
+    "start": null,
+    "end": null
+  },
+  {
+    "word": "手",
+    "start": null,
+    "end": null
+  },
+  {
+    "word": "伝",
+    "start": null,
+    "end": null
+  },
+  {
+    "word": "っ",
+    "start": null,
+    "end": null
+  },
+  {
+    "word": "て",
+    "start": null,
+    "end": null
+  },
+  {
+    "word": "も",
+    "start": null,
+    "end": null
+  },
+  {
+    "word": "ら",
+    "start": null,
+    "end": null
+  },
+  {
+    "word": "う",
+    "start": null,
+    "end": null
+  },
+  {
+    "role": "line-break",
+    "word": ""
+  },
+  {
+    "word": "4",
+    "start": null,
+    "end": null
+  },
+  {
+    "word": ".",
+    "start": null,
+    "end": null
+  },
+  {
+    "word": "安",
+    "start": null,
+    "end": null
+  },
+  {
+    "word": "い",
+    "start": null,
+    "end": null
+  },
+  {
+    "word": "ひ",
+    "start": null,
+    "end": null
+  },
+  {
+    "word": "っ",
+    "start": null,
+    "end": null
+  },
+  {
+    "word": "こ",
+    "start": null,
+    "end": null
+  },
+  {
+    "word": "し",
+    "start": null,
+    "end": null
+  },
+  {
+    "word": "会",
+    "start": null,
+    "end": null
+  },
+  {
+    "word": "社",
+    "start": null,
+    "end": null
+  },
+  {
+    "word": "を",
+    "start": null,
+    "end": null
+  },
+  {
+    "word": "さ",
+    "start": null,
+    "end": null
+  },
+  {
+    "word": "が",
+    "start": null,
+    "end": null
+  },
+  {
+    "word": "す",
+    "start": null,
+    "end": null
+  },
+  {
+    "role": "line-break",
+    "word": ""
   }
 ]

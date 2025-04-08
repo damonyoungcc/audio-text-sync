@@ -1,7 +1,7 @@
 import json
 from copy import deepcopy
 from pathlib import Path
-from target_config import YEAR, QUESTION_NUM
+from target_config import YEAR, QUESTION_NUM, COPY_MARKER
 
 def needleman_wunsch_align(seqA, seqB, match=0, mismatch=2, gap=1):
     m, n = len(seqA), len(seqB)
@@ -36,6 +36,11 @@ def needleman_wunsch_align(seqA, seqB, match=0, mismatch=2, gap=1):
 def correct_json_by_text(json_data, text_data):
     punctuation_chars = "、。！？「」（）"
     special_tokens = ["M:", "F:", "Q:", "1.", "2.", "3.", "4.","M1:","M2:","F1","F2","Q1","Q2"]
+
+    # 分割 COPY_MARKER
+    if COPY_MARKER in text_data:
+        text_data = text_data.split(COPY_MARKER, 1)[0]
+
     whisper_tokens = [t for t in json_data if t.get("word") and not t.get("role") and t["word"] not in punctuation_chars]
     whisper_chars = [t["word"] for t in whisper_tokens]
     corrected_chars = [c for c in text_data if c not in punctuation_chars and c not in ['\n'] and all(not text_data.startswith(tok, text_data.index(c)) for tok in special_tokens)]
@@ -75,25 +80,48 @@ def correct_json_by_text(json_data, text_data):
 
     return fixed_items
 
+def extract_appended_items(text_data):
+    """
+    处理 COPY_MARKER 之后的文本。
+    - COPY_MARKER 行作为整体项添加
+    - 之后每一行逐字符生成，保留换行，不加时间戳
+    """
+    if COPY_MARKER not in text_data:
+        return []
+
+    parts = text_data.split(COPY_MARKER, 1)
+    lines = parts[1].splitlines()
+
+    items = []
+    items.append({ "role": "copy-marker", "word": COPY_MARKER })
+
+    for line in lines:
+        for ch in line:
+            items.append({ "word": ch, "start": None, "end": None })
+        items.append({ "role": "line-break", "word": "" })
+
+    return items
+
+
 def fix_missing_timestamps(items):
     length = len(items)
     for i, item in enumerate(items):
-        if "word" not in item:
+        if "word" not in item or item.get("role") == "line-break" or item.get("role") == "copy-marker":
+            continue
+        if item.get("start", 0.0) is None or item.get("end", 0.0) is None:
             continue
         if item.get("start", 0.0) > 0.0 and item.get("end", 0.0) > 0.0:
             continue
 
-        # 找前一个有 end 的项
         prev_end = None
         for j in range(i - 1, -1, -1):
-            if items[j].get("end", 0.0) > 0:
+            if items[j].get("end", 0.0) and items[j].get("end", 0.0) > 0:
                 prev_end = items[j]["end"]
                 break
 
-        # 找后一个有 start 的项
         next_start = None
         for j in range(i + 1, length):
-            if items[j].get("start", 0.0) > 0:
+            if items[j].get("start", 0.0) and items[j].get("start", 0.0) > 0:
                 next_start = items[j]["start"]
                 break
 
@@ -110,16 +138,6 @@ def fix_missing_timestamps(items):
             item["start"] = 0.0
             item["end"] = 0.01
     return items
-
-def find_file_with_suffixes_case_insensitive(folder: Path, suffixes: list[str]):
-    for path in folder.iterdir():
-        if not path.is_file():
-            continue
-        lower = path.name.lower()
-        for suffix in suffixes:
-            if lower.endswith(suffix.lower()):
-                return path
-    return None
 
 def run_corrector():
     script_dir = Path(__file__).resolve().parent
@@ -150,12 +168,24 @@ def run_corrector():
         word_items = json.load(f_json)
 
     corrected = correct_json_by_text(word_items, correct_text)
+    appended = extract_appended_items(correct_text)
+    corrected.extend(appended)
     corrected = fix_missing_timestamps(corrected)
 
     with open(output_path, "w", encoding="utf-8") as f_out:
         json.dump(corrected, f_out, ensure_ascii=False, indent=2)
 
     print(f"✅ 修正完成：{output_path.relative_to(script_dir.parent)}")
+
+def find_file_with_suffixes_case_insensitive(folder: Path, suffixes: list[str]):
+    for path in folder.iterdir():
+        if not path.is_file():
+            continue
+        lower = path.name.lower()
+        for suffix in suffixes:
+            if lower.endswith(suffix.lower()):
+                return path
+    return None
 
 if __name__ == "__main__":
     run_corrector()
