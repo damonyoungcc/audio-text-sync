@@ -106,6 +106,9 @@ function renderTranscript(wordsArray) {
   transcriptDiv.innerHTML = "";
 
   wordsArray.forEach((item) => {
+    if (item.role === "copy-marker") {
+      return null;
+    }
     if (item.role === "line-break") {
       const divider = document.createElement("div");
       divider.className = "line-break";
@@ -139,7 +142,7 @@ function renderTranscript(wordsArray) {
     if (typeof item.start === "number") span.dataset.start = item.start;
     if (typeof item.end === "number") span.dataset.end = item.end;
 
-    if (item.start !== undefined) {
+    if (typeof item.start === "number" && typeof item.end === "number") {
       span.addEventListener("click", () => {
         audio.currentTime = item.start;
         updateHighlight(item.start);
