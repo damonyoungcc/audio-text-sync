@@ -16,7 +16,9 @@
     "furigana": "ばん"
   },
   {
-    "word": "、"
+    "word": "、",
+    "start": 2.751,
+    "end": 2.751
   },
   {
     "word": "日",
@@ -185,7 +187,9 @@
     "speaker": "SPEAKER_01"
   },
   {
-    "word": "。"
+    "word": "。",
+    "start": 8.733,
+    "end": 8.733
   },
   {
     "word": "女",
@@ -262,7 +266,9 @@
     "speaker": "SPEAKER_01"
   },
   {
-    "word": "、"
+    "word": "、",
+    "start": 11.534,
+    "end": 11.534
   },
   {
     "word": "何",
@@ -308,7 +314,9 @@
     "speaker": "SPEAKER_01"
   },
   {
-    "word": "。"
+    "word": "。",
+    "start": 14.495,
+    "end": 14.495
   },
   {
     "role": "line-break",
@@ -316,7 +324,9 @@
   },
   {
     "role": "bold-word",
-    "word": "F:"
+    "word": "F:",
+    "start": 14.495,
+    "end": 14.495
   },
   {
     "word": "課",
@@ -335,7 +345,9 @@
     "furigana": "ちょう"
   },
   {
-    "word": "、"
+    "word": "、",
+    "start": 15.575,
+    "end": 15.575
   },
   {
     "word": "明",
@@ -461,11 +473,13 @@
     "speaker": "SPEAKER_01"
   },
   {
-    "word": "、"
+    "word": "、",
+    "start": 18.636,
+    "end": 18.636
   },
   {
-    "start": 0.0,
-    "end": 0.0,
+    "start": 18.636,
+    "end": 18.636,
     "word": "あ"
   },
   {
@@ -540,7 +554,9 @@
     "speaker": "SPEAKER_01"
   },
   {
-    "word": "。"
+    "word": "。",
+    "start": 20.736,
+    "end": 20.736
   },
   {
     "role": "line-break",
@@ -548,7 +564,9 @@
   },
   {
     "role": "bold-word",
-    "word": "M:"
+    "word": "M:",
+    "start": 20.736,
+    "end": 20.736
   },
   {
     "word": "卒",
@@ -715,7 +733,9 @@
     "speaker": "SPEAKER_00"
   },
   {
-    "word": "？"
+    "word": "？",
+    "start": 25.097,
+    "end": 25.097
   },
   {
     "role": "line-break",
@@ -723,7 +743,9 @@
   },
   {
     "role": "bold-word",
-    "word": "F:"
+    "word": "F:",
+    "start": 25.097,
+    "end": 25.097
   },
   {
     "word": "ま",
@@ -811,7 +833,9 @@
     "speaker": "SPEAKER_01"
   },
   {
-    "word": "。"
+    "word": "。",
+    "start": 26.618,
+    "end": 27.375
   },
   {
     "role": "line-break",
@@ -819,7 +843,9 @@
   },
   {
     "role": "bold-word",
-    "word": "M:"
+    "word": "M:",
+    "start": 27.375,
+    "end": 27.375
   },
   {
     "word": "あ",
@@ -829,7 +855,9 @@
     "speaker": "SPEAKER_00"
   },
   {
-    "word": "、"
+    "word": "、",
+    "start": 28.076,
+    "end": 28.076
   },
   {
     "word": "記",
@@ -929,7 +957,9 @@
     "speaker": "SPEAKER_00"
   },
   {
-    "word": "。"
+    "word": "。",
+    "start": 30.197,
+    "end": 30.197
   },
   {
     "word": "あ",
@@ -976,8 +1006,8 @@
     "speaker": "SPEAKER_00"
   },
   {
-    "start": 0.0,
-    "end": 0.0,
+    "start": 33.12,
+    "end": 33.12,
     "word": "…"
   },
   {
@@ -1009,7 +1039,9 @@
     "speaker": "SPEAKER_00"
   },
   {
-    "word": "、"
+    "word": "、",
+    "start": 33.46,
+    "end": 33.981
   },
   {
     "word": "会",
@@ -1081,7 +1113,9 @@
     "furigana": "びん"
   },
   {
-    "word": "、"
+    "word": "、",
+    "start": 36.082,
+    "end": 36.082
   },
   {
     "word": "あ",
@@ -1198,7 +1232,9 @@
     "speaker": "SPEAKER_00"
   },
   {
-    "word": "？"
+    "word": "？",
+    "start": 38.705,
+    "end": 38.705
   },
   {
     "role": "line-break",
@@ -1206,7 +1242,9 @@
   },
   {
     "role": "bold-word",
-    "word": "F:"
+    "word": "F:",
+    "start": 38.705,
+    "end": 38.705
   },
   {
     "word": "は",
@@ -1223,7 +1261,9 @@
     "speaker": "SPEAKER_01"
   },
   {
-    "word": "、"
+    "word": "、",
+    "start": 39.505,
+    "end": 39.665
   },
   {
     "word": "花",
@@ -1263,7 +1303,9 @@
     "speaker": "SPEAKER_01"
   },
   {
-    "word": "。"
+    "word": "。",
+    "start": 40.907,
+    "end": 40.907
   },
   {
     "role": "line-break",
@@ -1271,7 +1313,9 @@
   },
   {
     "role": "bold-word",
-    "word": "M:"
+    "word": "M:",
+    "start": 40.907,
+    "end": 40.907
   },
   {
     "word": "そ",
@@ -1386,7 +1430,9 @@
     "furigana": "あいだ"
   },
   {
-    "word": "、"
+    "word": "、",
+    "start": 44.75,
+    "end": 44.75
   },
   {
     "word": "出",
@@ -1504,6 +1550,8 @@
   },
   {
     "word": "貼",
+    "start": 47.352,
+    "end": 47.352,
     "furigana": "は"
   },
   {
@@ -1549,7 +1597,9 @@
     "speaker": "SPEAKER_00"
   },
   {
-    "word": "？"
+    "word": "？",
+    "start": 47.772,
+    "end": 48.697
   },
   {
     "word": "そ",
@@ -1573,7 +1623,9 @@
     "speaker": "SPEAKER_00"
   },
   {
-    "word": "、"
+    "word": "、",
+    "start": 49.838,
+    "end": 49.838
   },
   {
     "word": "忘",
@@ -1770,8 +1822,8 @@
     "speaker": "SPEAKER_00"
   },
   {
-    "start": 0.0,
-    "end": 0.0,
+    "start": 54.761,
+    "end": 54.761,
     "word": "グ"
   },
   {
@@ -1904,7 +1956,9 @@
     "speaker": "SPEAKER_00"
   },
   {
-    "word": "。"
+    "word": "。",
+    "start": 58.084,
+    "end": 58.084
   },
   {
     "role": "line-break",
@@ -1912,7 +1966,9 @@
   },
   {
     "role": "bold-word",
-    "word": "F:"
+    "word": "F:",
+    "start": 58.084,
+    "end": 58.084
   },
   {
     "word": "は",
@@ -1929,7 +1985,9 @@
     "speaker": "SPEAKER_00"
   },
   {
-    "word": "、"
+    "word": "、",
+    "start": 58.664,
+    "end": 58.664
   },
   {
     "word": "わ",
@@ -1974,7 +2032,9 @@
     "speaker": "SPEAKER_01"
   },
   {
-    "word": "。"
+    "word": "。",
+    "start": 59.725,
+    "end": 59.725
   },
   {
     "role": "line-break",
@@ -1982,7 +2042,9 @@
   },
   {
     "role": "bold-word",
-    "word": "M:"
+    "word": "M:",
+    "start": 59.725,
+    "end": 59.725
   },
   {
     "word": "あ",
@@ -1992,7 +2054,9 @@
     "speaker": "SPEAKER_00"
   },
   {
-    "word": "、"
+    "word": "、",
+    "start": 60.365,
+    "end": 60.566
   },
   {
     "word": "花",
@@ -2069,7 +2133,9 @@
     "speaker": "SPEAKER_00"
   },
   {
-    "word": "、"
+    "word": "、",
+    "start": 62.427,
+    "end": 62.427
   },
   {
     "word": "落",
@@ -2299,7 +2365,9 @@
     "speaker": "SPEAKER_00"
   },
   {
-    "word": "。"
+    "word": "。",
+    "start": 67.771,
+    "end": 67.771
   },
   {
     "role": "line-break",
@@ -2307,7 +2375,9 @@
   },
   {
     "role": "bold-word",
-    "word": "F:"
+    "word": "F:",
+    "start": 67.771,
+    "end": 67.771
   },
   {
     "word": "は",
@@ -2324,7 +2394,9 @@
     "speaker": "SPEAKER_01"
   },
   {
-    "word": "。"
+    "word": "。",
+    "start": 74.115,
+    "end": 74.115
   },
   {
     "role": "line-break",
@@ -2332,7 +2404,9 @@
   },
   {
     "role": "bold-word",
-    "word": "Q:"
+    "word": "Q:",
+    "start": 74.115,
+    "end": 74.115
   },
   {
     "word": "女",
@@ -2409,7 +2483,9 @@
     "speaker": "SPEAKER_01"
   },
   {
-    "word": "、"
+    "word": "、",
+    "start": 76.857,
+    "end": 76.857
   },
   {
     "word": "何",
@@ -2455,11 +2531,268 @@
     "speaker": "SPEAKER_01"
   },
   {
-    "word": "。"
+    "word": "。",
+    "start": 77.698,
+    "end": 77.708
   },
   {
     "role": "line-break",
     "word": ""
+  },
+  {
+    "role": "copy-marker",
+    "word": "### NO_ALIGN_BELOW"
+  },
+  {
+    "role": "line-break",
+    "word": ""
+  },
+  {
+    "word": "1",
+    "start": null,
+    "end": null
+  },
+  {
+    "word": ".",
+    "start": null,
+    "end": null
+  },
+  {
+    "word": "記",
+    "start": null,
+    "end": null
+  },
+  {
+    "word": "念",
+    "start": null,
+    "end": null
+  },
+  {
+    "word": "品",
+    "start": null,
+    "end": null
+  },
+  {
+    "word": "を",
+    "start": null,
+    "end": null
+  },
+  {
+    "word": "袋",
+    "start": null,
+    "end": null
+  },
+  {
+    "word": "に",
+    "start": null,
+    "end": null
+  },
+  {
+    "word": "入",
+    "start": null,
+    "end": null
+  },
+  {
+    "word": "れ",
+    "start": null,
+    "end": null
+  },
+  {
+    "word": "る",
+    "start": null,
+    "end": null
+  },
+  {
+    "role": "line-break",
+    "word": ""
+  },
+  {
+    "word": "2",
+    "start": null,
+    "end": null
+  },
+  {
+    "word": ".",
+    "start": null,
+    "end": null
+  },
+  {
+    "word": "花",
+    "start": null,
+    "end": null
+  },
+  {
+    "word": "瓶",
+    "start": null,
+    "end": null
+  },
+  {
+    "word": "を",
+    "start": null,
+    "end": null
+  },
+  {
+    "word": "ス",
+    "start": null,
+    "end": null
+  },
+  {
+    "word": "テ",
+    "start": null,
+    "end": null
+  },
+  {
+    "word": "ー",
+    "start": null,
+    "end": null
+  },
+  {
+    "word": "ジ",
+    "start": null,
+    "end": null
+  },
+  {
+    "word": "の",
+    "start": null,
+    "end": null
+  },
+  {
+    "word": "上",
+    "start": null,
+    "end": null
+  },
+  {
+    "word": "に",
+    "start": null,
+    "end": null
+  },
+  {
+    "word": "運",
+    "start": null,
+    "end": null
+  },
+  {
+    "word": "ぶ",
+    "start": null,
+    "end": null
+  },
+  {
+    "role": "line-break",
+    "word": ""
+  },
+  {
+    "word": "3",
+    "start": null,
+    "end": null
+  },
+  {
+    "word": ".",
+    "start": null,
+    "end": null
+  },
+  {
+    "word": "🐰",
+    "start": null,
+    "end": null
+  },
+  {
+    "word": "☞",
+    "start": null,
+    "end": null
+  },
+  {
+    "word": "椅",
+    "start": null,
+    "end": null
+  },
+  {
+    "word": "子",
+    "start": null,
+    "end": null
+  },
+  {
+    "word": "に",
+    "start": null,
+    "end": null
+  },
+  {
+    "word": "名",
+    "start": null,
+    "end": null
+  },
+  {
+    "word": "前",
+    "start": null,
+    "end": null
+  },
+  {
+    "word": "の",
+    "start": null,
+    "end": null
+  },
+  {
+    "word": "紙",
+    "start": null,
+    "end": null
+  },
+  {
+    "word": "を",
+    "start": null,
+    "end": null
+  },
+  {
+    "word": "貼",
+    "start": null,
+    "end": null
+  },
+  {
+    "word": "る",
+    "start": null,
+    "end": null
+  },
+  {
+    "role": "line-break",
+    "word": ""
+  },
+  {
+    "word": "4",
+    "start": null,
+    "end": null
+  },
+  {
+    "word": ".",
+    "start": null,
+    "end": null
+  },
+  {
+    "word": "挨",
+    "start": null,
+    "end": null
+  },
+  {
+    "word": "拶",
+    "start": null,
+    "end": null
+  },
+  {
+    "word": "す",
+    "start": null,
+    "end": null
+  },
+  {
+    "word": "る",
+    "start": null,
+    "end": null
+  },
+  {
+    "word": "練",
+    "start": null,
+    "end": null
+  },
+  {
+    "word": "習",
+    "start": null,
+    "end": null
   },
   {
     "role": "line-break",
