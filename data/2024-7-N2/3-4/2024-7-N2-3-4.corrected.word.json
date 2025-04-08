@@ -133,9 +133,7 @@
   },
   {
     "role": "line-break",
-    "word": "",
-    "start": 11.56,
-    "end": 11.56
+    "word": ""
   },
   {
     "role": "bold-word",
@@ -1264,9 +1262,7 @@
   },
   {
     "role": "line-break",
-    "word": "",
-    "start": 43.2,
-    "end": 43.2
+    "word": ""
   },
   {
     "role": "bold-word",
@@ -1402,15 +1398,23 @@
   },
   {
     "role": "line-break",
-    "word": "",
-    "start": 49.364,
-    "end": 49.364
+    "word": ""
   },
   {
     "role": "bold-word",
     "word": "1.",
     "start": 49.364,
     "end": 49.364
+  },
+  {
+    "start": 49.364,
+    "end": 49.364,
+    "word": "🐰"
+  },
+  {
+    "start": 49.364,
+    "end": 49.364,
+    "word": "☞"
   },
   {
     "word": "時",
@@ -1491,14 +1495,12 @@
   },
   {
     "role": "line-break",
-    "word": "",
-    "start": 51.225,
-    "end": 55.916
+    "word": ""
   },
   {
     "role": "bold-word",
     "word": "2.",
-    "start": 55.916,
+    "start": 51.225,
     "end": 55.916
   },
   {
@@ -1556,9 +1558,7 @@
   },
   {
     "role": "line-break",
-    "word": "",
-    "start": 61.825,
-    "end": 61.825
+    "word": ""
   },
   {
     "role": "bold-word",
@@ -1630,14 +1630,12 @@
   },
   {
     "role": "line-break",
-    "word": "",
-    "start": 63.307,
-    "end": 68.049
+    "word": ""
   },
   {
     "role": "bold-word",
     "word": "4.",
-    "start": 68.049,
+    "start": 63.307,
     "end": 68.049
   },
   {
