@@ -134,9 +134,7 @@
   },
   {
     "role": "line-break",
-    "word": "",
-    "start": 8.86,
-    "end": 8.86
+    "word": ""
   },
   {
     "role": "bold-word",
@@ -1788,9 +1786,7 @@
   },
   {
     "role": "line-break",
-    "word": "",
-    "start": 60.126,
-    "end": 60.126
+    "word": ""
   },
   {
     "role": "bold-word",
@@ -1934,19 +1930,29 @@
   {
     "word": "。",
     "start": 65.375,
-    "end": 66.717
+    "end": 65.375
   },
   {
     "role": "line-break",
-    "word": "",
-    "start": 66.717,
-    "end": 66.717
+    "word": ""
   },
   {
     "role": "bold-word",
     "word": "1.",
-    "start": 66.717,
-    "end": 66.717
+    "start": 65.375,
+    "end": 65.375
+  },
+  {
+    "start": 65.375,
+    "end": 65.375,
+    "word": "🐰"
+  },
+  {
+    "word": "☞",
+    "start": 65.375,
+    "end": 66.717,
+    "score": 1.0,
+    "speaker": "SPEAKER_00"
   },
   {
     "word": "鉄",
@@ -2063,14 +2069,12 @@
   },
   {
     "role": "line-break",
-    "word": "",
-    "start": 69.522,
-    "end": 73.881
+    "word": ""
   },
   {
     "role": "bold-word",
     "word": "2.",
-    "start": 73.881,
+    "start": 69.522,
     "end": 73.881
   },
   {
@@ -2181,14 +2185,12 @@
   },
   {
     "role": "line-break",
-    "word": "",
-    "start": 76.148,
-    "end": 80.733
+    "word": ""
   },
   {
     "role": "bold-word",
     "word": "3.",
-    "start": 80.733,
+    "start": 76.148,
     "end": 80.733
   },
   {
@@ -2297,14 +2299,12 @@
   },
   {
     "role": "line-break",
-    "word": "",
-    "start": 83.342,
-    "end": 87.818
+    "word": ""
   },
   {
     "role": "bold-word",
     "word": "4.",
-    "start": 87.818,
+    "start": 83.342,
     "end": 87.818
   },
   {
