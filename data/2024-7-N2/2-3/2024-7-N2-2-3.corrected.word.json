@@ -380,9 +380,7 @@
   },
   {
     "role": "line-break",
-    "word": "",
-    "start": 38.897,
-    "end": 38.897
+    "word": ""
   },
   {
     "role": "bold-word",
@@ -770,9 +768,7 @@
   },
   {
     "role": "line-break",
-    "word": "",
-    "start": 48.855,
-    "end": 48.855
+    "word": ""
   },
   {
     "role": "bold-word",
@@ -1441,9 +1437,7 @@
   },
   {
     "role": "line-break",
-    "word": "",
-    "start": 66.341,
-    "end": 66.341
+    "word": ""
   },
   {
     "role": "bold-word",
@@ -1582,9 +1576,7 @@
   },
   {
     "role": "line-break",
-    "word": "",
-    "start": 69.468,
-    "end": 69.468
+    "word": ""
   },
   {
     "role": "bold-word",
@@ -2063,9 +2055,7 @@
   },
   {
     "role": "line-break",
-    "word": "",
-    "start": 82.828,
-    "end": 82.828
+    "word": ""
   },
   {
     "role": "bold-word",
@@ -2358,9 +2348,7 @@
   },
   {
     "role": "line-break",
-    "word": "",
-    "start": 90.973,
-    "end": 90.973
+    "word": ""
   },
   {
     "role": "bold-word",
@@ -2534,9 +2522,7 @@
   },
   {
     "role": "line-break",
-    "word": "",
-    "start": 95.163,
-    "end": 95.163
+    "word": ""
   },
   {
     "role": "bold-word",
@@ -2603,9 +2589,7 @@
   },
   {
     "role": "line-break",
-    "word": "",
-    "start": 102.57,
-    "end": 102.57
+    "word": ""
   },
   {
     "role": "bold-word",
@@ -2776,5 +2760,413 @@
     "word": "。",
     "start": 106.67,
     "end": 106.68
+  },
+  {
+    "role": "line-break",
+    "word": ""
+  },
+  {
+    "role": "copy-marker",
+    "word": "### NO_ALIGN_BELOW"
+  },
+  {
+    "role": "line-break",
+    "word": ""
+  },
+  {
+    "word": "1",
+    "start": null,
+    "end": null
+  },
+  {
+    "word": ".",
+    "start": null,
+    "end": null
+  },
+  {
+    "word": "残",
+    "start": null,
+    "end": null
+  },
+  {
+    "word": "業",
+    "start": null,
+    "end": null
+  },
+  {
+    "word": "代",
+    "start": null,
+    "end": null
+  },
+  {
+    "word": "の",
+    "start": null,
+    "end": null
+  },
+  {
+    "word": "き",
+    "start": null,
+    "end": null
+  },
+  {
+    "word": "ん",
+    "start": null,
+    "end": null
+  },
+  {
+    "word": "が",
+    "start": null,
+    "end": null
+  },
+  {
+    "word": "く",
+    "start": null,
+    "end": null
+  },
+  {
+    "word": "を",
+    "start": null,
+    "end": null
+  },
+  {
+    "word": "も",
+    "start": null,
+    "end": null
+  },
+  {
+    "word": "っ",
+    "start": null,
+    "end": null
+  },
+  {
+    "word": "と",
+    "start": null,
+    "end": null
+  },
+  {
+    "word": "上",
+    "start": null,
+    "end": null
+  },
+  {
+    "word": "げ",
+    "start": null,
+    "end": null
+  },
+  {
+    "word": "て",
+    "start": null,
+    "end": null
+  },
+  {
+    "word": "ほ",
+    "start": null,
+    "end": null
+  },
+  {
+    "word": "し",
+    "start": null,
+    "end": null
+  },
+  {
+    "word": "い",
+    "start": null,
+    "end": null
+  },
+  {
+    "role": "line-break",
+    "word": ""
+  },
+  {
+    "word": "2",
+    "start": null,
+    "end": null
+  },
+  {
+    "word": ".",
+    "start": null,
+    "end": null
+  },
+  {
+    "word": "き",
+    "start": null,
+    "end": null
+  },
+  {
+    "word": "ゅ",
+    "start": null,
+    "end": null
+  },
+  {
+    "word": "う",
+    "start": null,
+    "end": null
+  },
+  {
+    "word": "か",
+    "start": null,
+    "end": null
+  },
+  {
+    "word": "の",
+    "start": null,
+    "end": null
+  },
+  {
+    "word": "し",
+    "start": null,
+    "end": null
+  },
+  {
+    "word": "ん",
+    "start": null,
+    "end": null
+  },
+  {
+    "word": "せ",
+    "start": null,
+    "end": null
+  },
+  {
+    "word": "い",
+    "start": null,
+    "end": null
+  },
+  {
+    "word": "方",
+    "start": null,
+    "end": null
+  },
+  {
+    "word": "法",
+    "start": null,
+    "end": null
+  },
+  {
+    "word": "を",
+    "start": null,
+    "end": null
+  },
+  {
+    "word": "簡",
+    "start": null,
+    "end": null
+  },
+  {
+    "word": "単",
+    "start": null,
+    "end": null
+  },
+  {
+    "word": "に",
+    "start": null,
+    "end": null
+  },
+  {
+    "word": "し",
+    "start": null,
+    "end": null
+  },
+  {
+    "word": "て",
+    "start": null,
+    "end": null
+  },
+  {
+    "word": "ほ",
+    "start": null,
+    "end": null
+  },
+  {
+    "word": "し",
+    "start": null,
+    "end": null
+  },
+  {
+    "word": "い",
+    "start": null,
+    "end": null
+  },
+  {
+    "role": "line-break",
+    "word": ""
+  },
+  {
+    "word": "3",
+    "start": null,
+    "end": null
+  },
+  {
+    "word": ".",
+    "start": null,
+    "end": null
+  },
+  {
+    "word": "🐰",
+    "start": null,
+    "end": null
+  },
+  {
+    "word": "☞",
+    "start": null,
+    "end": null
+  },
+  {
+    "word": "在",
+    "start": null,
+    "end": null
+  },
+  {
+    "word": "宅",
+    "start": null,
+    "end": null
+  },
+  {
+    "word": "で",
+    "start": null,
+    "end": null
+  },
+  {
+    "word": "の",
+    "start": null,
+    "end": null
+  },
+  {
+    "word": "き",
+    "start": null,
+    "end": null
+  },
+  {
+    "word": "ん",
+    "start": null,
+    "end": null
+  },
+  {
+    "word": "む",
+    "start": null,
+    "end": null
+  },
+  {
+    "word": "を",
+    "start": null,
+    "end": null
+  },
+  {
+    "word": "増",
+    "start": null,
+    "end": null
+  },
+  {
+    "word": "や",
+    "start": null,
+    "end": null
+  },
+  {
+    "word": "し",
+    "start": null,
+    "end": null
+  },
+  {
+    "word": "て",
+    "start": null,
+    "end": null
+  },
+  {
+    "word": "ほ",
+    "start": null,
+    "end": null
+  },
+  {
+    "word": "し",
+    "start": null,
+    "end": null
+  },
+  {
+    "word": "い",
+    "start": null,
+    "end": null
+  },
+  {
+    "role": "line-break",
+    "word": ""
+  },
+  {
+    "word": "4",
+    "start": null,
+    "end": null
+  },
+  {
+    "word": ".",
+    "start": null,
+    "end": null
+  },
+  {
+    "word": "パ",
+    "start": null,
+    "end": null
+  },
+  {
+    "word": "ソ",
+    "start": null,
+    "end": null
+  },
+  {
+    "word": "コ",
+    "start": null,
+    "end": null
+  },
+  {
+    "word": "ン",
+    "start": null,
+    "end": null
+  },
+  {
+    "word": "を",
+    "start": null,
+    "end": null
+  },
+  {
+    "word": "新",
+    "start": null,
+    "end": null
+  },
+  {
+    "word": "し",
+    "start": null,
+    "end": null
+  },
+  {
+    "word": "く",
+    "start": null,
+    "end": null
+  },
+  {
+    "word": "し",
+    "start": null,
+    "end": null
+  },
+  {
+    "word": "て",
+    "start": null,
+    "end": null
+  },
+  {
+    "word": "ほ",
+    "start": null,
+    "end": null
+  },
+  {
+    "word": "し",
+    "start": null,
+    "end": null
+  },
+  {
+    "word": "い",
+    "start": null,
+    "end": null
+  },
+  {
+    "role": "line-break",
+    "word": ""
   }
 ]
