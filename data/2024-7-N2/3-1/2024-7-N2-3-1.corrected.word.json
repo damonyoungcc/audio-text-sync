@@ -127,9 +127,7 @@
   },
   {
     "role": "line-break",
-    "word": "",
-    "start": 6.683,
-    "end": 6.683
+    "word": ""
   },
   {
     "role": "bold-word",
@@ -1094,9 +1092,7 @@
   },
   {
     "role": "line-break",
-    "word": "",
-    "start": 40.399,
-    "end": 40.399
+    "word": ""
   },
   {
     "role": "bold-word",
@@ -1226,9 +1222,7 @@
   },
   {
     "role": "line-break",
-    "word": "",
-    "start": 46.657,
-    "end": 46.657
+    "word": ""
   },
   {
     "role": "bold-word",
@@ -1269,15 +1263,25 @@
   },
   {
     "role": "line-break",
-    "word": "",
-    "start": 47.359,
-    "end": 51.96
+    "word": ""
   },
   {
     "role": "bold-word",
     "word": "2.",
-    "start": 51.96,
-    "end": 51.96
+    "start": 47.359,
+    "end": 50.716
+  },
+  {
+    "start": 50.716,
+    "end": 50.716,
+    "word": "🐰"
+  },
+  {
+    "word": "☞",
+    "start": 50.716,
+    "end": 51.96,
+    "score": 0.984,
+    "speaker": "SPEAKER_02"
   },
   {
     "word": "歯",
@@ -1312,14 +1316,12 @@
   },
   {
     "role": "line-break",
-    "word": "",
-    "start": 56.031,
-    "end": 57.374
+    "word": ""
   },
   {
     "role": "bold-word",
     "word": "3.",
-    "start": 57.374,
+    "start": 56.031,
     "end": 57.374
   },
   {
@@ -1398,14 +1400,12 @@
   },
   {
     "role": "line-break",
-    "word": "",
-    "start": 59.019,
-    "end": 63.706
+    "word": ""
   },
   {
     "role": "bold-word",
     "word": "4.",
-    "start": 63.706,
+    "start": 59.019,
     "end": 63.706
   },
   {
