@@ -1,7 +1,7 @@
 // === 设定与全局变量 ===
 const basePath = "data/";
 const configPath = `${basePath}dir_config.json`;
-const timeCountDown = 3;
+const timeCountDown = 5;
 
 let defaultYear;
 let defaultQuestion;
