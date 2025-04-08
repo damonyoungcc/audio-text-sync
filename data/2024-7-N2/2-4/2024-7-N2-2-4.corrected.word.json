@@ -415,9 +415,7 @@
   },
   {
     "role": "line-break",
-    "word": "",
-    "start": 38.373,
-    "end": 38.373
+    "word": ""
   },
   {
     "role": "bold-word",
@@ -993,9 +991,7 @@
   },
   {
     "role": "line-break",
-    "word": "",
-    "start": 51.623,
-    "end": 51.623
+    "word": ""
   },
   {
     "role": "bold-word",
@@ -1790,9 +1786,7 @@
   },
   {
     "role": "line-break",
-    "word": "",
-    "start": 70.308,
-    "end": 70.308
+    "word": ""
   },
   {
     "role": "bold-word",
@@ -2021,9 +2015,7 @@
   },
   {
     "role": "line-break",
-    "word": "",
-    "start": 77.557,
-    "end": 77.557
+    "word": ""
   },
   {
     "role": "bold-word",
@@ -2372,9 +2364,7 @@
   },
   {
     "role": "line-break",
-    "word": "",
-    "start": 87.223,
-    "end": 87.223
+    "word": ""
   },
   {
     "role": "bold-word",
@@ -2812,9 +2802,7 @@
   },
   {
     "role": "line-break",
-    "word": "",
-    "start": 99.824,
-    "end": 99.824
+    "word": ""
   },
   {
     "role": "bold-word",
@@ -3317,9 +3305,7 @@
   },
   {
     "role": "line-break",
-    "word": "",
-    "start": 111.23,
-    "end": 111.23
+    "word": ""
   },
   {
     "role": "bold-word",
@@ -3436,9 +3422,7 @@
   },
   {
     "role": "line-break",
-    "word": "",
-    "start": 115.313,
-    "end": 115.313
+    "word": ""
   },
   {
     "role": "bold-word",
@@ -3652,9 +3636,7 @@
   },
   {
     "role": "line-break",
-    "word": "",
-    "start": 126.772,
-    "end": 126.772
+    "word": ""
   },
   {
     "role": "bold-word",
@@ -3863,5 +3845,398 @@
     "word": "。",
     "start": 131.537,
     "end": 131.547
+  },
+  {
+    "role": "line-break",
+    "word": ""
+  },
+  {
+    "role": "copy-marker",
+    "word": "### NO_ALIGN_BELOW"
+  },
+  {
+    "role": "line-break",
+    "word": ""
+  },
+  {
+    "word": "1",
+    "start": null,
+    "end": null
+  },
+  {
+    "word": ".",
+    "start": null,
+    "end": null
+  },
+  {
+    "word": "フ",
+    "start": null,
+    "end": null
+  },
+  {
+    "word": "ァ",
+    "start": null,
+    "end": null
+  },
+  {
+    "word": "ッ",
+    "start": null,
+    "end": null
+  },
+  {
+    "word": "シ",
+    "start": null,
+    "end": null
+  },
+  {
+    "word": "ョ",
+    "start": null,
+    "end": null
+  },
+  {
+    "word": "ン",
+    "start": null,
+    "end": null
+  },
+  {
+    "word": "雑",
+    "start": null,
+    "end": null
+  },
+  {
+    "word": "誌",
+    "start": null,
+    "end": null
+  },
+  {
+    "word": "を",
+    "start": null,
+    "end": null
+  },
+  {
+    "word": "参",
+    "start": null,
+    "end": null
+  },
+  {
+    "word": "考",
+    "start": null,
+    "end": null
+  },
+  {
+    "word": "に",
+    "start": null,
+    "end": null
+  },
+  {
+    "word": "す",
+    "start": null,
+    "end": null
+  },
+  {
+    "word": "る",
+    "start": null,
+    "end": null
+  },
+  {
+    "role": "line-break",
+    "word": ""
+  },
+  {
+    "word": "2",
+    "start": null,
+    "end": null
+  },
+  {
+    "word": ".",
+    "start": null,
+    "end": null
+  },
+  {
+    "word": "フ",
+    "start": null,
+    "end": null
+  },
+  {
+    "word": "ァ",
+    "start": null,
+    "end": null
+  },
+  {
+    "word": "ッ",
+    "start": null,
+    "end": null
+  },
+  {
+    "word": "シ",
+    "start": null,
+    "end": null
+  },
+  {
+    "word": "ョ",
+    "start": null,
+    "end": null
+  },
+  {
+    "word": "ン",
+    "start": null,
+    "end": null
+  },
+  {
+    "word": "の",
+    "start": null,
+    "end": null
+  },
+  {
+    "word": "プ",
+    "start": null,
+    "end": null
+  },
+  {
+    "word": "ロ",
+    "start": null,
+    "end": null
+  },
+  {
+    "word": "に",
+    "start": null,
+    "end": null
+  },
+  {
+    "word": "服",
+    "start": null,
+    "end": null
+  },
+  {
+    "word": "を",
+    "start": null,
+    "end": null
+  },
+  {
+    "word": "選",
+    "start": null,
+    "end": null
+  },
+  {
+    "word": "ん",
+    "start": null,
+    "end": null
+  },
+  {
+    "word": "で",
+    "start": null,
+    "end": null
+  },
+  {
+    "word": "も",
+    "start": null,
+    "end": null
+  },
+  {
+    "word": "ら",
+    "start": null,
+    "end": null
+  },
+  {
+    "word": "う",
+    "start": null,
+    "end": null
+  },
+  {
+    "role": "line-break",
+    "word": ""
+  },
+  {
+    "word": "3",
+    "start": null,
+    "end": null
+  },
+  {
+    "word": ".",
+    "start": null,
+    "end": null
+  },
+  {
+    "word": "🐰",
+    "start": null,
+    "end": null
+  },
+  {
+    "word": "☞",
+    "start": null,
+    "end": null
+  },
+  {
+    "word": "毎",
+    "start": null,
+    "end": null
+  },
+  {
+    "word": "日",
+    "start": null,
+    "end": null
+  },
+  {
+    "word": "、",
+    "start": null,
+    "end": null
+  },
+  {
+    "word": "に",
+    "start": null,
+    "end": null
+  },
+  {
+    "word": "た",
+    "start": null,
+    "end": null
+  },
+  {
+    "word": "よ",
+    "start": null,
+    "end": null
+  },
+  {
+    "word": "う",
+    "start": null,
+    "end": null
+  },
+  {
+    "word": "な",
+    "start": null,
+    "end": null
+  },
+  {
+    "word": "シ",
+    "start": null,
+    "end": null
+  },
+  {
+    "word": "ン",
+    "start": null,
+    "end": null
+  },
+  {
+    "word": "プ",
+    "start": null,
+    "end": null
+  },
+  {
+    "word": "ル",
+    "start": null,
+    "end": null
+  },
+  {
+    "word": "な",
+    "start": null,
+    "end": null
+  },
+  {
+    "word": "服",
+    "start": null,
+    "end": null
+  },
+  {
+    "word": "を",
+    "start": null,
+    "end": null
+  },
+  {
+    "word": "着",
+    "start": null,
+    "end": null
+  },
+  {
+    "word": "る",
+    "start": null,
+    "end": null
+  },
+  {
+    "role": "line-break",
+    "word": ""
+  },
+  {
+    "word": "4",
+    "start": null,
+    "end": null
+  },
+  {
+    "word": ".",
+    "start": null,
+    "end": null
+  },
+  {
+    "word": "リ",
+    "start": null,
+    "end": null
+  },
+  {
+    "word": "サ",
+    "start": null,
+    "end": null
+  },
+  {
+    "word": "イ",
+    "start": null,
+    "end": null
+  },
+  {
+    "word": "ク",
+    "start": null,
+    "end": null
+  },
+  {
+    "word": "ル",
+    "start": null,
+    "end": null
+  },
+  {
+    "word": "シ",
+    "start": null,
+    "end": null
+  },
+  {
+    "word": "ョ",
+    "start": null,
+    "end": null
+  },
+  {
+    "word": "ッ",
+    "start": null,
+    "end": null
+  },
+  {
+    "word": "プ",
+    "start": null,
+    "end": null
+  },
+  {
+    "word": "で",
+    "start": null,
+    "end": null
+  },
+  {
+    "word": "服",
+    "start": null,
+    "end": null
+  },
+  {
+    "word": "を",
+    "start": null,
+    "end": null
+  },
+  {
+    "word": "買",
+    "start": null,
+    "end": null
+  },
+  {
+    "word": "う",
+    "start": null,
+    "end": null
+  },
+  {
+    "role": "line-break",
+    "word": ""
   }
 ]
