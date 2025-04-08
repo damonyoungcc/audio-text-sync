@@ -32,7 +32,7 @@ html, body {
 
 #audio {
   display: block;
-  margin: 10px auto;
+  margin: 10px auto 5px;
 }
 
 #controls {
@@ -226,4 +226,25 @@ ruby rt {
 .bold-word::after {
   content: " ";
   display: inline-block;
+}
+
+.countdown-display {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 12px;
+  color: #9e9c9c;
+  margin-bottom: 3px;
+}
+
+.countdown-number {
+  min-width: 1em;
+  transition: all 0.3s ease-in-out;
+  opacity: 1;
+  font-weight: bold;
+  padding: 0 2px;
+}
+
+.countdown-number.changed {
+  opacity: 0.3;
 }

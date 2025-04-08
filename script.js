@@ -19,6 +19,10 @@ const furiganaToggleBtn = document.getElementById("fabToggleFurigana");
 
 let showFurigana = localStorage.getItem("showFurigana") !== "false";
 
+const targetDateStr = "2025-07-06";
+const targetDate = new Date(targetDateStr + "T00:00:00"); // 精确到日期，时间默认 00:00:00
+const countdownDisplay = document.getElementById("countdownDisplay");
+
 // === 初始化逻辑 ===
 window.addEventListener("DOMContentLoaded", async () => {
   await fetchConfig();
@@ -236,3 +240,53 @@ furiganaToggleBtn.addEventListener("click", () => {
   furiganaToggleBtn.classList.toggle("toggle-on", showFurigana);
   furiganaToggleBtn.classList.toggle("toggle-off", !showFurigana);
 });
+
+function formatNumber(num) {
+  return String(num).padStart(2, "0"); // 统一两位数显示
+}
+
+function animateChange(span, newValue) {
+  if (span.textContent !== newValue) {
+    span.classList.add("changed");
+    setTimeout(() => {
+      span.textContent = newValue;
+      span.classList.remove("changed");
+    }, 100); // 与 CSS 中 transition 时长一致
+  }
+}
+
+// 页面加载时先生成 DOM 结构（避免第一次为空）
+countdownDisplay.innerHTML = `
+  <span class="countdown-number">25.7</span>の試験まであと:
+  <span id="days" class="countdown-number">00</span>日 
+  <span id="hours" class="countdown-number">00</span>時間 
+  <span id="minutes" class="countdown-number">00</span>分 
+  <span id="seconds" class="countdown-number">00</span>秒`;
+
+function updateCountdown() {
+  const now = new Date();
+  const diff = targetDate - now;
+
+  if (diff <= 0) {
+    document.getElementById("days").textContent = "00";
+    document.getElementById("hours").textContent = "00";
+    document.getElementById("minutes").textContent = "00";
+    document.getElementById("seconds").textContent = "00";
+    clearInterval(timer);
+    return;
+  }
+
+  const days = Math.floor(diff / (1000 * 60 * 60 * 24));
+  const hours = Math.floor((diff / (1000 * 60 * 60)) % 24);
+  const minutes = Math.floor((diff / (1000 * 60)) % 60);
+  const seconds = Math.floor((diff / 1000) % 60);
+
+  animateChange(document.getElementById("days"), formatNumber(days));
+  animateChange(document.getElementById("hours"), formatNumber(hours));
+  animateChange(document.getElementById("minutes"), formatNumber(minutes));
+  animateChange(document.getElementById("seconds"), formatNumber(seconds));
+}
+
+// 初始化并每秒更新
+updateCountdown();
+const timer = setInterval(updateCountdown, 1000);
