@@ -135,9 +135,7 @@
   },
   {
     "role": "line-break",
-    "word": "",
-    "start": 7.901,
-    "end": 7.901
+    "word": ""
   },
   {
     "role": "bold-word",
@@ -1798,9 +1796,7 @@
   },
   {
     "role": "line-break",
-    "word": "",
-    "start": 57.122,
-    "end": 57.122
+    "word": ""
   },
   {
     "role": "bold-word",
@@ -1959,9 +1955,7 @@
   },
   {
     "role": "line-break",
-    "word": "",
-    "start": 64.131,
-    "end": 64.131
+    "word": ""
   },
   {
     "role": "bold-word",
@@ -2071,14 +2065,12 @@
   },
   {
     "role": "line-break",
-    "word": "",
-    "start": 66.114,
-    "end": 70.648
+    "word": ""
   },
   {
     "role": "bold-word",
     "word": "2.",
-    "start": 70.648,
+    "start": 66.114,
     "end": 70.648
   },
   {
@@ -2176,9 +2168,7 @@
   },
   {
     "role": "line-break",
-    "word": "",
-    "start": 77.078,
-    "end": 77.078
+    "word": ""
   },
   {
     "role": "bold-word",
@@ -2286,15 +2276,23 @@
   },
   {
     "role": "line-break",
-    "word": "",
-    "start": 78.901,
-    "end": 83.453
+    "word": ""
   },
   {
     "role": "bold-word",
     "word": "4.",
-    "start": 83.453,
+    "start": 78.901,
     "end": 83.453
+  },
+  {
+    "start": 83.453,
+    "end": 83.453,
+    "word": "🐰"
+  },
+  {
+    "start": 83.453,
+    "end": 83.453,
+    "word": "☞"
   },
   {
     "word": "デ",
