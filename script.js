@@ -106,6 +106,9 @@ function renderTranscript(wordsArray) {
   transcriptDiv.innerHTML = "";
 
   wordsArray.forEach((item) => {
+    if (item.role === "copy-marker") {
+      return null;
+    }
     if (item.role === "line-break") {
       const divider = document.createElement("div");
       divider.className = "line-break";
