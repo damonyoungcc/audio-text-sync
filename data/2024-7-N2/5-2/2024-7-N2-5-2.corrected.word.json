@@ -4369,5 +4369,337 @@
     "word": "。",
     "start": 162.324,
     "end": 162.334
+  },
+  {
+    "role": "line-break",
+    "word": ""
+  },
+  {
+    "role": "copy-marker",
+    "word": "### NO_ALIGN_BELOW"
+  },
+  {
+    "role": "line-break",
+    "word": ""
+  },
+  {
+    "word": "Q",
+    "start": null,
+    "end": null
+  },
+  {
+    "word": "1",
+    "start": null,
+    "end": null
+  },
+  {
+    "word": ":",
+    "start": null,
+    "end": null
+  },
+  {
+    "role": "line-break",
+    "word": ""
+  },
+  {
+    "word": "1",
+    "start": null,
+    "end": null
+  },
+  {
+    "word": ".",
+    "start": null,
+    "end": null
+  },
+  {
+    "word": "🐰",
+    "start": null,
+    "end": null
+  },
+  {
+    "word": "☞",
+    "start": null,
+    "end": null
+  },
+  {
+    "word": "中",
+    "start": null,
+    "end": null
+  },
+  {
+    "word": "央",
+    "start": null,
+    "end": null
+  },
+  {
+    "word": "会",
+    "start": null,
+    "end": null
+  },
+  {
+    "word": "場",
+    "start": null,
+    "end": null
+  },
+  {
+    "word": " ",
+    "start": null,
+    "end": null
+  },
+  {
+    "word": " ",
+    "start": null,
+    "end": null
+  },
+  {
+    "role": "line-break",
+    "word": ""
+  },
+  {
+    "word": "2",
+    "start": null,
+    "end": null
+  },
+  {
+    "word": ".",
+    "start": null,
+    "end": null
+  },
+  {
+    "word": "南",
+    "start": null,
+    "end": null
+  },
+  {
+    "word": "会",
+    "start": null,
+    "end": null
+  },
+  {
+    "word": "場",
+    "start": null,
+    "end": null
+  },
+  {
+    "role": "line-break",
+    "word": ""
+  },
+  {
+    "word": "3",
+    "start": null,
+    "end": null
+  },
+  {
+    "word": ".",
+    "start": null,
+    "end": null
+  },
+  {
+    "word": "東",
+    "start": null,
+    "end": null
+  },
+  {
+    "word": "会",
+    "start": null,
+    "end": null
+  },
+  {
+    "word": "場",
+    "start": null,
+    "end": null
+  },
+  {
+    "role": "line-break",
+    "word": ""
+  },
+  {
+    "word": "4",
+    "start": null,
+    "end": null
+  },
+  {
+    "word": ".",
+    "start": null,
+    "end": null
+  },
+  {
+    "word": "⻄",
+    "start": null,
+    "end": null
+  },
+  {
+    "word": "会",
+    "start": null,
+    "end": null
+  },
+  {
+    "word": "場",
+    "start": null,
+    "end": null
+  },
+  {
+    "role": "line-break",
+    "word": ""
+  },
+  {
+    "word": "Q",
+    "start": null,
+    "end": null
+  },
+  {
+    "word": "2",
+    "start": null,
+    "end": null
+  },
+  {
+    "word": ":",
+    "start": null,
+    "end": null
+  },
+  {
+    "role": "line-break",
+    "word": ""
+  },
+  {
+    "word": "1",
+    "start": null,
+    "end": null
+  },
+  {
+    "word": ".",
+    "start": null,
+    "end": null
+  },
+  {
+    "word": "中",
+    "start": null,
+    "end": null
+  },
+  {
+    "word": "央",
+    "start": null,
+    "end": null
+  },
+  {
+    "word": "会",
+    "start": null,
+    "end": null
+  },
+  {
+    "word": "場",
+    "start": null,
+    "end": null
+  },
+  {
+    "word": " ",
+    "start": null,
+    "end": null
+  },
+  {
+    "word": " ",
+    "start": null,
+    "end": null
+  },
+  {
+    "role": "line-break",
+    "word": ""
+  },
+  {
+    "word": "2",
+    "start": null,
+    "end": null
+  },
+  {
+    "word": ".",
+    "start": null,
+    "end": null
+  },
+  {
+    "word": "南",
+    "start": null,
+    "end": null
+  },
+  {
+    "word": "会",
+    "start": null,
+    "end": null
+  },
+  {
+    "word": "場",
+    "start": null,
+    "end": null
+  },
+  {
+    "role": "line-break",
+    "word": ""
+  },
+  {
+    "word": "3",
+    "start": null,
+    "end": null
+  },
+  {
+    "word": ".",
+    "start": null,
+    "end": null
+  },
+  {
+    "word": "🐰",
+    "start": null,
+    "end": null
+  },
+  {
+    "word": "☞",
+    "start": null,
+    "end": null
+  },
+  {
+    "word": "東",
+    "start": null,
+    "end": null
+  },
+  {
+    "word": "会",
+    "start": null,
+    "end": null
+  },
+  {
+    "word": "場",
+    "start": null,
+    "end": null
+  },
+  {
+    "role": "line-break",
+    "word": ""
+  },
+  {
+    "word": "4",
+    "start": null,
+    "end": null
+  },
+  {
+    "word": ".",
+    "start": null,
+    "end": null
+  },
+  {
+    "word": "⻄",
+    "start": null,
+    "end": null
+  },
+  {
+    "word": "会",
+    "start": null,
+    "end": null
+  },
+  {
+    "word": "場",
+    "start": null,
+    "end": null
+  },
+  {
+    "role": "line-break",
+    "word": ""
   }
 ]
