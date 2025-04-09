@@ -16,7 +16,9 @@
     "furigana": "ばん"
   },
   {
-    "word": "、"
+    "word": "、",
+    "start": 2.198,
+    "end": 2.48
   },
   {
     "word": "日",
@@ -66,7 +68,9 @@
     "speaker": "SPEAKER_00"
   },
   {
-    "word": "、"
+    "word": "、",
+    "start": 4.062,
+    "end": 4.062
   },
   {
     "word": "先",
@@ -135,7 +139,9 @@
     "speaker": "SPEAKER_00"
   },
   {
-    "word": "。"
+    "word": "。",
+    "start": 6.564,
+    "end": 6.564
   },
   {
     "word": "学",
@@ -183,7 +189,9 @@
     "furigana": "あと"
   },
   {
-    "word": "、"
+    "word": "、",
+    "start": 8.466,
+    "end": 8.466
   },
   {
     "word": "ス",
@@ -294,7 +302,9 @@
     "speaker": "SPEAKER_00"
   },
   {
-    "word": "。"
+    "word": "。",
+    "start": 13.25,
+    "end": 13.25
   },
   {
     "role": "line-break",
@@ -302,7 +312,9 @@
   },
   {
     "role": "bold-word",
-    "word": "F:"
+    "word": "F:",
+    "start": 13.25,
+    "end": 13.25
   },
   {
     "word": "先",
@@ -466,11 +478,13 @@
     "speaker": "SPEAKER_01"
   },
   {
-    "word": "。"
+    "word": "。",
+    "start": 17.554,
+    "end": 17.554
   },
   {
-    "start": 0.0,
-    "end": 0.0,
+    "start": 17.554,
+    "end": 17.554,
     "word": "は"
   },
   {
@@ -495,13 +509,13 @@
     "speaker": "SPEAKER_01"
   },
   {
-    "start": 0.0,
-    "end": 0.0,
+    "start": 17.894,
+    "end": 17.894,
     "word": "と"
   },
   {
-    "start": 0.0,
-    "end": 0.0,
+    "start": 17.894,
+    "end": 17.894,
     "word": "こ"
   },
   {
@@ -629,7 +643,9 @@
     "speaker": "SPEAKER_01"
   },
   {
-    "word": "、"
+    "word": "、",
+    "start": 20.917,
+    "end": 20.917
   },
   {
     "word": "皆",
@@ -718,7 +734,9 @@
     "speaker": "SPEAKER_01"
   },
   {
-    "word": "。"
+    "word": "。",
+    "start": 23.299,
+    "end": 23.299
   },
   {
     "word": "ス",
@@ -879,7 +897,9 @@
     "speaker": "SPEAKER_01"
   },
   {
-    "word": "。"
+    "word": "。",
+    "start": 26.142,
+    "end": 27.297
   },
   {
     "word": "授",
@@ -956,7 +976,9 @@
     "speaker": "SPEAKER_01"
   },
   {
-    "word": "、"
+    "word": "、",
+    "start": 29.058,
+    "end": 29.058
   },
   {
     "word": "難",
@@ -1055,7 +1077,9 @@
     "speaker": "SPEAKER_01"
   },
   {
-    "word": "、"
+    "word": "、",
+    "start": 31.739,
+    "end": 31.739
   },
   {
     "word": "分",
@@ -1200,7 +1224,9 @@
     "speaker": "SPEAKER_01"
   },
   {
-    "word": "、"
+    "word": "、",
+    "start": 34.72,
+    "end": 34.72
   },
   {
     "word": "皆",
@@ -1225,7 +1251,9 @@
     "speaker": "SPEAKER_01"
   },
   {
-    "word": "、"
+    "word": "、",
+    "start": 35.56,
+    "end": 35.56
   },
   {
     "word": "文",
@@ -1408,7 +1436,9 @@
     "speaker": "SPEAKER_01"
   },
   {
-    "word": "。"
+    "word": "。",
+    "start": 40.142,
+    "end": 40.142
   },
   {
     "word": "不",
@@ -1478,7 +1508,9 @@
     "speaker": "SPEAKER_01"
   },
   {
-    "word": "、"
+    "word": "、",
+    "start": 42.023,
+    "end": 42.023
   },
   {
     "word": "今",
@@ -1590,7 +1622,9 @@
     "speaker": "SPEAKER_01"
   },
   {
-    "word": "。"
+    "word": "。",
+    "start": 45.004,
+    "end": 45.004
   },
   {
     "word": "そ",
@@ -1607,8 +1641,8 @@
     "speaker": "SPEAKER_01"
   },
   {
-    "start": 0.0,
-    "end": 0.0,
+    "start": 45.244,
+    "end": 45.244,
     "word": "ほ"
   },
   {
@@ -1669,7 +1703,9 @@
     "speaker": "SPEAKER_01"
   },
   {
-    "word": "、"
+    "word": "、",
+    "start": 46.665,
+    "end": 46.665
   },
   {
     "word": "そ",
@@ -1771,7 +1807,9 @@
     "speaker": "SPEAKER_01"
   },
   {
-    "word": "。"
+    "word": "。",
+    "start": 48.966,
+    "end": 48.966
   },
   {
     "word": "全",
@@ -1920,7 +1958,9 @@
     "speaker": "SPEAKER_01"
   },
   {
-    "word": "。"
+    "word": "。",
+    "start": 52.227,
+    "end": 58.276
   },
   {
     "role": "line-break",
@@ -1928,7 +1968,9 @@
   },
   {
     "role": "bold-word",
-    "word": "Q:"
+    "word": "Q:",
+    "start": 58.276,
+    "end": 58.276
   },
   {
     "word": "学",
@@ -1976,7 +2018,9 @@
     "furigana": "あと"
   },
   {
-    "word": "、"
+    "word": "、",
+    "start": 60.162,
+    "end": 60.162
   },
   {
     "word": "ス",
@@ -2087,6 +2131,301 @@
     "speaker": "SPEAKER_00"
   },
   {
-    "word": "。"
+    "word": "。",
+    "start": 62.75,
+    "end": 62.76
+  },
+  {
+    "role": "line-break",
+    "word": ""
+  },
+  {
+    "role": "copy-marker",
+    "word": "### NO_ALIGN_BELOW"
+  },
+  {
+    "role": "line-break",
+    "word": ""
+  },
+  {
+    "word": "1",
+    "start": null,
+    "end": null
+  },
+  {
+    "word": ".",
+    "start": null,
+    "end": null
+  },
+  {
+    "word": "じ",
+    "start": null,
+    "end": null
+  },
+  {
+    "word": "こ",
+    "start": null,
+    "end": null
+  },
+  {
+    "word": "し",
+    "start": null,
+    "end": null
+  },
+  {
+    "word": "ょ",
+    "start": null,
+    "end": null
+  },
+  {
+    "word": "う",
+    "start": null,
+    "end": null
+  },
+  {
+    "word": "か",
+    "start": null,
+    "end": null
+  },
+  {
+    "word": "い",
+    "start": null,
+    "end": null
+  },
+  {
+    "word": "を",
+    "start": null,
+    "end": null
+  },
+  {
+    "word": "入",
+    "start": null,
+    "end": null
+  },
+  {
+    "word": "れ",
+    "start": null,
+    "end": null
+  },
+  {
+    "word": "る",
+    "start": null,
+    "end": null
+  },
+  {
+    "role": "line-break",
+    "word": ""
+  },
+  {
+    "word": "2",
+    "start": null,
+    "end": null
+  },
+  {
+    "word": ".",
+    "start": null,
+    "end": null
+  },
+  {
+    "word": "難",
+    "start": null,
+    "end": null
+  },
+  {
+    "word": "し",
+    "start": null,
+    "end": null
+  },
+  {
+    "word": "い",
+    "start": null,
+    "end": null
+  },
+  {
+    "word": "言",
+    "start": null,
+    "end": null
+  },
+  {
+    "word": "葉",
+    "start": null,
+    "end": null
+  },
+  {
+    "word": "に",
+    "start": null,
+    "end": null
+  },
+  {
+    "word": "説",
+    "start": null,
+    "end": null
+  },
+  {
+    "word": "明",
+    "start": null,
+    "end": null
+  },
+  {
+    "word": "を",
+    "start": null,
+    "end": null
+  },
+  {
+    "word": "加",
+    "start": null,
+    "end": null
+  },
+  {
+    "word": "え",
+    "start": null,
+    "end": null
+  },
+  {
+    "word": "る",
+    "start": null,
+    "end": null
+  },
+  {
+    "role": "line-break",
+    "word": ""
+  },
+  {
+    "word": "3",
+    "start": null,
+    "end": null
+  },
+  {
+    "word": ".",
+    "start": null,
+    "end": null
+  },
+  {
+    "word": "🐰",
+    "start": null,
+    "end": null
+  },
+  {
+    "word": "☞",
+    "start": null,
+    "end": null
+  },
+  {
+    "word": "文",
+    "start": null,
+    "end": null
+  },
+  {
+    "word": "を",
+    "start": null,
+    "end": null
+  },
+  {
+    "word": "つ",
+    "start": null,
+    "end": null
+  },
+  {
+    "word": "な",
+    "start": null,
+    "end": null
+  },
+  {
+    "word": "ぐ",
+    "start": null,
+    "end": null
+  },
+  {
+    "word": "言",
+    "start": null,
+    "end": null
+  },
+  {
+    "word": "葉",
+    "start": null,
+    "end": null
+  },
+  {
+    "word": "を",
+    "start": null,
+    "end": null
+  },
+  {
+    "word": "追",
+    "start": null,
+    "end": null
+  },
+  {
+    "word": "加",
+    "start": null,
+    "end": null
+  },
+  {
+    "word": "す",
+    "start": null,
+    "end": null
+  },
+  {
+    "word": "る",
+    "start": null,
+    "end": null
+  },
+  {
+    "role": "line-break",
+    "word": ""
+  },
+  {
+    "word": "4",
+    "start": null,
+    "end": null
+  },
+  {
+    "word": ".",
+    "start": null,
+    "end": null
+  },
+  {
+    "word": "全",
+    "start": null,
+    "end": null
+  },
+  {
+    "word": "体",
+    "start": null,
+    "end": null
+  },
+  {
+    "word": "的",
+    "start": null,
+    "end": null
+  },
+  {
+    "word": "に",
+    "start": null,
+    "end": null
+  },
+  {
+    "word": "短",
+    "start": null,
+    "end": null
+  },
+  {
+    "word": "く",
+    "start": null,
+    "end": null
+  },
+  {
+    "word": "す",
+    "start": null,
+    "end": null
+  },
+  {
+    "word": "る",
+    "start": null,
+    "end": null
+  },
+  {
+    "role": "line-break",
+    "word": ""
   }
 ]
