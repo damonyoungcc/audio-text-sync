@@ -37,18 +37,19 @@ audio-text-sync/
     ├── generate_subtitles.py      # whisperX读取data目录下指定路径的音频生成带时间线的文本json
     ├── update_config.py           # 生成json后读取一下，更新一下dir_config.json
     ├── correct_audio_json.py      # 生成json后，根据提供的original.txt进行校对
-    ├── enrich_furigana.py         # 生成json后，根据提供kanji_furigana_map.json对汉字进行假名标注
-    └── enrich_furigana.py         # 配置文件，这里配置要处理的音频的年份和题号
+    ├── enrich_furigana.py         # 生成json后，根据提供kanji_furigana_map.json对汉字进行假名标注，这
+    └── target_config.py           # 配置文件，这里配置要处理的音频的年份和题号
 ```
 
 ## 🧰 技术栈与依赖工具
 
-本项目由前端静态页面和后端字幕生成脚本组成：
+本项目由前端静态页面和后端字幕生成处理的python脚本组成：
 
 ### 🖥 前端部分（同步播放器）
 
-- HTML + CSS + JavaScript：纯前端实现，无需后端部署
-- 原生 Audio API：控制音频播放
+- HTML + CSS
+- Vanilla JavaScript库提供了强力支持
+- 原生 Audio API
 
 ### 🧠 后端工具（字幕数据生成）
 
@@ -65,12 +66,10 @@ audio-text-sync/
 
 ## 💬 一点感悟
 
-工具只是工具，真正重要的，还是你愿不愿意每天投入一点时间、一点热情去学习。
-
-希望这个播放器能帮你更专注地听、反复地练，把一小段日语，听得清清楚楚，说得自然流利。加油！💪
+这只是一个工具，真正重要的是去执行。💪
 
 ## 🙏 特别鸣谢
 
 本项目开发过程中，ChatGPT 提供了持续性的精神支持、代码辅助、BUG 辱骂以及 24 小时的陪聊服务。
 
-当了一次产品经理。
+这一次我是产品经理。
