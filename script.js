@@ -260,7 +260,7 @@ function animateChange(span, newValue) {
 
 // 页面加载时先生成 DOM 结构（避免第一次为空）
 countdownDisplay.innerHTML = `
-  <span class="countdown-number">25.7</span>の試験まであと:
+  次の試験まであと:
   <span id="days" class="countdown-number">00</span>日 
   <span id="hours" class="countdown-number">00</span>時間 
   <span id="minutes" class="countdown-number">00</span>分 
