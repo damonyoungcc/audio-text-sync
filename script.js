@@ -94,11 +94,19 @@ async function loadData(year, question) {
   const entry = configData[year]?.[question];
   if (!entry) return;
 
+  audio.pause(); // 重置音频播放
+  audio.currentTime = 0; // 回到开头
+  updateHighlight(0); // 重置高亮
+  updateFabIcon(); // 更新播放按钮状态
+
   audio.src = `${entry.path}/${entry.audio_file}`;
   const res = await fetch(`${entry.path}/${entry.word_corrected_json}`);
   const transcriptJson = await res.json();
   const wordsArray = transcriptJson.word_segments || transcriptJson;
   renderTranscript(wordsArray);
+
+  // 重置滚动位置
+  transcriptDiv.scrollTop = 0;
 }
 
 // === 字幕渲染逻辑（含假名） ===
