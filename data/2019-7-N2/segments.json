@@ -1,0 +1,23 @@
+[
+  { "start": 6.08, "end": 7.18, "filename": "1-4.mp3" },
+  { "start": 7.30, "end": 9.00, "filename": "1-5.mp3" },
+
+  { "start": 9.57, "end": 11.41, "filename": "2-1.mp3" },
+  { "start": 11.54, "end": 13.21, "filename": "2-2.mp3" },
+  { "start": 13.34, "end": 15.30, "filename": "2-3.mp3" },
+  { "start": 15.43, "end": 17.17, "filename": "2-4.mp3" },
+  { "start": 17.30, "end": 19.19, "filename": "2-5.mp3" },
+
+  { "start": 21.05, "end": 22.30, "filename": "3-1.mp3" },
+  { "start": 22.41, "end": 24.11, "filename": "3-2.mp3" },
+  { "start": 24.23, "end": 25.42, "filename": "3-3.mp3" },
+  { "start": 25.54, "end": 27.37, "filename": "3-4.mp3" },
+  { "start": 27.48, "end": 29.14, "filename": "3-5.mp3" },
+
+  { "start": 30.10, "end": 36.24, "filename": "4-1-11.mp3" },
+
+
+  { "start": 37.23, "end": 39.57, "filename": "5-1.mp3" },
+  { "start": 40.08, "end": 42.18, "filename": "5-2.mp3" },
+  { "start": 42.31, "end": 45.31, "filename": "5-3.mp3" }
+]
