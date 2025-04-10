@@ -83,7 +83,7 @@ html, body {
 
 @media screen and (max-width: 768px) {
   #transcript {
-    padding: 15px 10px 120px;
+    padding: 15px 10px 150px;
     font-size: 16px;
   }
 
@@ -93,13 +93,30 @@ html, body {
 
   #fabPlayToggle {
     right: 20px;
-    bottom: 60px;
+    bottom: 110px;
     transform: scale(0.8);
+    opacity: 0.4;
   }
 
   #fabToggleFurigana {
     right: 20px;
     transform: scale(0.8);
+    opacity: 0.4;
+  }
+
+  #fabToggleFurigana.toggle-on {
+    opacity: 0.4 !important;
+  }
+
+  #mode-ball {
+    right: 20px;
+    bottom: 60px;
+    transform: scale(0.8);
+    opacity: 0.4;
+  }
+
+  .mode-ball.breathe {
+    animation: none !important;
   }
 }
 
@@ -129,7 +146,7 @@ html, body {
 
 .fab-button {
   position: fixed;
-  bottom: 80px;
+  bottom: 150px;
   right: 40px;
   width: 56px;
   height: 56px;
@@ -148,7 +165,7 @@ html, body {
 }
 
 .fab-button:hover {
-  background-color: rgba(29, 155, 240, 1);
+  background-color: rgba(29, 155, 240, 1) !important;
 }
 
 /* 图标容器 */
@@ -209,6 +226,30 @@ html, body {
 #fabToggleFurigana.toggle-off {
   background-color: rgba(100, 100, 100, 0.4);
   opacity: 0.3;
+}
+
+.mode-ball {
+  position: fixed;
+  bottom: 80px;
+  right: 40px;
+  color: white;
+  text-align: center;
+  font-size: 16px;
+}
+
+@keyframes breathe {
+  0%, 100% {
+    transform: scale(1);
+  }
+
+  50% {
+    transform: scale(1.1);
+  }
+}
+
+/* 应用于 loop 模式下的按钮 */
+.mode-ball.breathe {
+  animation: breathe 2.8s ease-in-out infinite;
 }
 
 ruby rt {

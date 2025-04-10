@@ -308,3 +308,64 @@ document.addEventListener("mousedown", (e) => {
     e.preventDefault(); // 阻止多击选中文本
   }
 });
+
+// === 模式切换逻辑 ===
+const modeBall = document.getElementById("mode-ball");
+const MODE_KEY = "playMode"; // localStorage key
+
+// 英文标识 ➜ 展示文字的映射
+const modeTextMap = {
+  loop: "封印",
+  auto: "流転",
+};
+
+// 获取当前缓存的模式（默认 loop）
+function getCurrentMode() {
+  return localStorage.getItem(MODE_KEY) || "loop";
+}
+
+// 设置按钮文字
+function updateButtonText(mode) {
+  modeBall.textContent = modeTextMap[mode] || "封印";
+}
+
+// 切换模式
+modeBall.addEventListener("click", () => {
+  const currentMode = getCurrentMode();
+  const nextMode = currentMode === "loop" ? "auto" : "loop";
+  localStorage.setItem(MODE_KEY, nextMode);
+  updateButtonText(nextMode);
+});
+
+// 初始化按钮
+updateButtonText(getCurrentMode());
+
+// === 播放结束处理 ===
+audio.addEventListener("ended", () => {
+  const mode = getCurrentMode();
+  if (mode === "loop") {
+    // 重新播放当前音频
+    audio.currentTime = 0;
+    audio.play();
+  } else if (mode === "auto") {
+    playNextQuestionIfPossible();
+  }
+});
+
+function playNextQuestionIfPossible() {
+  const year = yearSelect.value;
+  const currentQuestion = questionSelect.value;
+  const questions = Object.keys(configData[year] || {});
+  const currentIndex = questions.indexOf(currentQuestion);
+  const nextIndex = currentIndex + 1;
+
+  if (nextIndex < questions.length) {
+    const nextQuestion = questions[nextIndex];
+    questionSelect.value = nextQuestion; // 更新 UI select
+    loadData(year, nextQuestion).then(() => {
+      audio.play(); // ✅ 自动播放下一个题目
+    });
+  } else {
+    console.log("This is the last question for this practice.");
+  }
+}
