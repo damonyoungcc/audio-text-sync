@@ -7,8 +7,6 @@ html, body {
   font-family: "Hiragino Kaku Gothic Pro", Meiryo, "Yu Gothic", "Helvetica Neue", sans-serif;
   background-color: #fffefc;
   -webkit-overflow-scrolling: touch;
-  /* iOS 平滑效果 */
-  /* user-select: none; */
   touch-action: manipulation;
 }
 
@@ -21,7 +19,6 @@ html, body {
 
 .audio-container {
   position: relative;
-  background-color: #fff;
   border-bottom-left-radius: 12px;
   border-bottom-right-radius: 12px;
   box-shadow: 0 6px 10px rgba(0, 0, 0, 0.12);
@@ -36,7 +33,6 @@ html, body {
 }
 
 #controls {
-  background-color: #ffffff;
   padding-left: 3px;
   display: flex;
   justify-content: center;
@@ -67,7 +63,7 @@ html, body {
 #controls select:focus {
   outline: none;
   border-color: #ffd43b;
-  background-color: #fffceb;
+  /* background-color: #fffceb; */
 }
 
 #transcript {
@@ -248,4 +244,41 @@ ruby rt {
 
 .countdown-number.changed {
   opacity: 0.3;
+}
+
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: #343434;
+    color: #e0e0e0;
+  }
+
+  audio {
+    filter: invert(1) hue-rotate(180deg);
+  }
+
+  #controls select {
+    background-color: #343434;
+    color: #e0e0e0;
+    border: 1px solid #555;
+  }
+
+  #controls label {
+    color: #e0e0e0;
+  }
+
+  .audio-container {
+    box-shadow:
+      0 6px 10px rgba(255, 255, 255, 0.08),
+      0 2px 4px rgba(255, 255, 255, 0.03);
+  }
+
+  ruby rt {
+    font-size: 0.6em;
+    color: #949494;
+  }
+
+  .line-break {
+    border-top: 1px solid #433e3e;
+  }
+
 }
