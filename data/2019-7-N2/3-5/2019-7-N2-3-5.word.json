@@ -1,0 +1,2100 @@
+[
+  {
+    "word": "学",
+    "start": 3.632,
+    "end": 3.933,
+    "score": 1.0,
+    "speaker": "SPEAKER_02"
+  },
+  {
+    "word": "校",
+    "start": 3.933,
+    "end": 4.175,
+    "score": 1.0,
+    "speaker": "SPEAKER_02"
+  },
+  {
+    "word": "で",
+    "start": 4.175,
+    "end": 4.355,
+    "score": 1.0,
+    "speaker": "SPEAKER_02"
+  },
+  {
+    "word": "校",
+    "start": 4.355,
+    "end": 4.617,
+    "score": 0.996,
+    "speaker": "SPEAKER_02"
+  },
+  {
+    "word": "長",
+    "start": 4.617,
+    "end": 4.837,
+    "score": 0.925,
+    "speaker": "SPEAKER_02"
+  },
+  {
+    "word": "先",
+    "start": 4.837,
+    "end": 5.119,
+    "score": 1.0,
+    "speaker": "SPEAKER_02"
+  },
+  {
+    "word": "生",
+    "start": 5.119,
+    "end": 5.34,
+    "score": 1.0,
+    "speaker": "SPEAKER_02"
+  },
+  {
+    "word": "が",
+    "start": 5.34,
+    "end": 5.52,
+    "score": 1.0,
+    "speaker": "SPEAKER_02"
+  },
+  {
+    "word": "話",
+    "start": 5.52,
+    "end": 5.802,
+    "score": 1.0,
+    "speaker": "SPEAKER_02"
+  },
+  {
+    "word": "し",
+    "start": 5.802,
+    "end": 5.902,
+    "score": 1.0,
+    "speaker": "SPEAKER_02"
+  },
+  {
+    "word": "て",
+    "start": 5.902,
+    "end": 6.003,
+    "score": 1.0,
+    "speaker": "SPEAKER_02"
+  },
+  {
+    "word": "い",
+    "start": 6.003,
+    "end": 6.103,
+    "score": 1.0,
+    "speaker": "SPEAKER_02"
+  },
+  {
+    "word": "ま",
+    "start": 6.103,
+    "end": 6.244,
+    "score": 1.0,
+    "speaker": "SPEAKER_02"
+  },
+  {
+    "word": "す",
+    "start": 6.244,
+    "end": 6.264,
+    "score": 1.0,
+    "speaker": "SPEAKER_02"
+  },
+  {
+    "word": "。"
+  },
+  {
+    "word": "受",
+    "start": 8.555,
+    "end": 8.676,
+    "score": 0.996,
+    "speaker": "SPEAKER_00"
+  },
+  {
+    "word": "験",
+    "start": 8.676,
+    "end": 8.896,
+    "score": 0.977,
+    "speaker": "SPEAKER_00"
+  },
+  {
+    "word": "勉",
+    "start": 8.896,
+    "end": 9.117,
+    "score": 1.0,
+    "speaker": "SPEAKER_00"
+  },
+  {
+    "word": "強",
+    "start": 9.117,
+    "end": 9.297,
+    "score": 0.997,
+    "speaker": "SPEAKER_00"
+  },
+  {
+    "word": "や",
+    "start": 9.297,
+    "end": 9.538,
+    "score": 1.0,
+    "speaker": "SPEAKER_00"
+  },
+  {
+    "word": "ス",
+    "start": 9.538,
+    "end": 9.658,
+    "score": 1.0,
+    "speaker": "SPEAKER_00"
+  },
+  {
+    "word": "ポ",
+    "start": 9.658,
+    "end": 9.738,
+    "score": 1.0,
+    "speaker": "SPEAKER_00"
+  },
+  {
+    "word": "ー",
+    "start": 9.738,
+    "end": 9.859,
+    "score": 0.833,
+    "speaker": "SPEAKER_00"
+  },
+  {
+    "word": "ツ",
+    "start": 9.859,
+    "end": 9.959,
+    "score": 1.0,
+    "speaker": "SPEAKER_00"
+  },
+  {
+    "word": "の",
+    "start": 9.959,
+    "end": 10.119,
+    "score": 1.0,
+    "speaker": "SPEAKER_00"
+  },
+  {
+    "word": "練",
+    "start": 10.119,
+    "end": 10.34,
+    "score": 1.0,
+    "speaker": "SPEAKER_00"
+  },
+  {
+    "word": "習",
+    "start": 10.34,
+    "end": 10.54,
+    "score": 1.0,
+    "speaker": "SPEAKER_00"
+  },
+  {
+    "word": "な",
+    "start": 10.54,
+    "end": 10.661,
+    "score": 1.0,
+    "speaker": "SPEAKER_00"
+  },
+  {
+    "word": "ど",
+    "start": 10.661,
+    "end": 11.403,
+    "score": 1.0,
+    "speaker": "SPEAKER_00"
+  },
+  {
+    "word": "大",
+    "start": 11.403,
+    "end": 11.643,
+    "score": 1.0,
+    "speaker": "SPEAKER_00"
+  },
+  {
+    "word": "き",
+    "start": 11.643,
+    "end": 11.723,
+    "score": 1.0,
+    "speaker": "SPEAKER_00"
+  },
+  {
+    "word": "な",
+    "start": 11.723,
+    "end": 11.884,
+    "score": 1.0,
+    "speaker": "SPEAKER_00"
+  },
+  {
+    "word": "目",
+    "start": 11.884,
+    "end": 12.104,
+    "score": 1.0,
+    "speaker": "SPEAKER_00"
+  },
+  {
+    "word": "標",
+    "start": 12.104,
+    "end": 12.305,
+    "score": 0.999,
+    "speaker": "SPEAKER_00"
+  },
+  {
+    "word": "に",
+    "start": 12.305,
+    "end": 12.445,
+    "score": 1.0,
+    "speaker": "SPEAKER_00"
+  },
+  {
+    "word": "向",
+    "start": 12.445,
+    "end": 12.546,
+    "score": 0.999,
+    "speaker": "SPEAKER_00"
+  },
+  {
+    "word": "か",
+    "start": 12.546,
+    "end": 12.746,
+    "score": 0.831,
+    "speaker": "SPEAKER_00"
+  },
+  {
+    "word": "っ",
+    "start": 12.746,
+    "end": 12.766,
+    "score": 1.0,
+    "speaker": "SPEAKER_00"
+  },
+  {
+    "word": "て",
+    "start": 12.766,
+    "end": 12.846,
+    "score": 1.0,
+    "speaker": "SPEAKER_00"
+  },
+  {
+    "word": "い",
+    "start": 12.846,
+    "end": 12.927,
+    "score": 1.0,
+    "speaker": "SPEAKER_00"
+  },
+  {
+    "word": "る",
+    "start": 12.927,
+    "end": 13.207,
+    "score": 1.0,
+    "speaker": "SPEAKER_00"
+  },
+  {
+    "word": "時",
+    "start": 13.207,
+    "end": 14.13,
+    "score": 1.0,
+    "speaker": "SPEAKER_00"
+  },
+  {
+    "word": "目",
+    "start": 14.13,
+    "end": 14.41,
+    "score": 0.992,
+    "speaker": "SPEAKER_00"
+  },
+  {
+    "word": "標",
+    "start": 14.41,
+    "end": 14.671,
+    "score": 0.998,
+    "speaker": "SPEAKER_00"
+  },
+  {
+    "word": "し",
+    "start": 14.671,
+    "end": 14.811,
+    "score": 0.857,
+    "speaker": "SPEAKER_00"
+  },
+  {
+    "word": "か",
+    "start": 14.811,
+    "end": 14.972,
+    "score": 0.872,
+    "speaker": "SPEAKER_00"
+  },
+  {
+    "word": "見",
+    "start": 14.972,
+    "end": 15.072,
+    "score": 1.0,
+    "speaker": "SPEAKER_00"
+  },
+  {
+    "word": "え",
+    "start": 15.072,
+    "end": 15.172,
+    "score": 1.0,
+    "speaker": "SPEAKER_00"
+  },
+  {
+    "word": "な",
+    "start": 15.172,
+    "end": 15.293,
+    "score": 1.0,
+    "speaker": "SPEAKER_00"
+  },
+  {
+    "word": "く",
+    "start": 15.293,
+    "end": 15.373,
+    "score": 0.952,
+    "speaker": "SPEAKER_00"
+  },
+  {
+    "word": "な",
+    "start": 15.373,
+    "end": 15.533,
+    "score": 1.0,
+    "speaker": "SPEAKER_00"
+  },
+  {
+    "word": "っ",
+    "start": 15.533,
+    "end": 15.553,
+    "score": 1.0,
+    "speaker": "SPEAKER_00"
+  },
+  {
+    "word": "て",
+    "start": 15.553,
+    "end": 15.633,
+    "score": 1.0,
+    "speaker": "SPEAKER_00"
+  },
+  {
+    "word": "い",
+    "start": 15.633,
+    "end": 15.674,
+    "score": 1.0,
+    "speaker": "SPEAKER_00"
+  },
+  {
+    "word": "る",
+    "start": 15.674,
+    "end": 15.774,
+    "score": 1.0,
+    "speaker": "SPEAKER_00"
+  },
+  {
+    "word": "こ",
+    "start": 15.774,
+    "end": 15.874,
+    "score": 1.0,
+    "speaker": "SPEAKER_00"
+  },
+  {
+    "word": "と",
+    "start": 15.874,
+    "end": 15.974,
+    "score": 1.0,
+    "speaker": "SPEAKER_00"
+  },
+  {
+    "word": "が",
+    "start": 15.974,
+    "end": 16.115,
+    "score": 0.999,
+    "speaker": "SPEAKER_00"
+  },
+  {
+    "word": "あ",
+    "start": 16.115,
+    "end": 16.175,
+    "score": 1.0,
+    "speaker": "SPEAKER_00"
+  },
+  {
+    "word": "り",
+    "start": 16.175,
+    "end": 16.275,
+    "score": 1.0,
+    "speaker": "SPEAKER_00"
+  },
+  {
+    "word": "ま",
+    "start": 16.275,
+    "end": 16.395,
+    "score": 1.0,
+    "speaker": "SPEAKER_00"
+  },
+  {
+    "word": "す",
+    "start": 16.395,
+    "end": 16.415,
+    "score": 1.0,
+    "speaker": "SPEAKER_00"
+  },
+  {
+    "word": "そ",
+    "start": 17.793,
+    "end": 17.934,
+    "score": 1.0,
+    "speaker": "SPEAKER_00"
+  },
+  {
+    "word": "こ",
+    "start": 17.934,
+    "end": 18.054,
+    "score": 1.0,
+    "speaker": "SPEAKER_00"
+  },
+  {
+    "word": "に",
+    "start": 18.054,
+    "end": 18.215,
+    "score": 1.0,
+    "speaker": "SPEAKER_00"
+  },
+  {
+    "word": "向",
+    "start": 18.215,
+    "end": 18.315,
+    "score": 1.0,
+    "speaker": "SPEAKER_00"
+  },
+  {
+    "word": "か",
+    "start": 18.315,
+    "end": 18.456,
+    "score": 0.72,
+    "speaker": "SPEAKER_00"
+  },
+  {
+    "word": "う",
+    "start": 18.456,
+    "end": 18.536,
+    "score": 1.0,
+    "speaker": "SPEAKER_00"
+  },
+  {
+    "word": "道",
+    "start": 18.536,
+    "end": 18.797,
+    "score": 1.0,
+    "speaker": "SPEAKER_00"
+  },
+  {
+    "word": "は",
+    "start": 18.797,
+    "end": 19.159,
+    "score": 1.0,
+    "speaker": "SPEAKER_00"
+  },
+  {
+    "word": "辛",
+    "start": 19.159,
+    "end": 19.44,
+    "score": 0.865,
+    "speaker": "SPEAKER_00"
+  },
+  {
+    "word": "く",
+    "start": 19.44,
+    "end": 19.52,
+    "score": 1.0,
+    "speaker": "SPEAKER_00"
+  },
+  {
+    "word": "て",
+    "start": 19.52,
+    "end": 19.64,
+    "score": 1.0,
+    "speaker": "SPEAKER_00"
+  },
+  {
+    "word": "も",
+    "start": 19.64,
+    "end": 19.841,
+    "score": 1.0,
+    "speaker": "SPEAKER_00"
+  },
+  {
+    "word": "仕",
+    "start": 19.841,
+    "end": 19.962,
+    "score": 1.0,
+    "speaker": "SPEAKER_00"
+  },
+  {
+    "word": "方",
+    "start": 19.962,
+    "end": 20.183,
+    "score": 1.0,
+    "speaker": "SPEAKER_00"
+  },
+  {
+    "word": "が",
+    "start": 20.183,
+    "end": 20.303,
+    "score": 1.0,
+    "speaker": "SPEAKER_00"
+  },
+  {
+    "word": "な",
+    "start": 20.303,
+    "end": 20.403,
+    "score": 1.0,
+    "speaker": "SPEAKER_00"
+  },
+  {
+    "word": "い",
+    "start": 20.403,
+    "end": 20.504,
+    "score": 0.994,
+    "speaker": "SPEAKER_00"
+  },
+  {
+    "word": "と",
+    "start": 20.504,
+    "end": 20.926,
+    "score": 1.0,
+    "speaker": "SPEAKER_00"
+  },
+  {
+    "word": "い",
+    "start": 20.926,
+    "end": 21.046,
+    "score": 0.886,
+    "speaker": "SPEAKER_00"
+  },
+  {
+    "word": "や",
+    "start": 21.046,
+    "end": 21.146,
+    "score": 0.999,
+    "speaker": "SPEAKER_00"
+  },
+  {
+    "word": "い",
+    "start": 21.146,
+    "end": 21.227,
+    "score": 0.786,
+    "speaker": "SPEAKER_00"
+  },
+  {
+    "word": "や",
+    "start": 21.227,
+    "end": 21.387,
+    "score": 1.0,
+    "speaker": "SPEAKER_00"
+  },
+  {
+    "word": "取",
+    "start": 21.387,
+    "end": 21.488,
+    "score": 1.0,
+    "speaker": "SPEAKER_00"
+  },
+  {
+    "word": "り",
+    "start": 21.488,
+    "end": 21.588,
+    "score": 1.0,
+    "speaker": "SPEAKER_00"
+  },
+  {
+    "word": "組",
+    "start": 21.588,
+    "end": 21.709,
+    "score": 0.903,
+    "speaker": "SPEAKER_00"
+  },
+  {
+    "word": "ん",
+    "start": 21.709,
+    "end": 21.769,
+    "score": 0.903,
+    "speaker": "SPEAKER_00"
+  },
+  {
+    "word": "で",
+    "start": 21.769,
+    "end": 21.889,
+    "score": 0.994,
+    "speaker": "SPEAKER_00"
+  },
+  {
+    "word": "い",
+    "start": 21.889,
+    "end": 21.97,
+    "score": 1.0,
+    "speaker": "SPEAKER_00"
+  },
+  {
+    "word": "た",
+    "start": 21.97,
+    "end": 22.07,
+    "score": 0.999,
+    "speaker": "SPEAKER_00"
+  },
+  {
+    "word": "り",
+    "start": 22.07,
+    "end": 22.17,
+    "score": 1.0,
+    "speaker": "SPEAKER_00"
+  },
+  {
+    "word": "し",
+    "start": 22.17,
+    "end": 22.271,
+    "score": 0.996,
+    "speaker": "SPEAKER_00"
+  },
+  {
+    "word": "ま",
+    "start": 22.271,
+    "end": 22.371,
+    "score": 1.0,
+    "speaker": "SPEAKER_00"
+  },
+  {
+    "word": "せ",
+    "start": 22.371,
+    "end": 22.472,
+    "score": 1.0,
+    "speaker": "SPEAKER_00"
+  },
+  {
+    "word": "ん",
+    "start": 22.472,
+    "end": 22.552,
+    "score": 1.0,
+    "speaker": "SPEAKER_00"
+  },
+  {
+    "word": "か",
+    "start": 22.552,
+    "end": 22.572,
+    "score": 1.0,
+    "speaker": "SPEAKER_00"
+  },
+  {
+    "word": "目",
+    "start": 23.578,
+    "end": 23.839,
+    "score": 0.998,
+    "speaker": "SPEAKER_00"
+  },
+  {
+    "word": "標",
+    "start": 23.839,
+    "end": 24.079,
+    "score": 0.965,
+    "speaker": "SPEAKER_00"
+  },
+  {
+    "word": "を",
+    "start": 24.079,
+    "end": 24.199,
+    "score": 1.0,
+    "speaker": "SPEAKER_00"
+  },
+  {
+    "word": "持",
+    "start": 24.199,
+    "end": 24.319,
+    "score": 1.0,
+    "speaker": "SPEAKER_00"
+  },
+  {
+    "word": "つ",
+    "start": 24.319,
+    "end": 24.419,
+    "score": 1.0,
+    "speaker": "SPEAKER_00"
+  },
+  {
+    "word": "こ",
+    "start": 24.419,
+    "end": 24.54,
+    "score": 0.833,
+    "speaker": "SPEAKER_00"
+  },
+  {
+    "word": "と",
+    "start": 24.54,
+    "end": 24.66,
+    "score": 0.833,
+    "speaker": "SPEAKER_00"
+  },
+  {
+    "word": "は",
+    "start": 24.66,
+    "end": 24.88,
+    "score": 1.0,
+    "speaker": "SPEAKER_00"
+  },
+  {
+    "word": "も",
+    "start": 24.88,
+    "end": 25.02,
+    "score": 0.953,
+    "speaker": "SPEAKER_00"
+  },
+  {
+    "word": "ち",
+    "start": 25.02,
+    "end": 25.121,
+    "score": 1.0,
+    "speaker": "SPEAKER_00"
+  },
+  {
+    "word": "ろ",
+    "start": 25.121,
+    "end": 25.241,
+    "score": 0.916,
+    "speaker": "SPEAKER_00"
+  },
+  {
+    "word": "ん",
+    "start": 25.241,
+    "end": 25.341,
+    "score": 0.852,
+    "speaker": "SPEAKER_00"
+  },
+  {
+    "word": "大",
+    "start": 25.341,
+    "end": 25.521,
+    "score": 1.0,
+    "speaker": "SPEAKER_00"
+  },
+  {
+    "word": "事",
+    "start": 25.521,
+    "end": 25.581,
+    "score": 0.998,
+    "speaker": "SPEAKER_00"
+  },
+  {
+    "word": "で",
+    "start": 25.581,
+    "end": 25.702,
+    "score": 1.0,
+    "speaker": "SPEAKER_00"
+  },
+  {
+    "word": "す",
+    "start": 25.702,
+    "end": 25.802,
+    "score": 1.0,
+    "speaker": "SPEAKER_00"
+  },
+  {
+    "word": "が",
+    "start": 25.802,
+    "end": 26.663,
+    "score": 1.0,
+    "speaker": "SPEAKER_00"
+  },
+  {
+    "word": "ち",
+    "start": 26.663,
+    "end": 26.703,
+    "score": 0.5,
+    "speaker": "SPEAKER_00"
+  },
+  {
+    "word": "ょ",
+    "start": 26.703,
+    "end": 26.844,
+    "score": 0.714,
+    "speaker": "SPEAKER_00"
+  },
+  {
+    "word": "っ",
+    "start": 26.844,
+    "end": 26.884,
+    "score": 0.5,
+    "speaker": "SPEAKER_00"
+  },
+  {
+    "word": "と",
+    "start": 26.884,
+    "end": 27.064,
+    "score": 0.999,
+    "speaker": "SPEAKER_00"
+  },
+  {
+    "word": "視",
+    "start": 27.064,
+    "end": 27.144,
+    "score": 0.761,
+    "speaker": "SPEAKER_00"
+  },
+  {
+    "word": "点",
+    "start": 27.144,
+    "end": 27.344,
+    "score": 0.99,
+    "speaker": "SPEAKER_00"
+  },
+  {
+    "word": "を",
+    "start": 27.344,
+    "end": 27.545,
+    "score": 1.0,
+    "speaker": "SPEAKER_00"
+  },
+  {
+    "word": "変",
+    "start": 27.545,
+    "end": 27.665,
+    "score": 0.987,
+    "speaker": "SPEAKER_00"
+  },
+  {
+    "word": "え",
+    "start": 27.665,
+    "end": 27.805,
+    "score": 0.998,
+    "speaker": "SPEAKER_00"
+  },
+  {
+    "word": "て",
+    "start": 27.805,
+    "end": 27.945,
+    "score": 1.0,
+    "speaker": "SPEAKER_00"
+  },
+  {
+    "word": "み",
+    "start": 27.945,
+    "end": 28.066,
+    "score": 0.897,
+    "speaker": "SPEAKER_00"
+  },
+  {
+    "word": "ま",
+    "start": 28.066,
+    "end": 28.186,
+    "score": 1.0,
+    "speaker": "SPEAKER_00"
+  },
+  {
+    "word": "し",
+    "start": 28.186,
+    "end": 28.266,
+    "score": 0.75,
+    "speaker": "SPEAKER_00"
+  },
+  {
+    "word": "ょ",
+    "start": 28.266,
+    "end": 28.286,
+    "score": 1.0,
+    "speaker": "SPEAKER_00"
+  },
+  {
+    "word": "う",
+    "start": 28.286,
+    "end": 28.306,
+    "score": 0.008,
+    "speaker": "SPEAKER_00"
+  },
+  {
+    "word": "学",
+    "start": 29.464,
+    "end": 29.704,
+    "score": 0.98,
+    "speaker": "SPEAKER_00"
+  },
+  {
+    "word": "ぶ",
+    "start": 29.704,
+    "end": 29.824,
+    "score": 0.833,
+    "speaker": "SPEAKER_00"
+  },
+  {
+    "word": "こ",
+    "start": 29.824,
+    "end": 29.944,
+    "score": 0.993,
+    "speaker": "SPEAKER_00"
+  },
+  {
+    "word": "と",
+    "start": 29.944,
+    "end": 30.505,
+    "score": 0.999,
+    "speaker": "SPEAKER_00"
+  },
+  {
+    "word": "運",
+    "start": 30.505,
+    "end": 30.685,
+    "score": 1.0,
+    "speaker": "SPEAKER_00"
+  },
+  {
+    "word": "動",
+    "start": 30.685,
+    "end": 30.885,
+    "score": 1.0,
+    "speaker": "SPEAKER_00"
+  },
+  {
+    "word": "す",
+    "start": 30.885,
+    "end": 30.986,
+    "score": 1.0,
+    "speaker": "SPEAKER_00"
+  },
+  {
+    "word": "る",
+    "start": 30.986,
+    "end": 31.086,
+    "score": 1.0,
+    "speaker": "SPEAKER_00"
+  },
+  {
+    "word": "こ",
+    "start": 31.086,
+    "end": 31.186,
+    "score": 1.0,
+    "speaker": "SPEAKER_00"
+  },
+  {
+    "word": "と",
+    "start": 31.186,
+    "end": 31.386,
+    "score": 0.997,
+    "speaker": "SPEAKER_00"
+  },
+  {
+    "word": "自",
+    "start": 31.386,
+    "end": 31.486,
+    "score": 0.804,
+    "speaker": "SPEAKER_00"
+  },
+  {
+    "word": "体",
+    "start": 31.486,
+    "end": 31.686,
+    "score": 0.9,
+    "speaker": "SPEAKER_00"
+  },
+  {
+    "word": "に",
+    "start": 31.686,
+    "end": 31.806,
+    "score": 0.999,
+    "speaker": "SPEAKER_00"
+  },
+  {
+    "word": "も",
+    "start": 31.806,
+    "end": 31.986,
+    "score": 1.0,
+    "speaker": "SPEAKER_00"
+  },
+  {
+    "word": "喜",
+    "start": 31.986,
+    "end": 32.327,
+    "score": 1.0,
+    "speaker": "SPEAKER_00"
+  },
+  {
+    "word": "び",
+    "start": 32.327,
+    "end": 32.447,
+    "score": 1.0,
+    "speaker": "SPEAKER_00"
+  },
+  {
+    "word": "が",
+    "start": 32.447,
+    "end": 32.547,
+    "score": 1.0,
+    "speaker": "SPEAKER_00"
+  },
+  {
+    "word": "あ",
+    "start": 32.547,
+    "end": 32.627,
+    "score": 1.0,
+    "speaker": "SPEAKER_00"
+  },
+  {
+    "word": "り",
+    "start": 32.627,
+    "end": 33.388,
+    "score": 1.0,
+    "speaker": "SPEAKER_00"
+  },
+  {
+    "word": "自",
+    "start": 33.388,
+    "end": 33.488,
+    "score": 1.0,
+    "speaker": "SPEAKER_00"
+  },
+  {
+    "word": "分",
+    "start": 33.488,
+    "end": 33.668,
+    "score": 1.0,
+    "speaker": "SPEAKER_00"
+  },
+  {
+    "word": "の",
+    "start": 33.668,
+    "end": 33.808,
+    "score": 1.0,
+    "speaker": "SPEAKER_00"
+  },
+  {
+    "word": "成",
+    "start": 33.808,
+    "end": 34.008,
+    "score": 1.0,
+    "speaker": "SPEAKER_00"
+  },
+  {
+    "word": "長",
+    "start": 34.008,
+    "end": 34.189,
+    "score": 1.0,
+    "speaker": "SPEAKER_00"
+  },
+  {
+    "word": "に",
+    "start": 34.189,
+    "end": 34.409,
+    "score": 1.0,
+    "speaker": "SPEAKER_00"
+  },
+  {
+    "word": "つ",
+    "start": 34.409,
+    "end": 34.549,
+    "score": 0.912,
+    "speaker": "SPEAKER_00"
+  },
+  {
+    "word": "な",
+    "start": 34.549,
+    "end": 34.709,
+    "score": 0.866,
+    "speaker": "SPEAKER_00"
+  },
+  {
+    "word": "が",
+    "start": 34.709,
+    "end": 34.809,
+    "score": 0.892,
+    "speaker": "SPEAKER_00"
+  },
+  {
+    "word": "る",
+    "start": 34.809,
+    "end": 34.929,
+    "score": 1.0,
+    "speaker": "SPEAKER_00"
+  },
+  {
+    "word": "は",
+    "start": 34.929,
+    "end": 35.07,
+    "score": 1.0,
+    "speaker": "SPEAKER_00"
+  },
+  {
+    "word": "ず",
+    "start": 35.07,
+    "end": 35.15,
+    "score": 1.0,
+    "speaker": "SPEAKER_00"
+  },
+  {
+    "word": "で",
+    "start": 35.15,
+    "end": 35.27,
+    "score": 1.0,
+    "speaker": "SPEAKER_00"
+  },
+  {
+    "word": "す",
+    "start": 35.27,
+    "end": 35.29,
+    "score": 1.0,
+    "speaker": "SPEAKER_00"
+  },
+  {
+    "word": "最",
+    "start": 36.963,
+    "end": 37.143,
+    "score": 0.99,
+    "speaker": "SPEAKER_00"
+  },
+  {
+    "word": "終",
+    "start": 37.143,
+    "end": 37.424,
+    "score": 1.0,
+    "speaker": "SPEAKER_00"
+  },
+  {
+    "word": "的",
+    "start": 37.424,
+    "end": 37.504,
+    "score": 1.0,
+    "speaker": "SPEAKER_00"
+  },
+  {
+    "word": "な",
+    "start": 37.504,
+    "end": 37.724,
+    "score": 1.0,
+    "speaker": "SPEAKER_00"
+  },
+  {
+    "word": "ゴ",
+    "start": 37.724,
+    "end": 37.825,
+    "score": 0.799,
+    "speaker": "SPEAKER_00"
+  },
+  {
+    "word": "ー",
+    "start": 37.825,
+    "end": 37.885,
+    "score": 0.977,
+    "speaker": "SPEAKER_00"
+  },
+  {
+    "word": "ル",
+    "start": 37.885,
+    "end": 37.965,
+    "score": 1.0,
+    "speaker": "SPEAKER_00"
+  },
+  {
+    "word": "は",
+    "start": 37.965,
+    "end": 38.105,
+    "score": 1.0,
+    "speaker": "SPEAKER_00"
+  },
+  {
+    "word": "同",
+    "start": 38.105,
+    "end": 38.325,
+    "score": 1.0,
+    "speaker": "SPEAKER_00"
+  },
+  {
+    "word": "じ",
+    "start": 38.325,
+    "end": 38.386,
+    "score": 1.0,
+    "speaker": "SPEAKER_00"
+  },
+  {
+    "word": "で",
+    "start": 38.386,
+    "end": 38.506,
+    "score": 1.0,
+    "speaker": "SPEAKER_00"
+  },
+  {
+    "word": "も",
+    "start": 38.506,
+    "end": 39.127,
+    "score": 1.0,
+    "speaker": "SPEAKER_00"
+  },
+  {
+    "word": "そ",
+    "start": 39.127,
+    "end": 39.287,
+    "score": 1.0,
+    "speaker": "SPEAKER_00"
+  },
+  {
+    "word": "こ",
+    "start": 39.287,
+    "end": 39.427,
+    "score": 1.0,
+    "speaker": "SPEAKER_00"
+  },
+  {
+    "word": "に",
+    "start": 39.427,
+    "end": 39.628,
+    "score": 1.0,
+    "speaker": "SPEAKER_00"
+  },
+  {
+    "word": "辿",
+    "start": 39.628,
+    "end": 39.848,
+    "score": 0.983,
+    "speaker": "SPEAKER_00"
+  },
+  {
+    "word": "り",
+    "start": 39.848,
+    "end": 40.008,
+    "score": 1.0,
+    "speaker": "SPEAKER_00"
+  },
+  {
+    "word": "着",
+    "start": 40.008,
+    "end": 40.109,
+    "score": 0.839,
+    "speaker": "SPEAKER_00"
+  },
+  {
+    "word": "く",
+    "start": 40.109,
+    "end": 40.209,
+    "score": 1.0,
+    "speaker": "SPEAKER_00"
+  },
+  {
+    "word": "ま",
+    "start": 40.209,
+    "end": 40.309,
+    "score": 1.0,
+    "speaker": "SPEAKER_00"
+  },
+  {
+    "word": "で",
+    "start": 40.309,
+    "end": 40.449,
+    "score": 1.0,
+    "speaker": "SPEAKER_00"
+  },
+  {
+    "word": "に",
+    "start": 40.449,
+    "end": 41.01,
+    "score": 1.0,
+    "speaker": "SPEAKER_00"
+  },
+  {
+    "word": "ど",
+    "start": 41.01,
+    "end": 41.17,
+    "score": 0.992,
+    "speaker": "SPEAKER_00"
+  },
+  {
+    "word": "う",
+    "start": 41.17,
+    "end": 41.311,
+    "score": 0.894,
+    "speaker": "SPEAKER_00"
+  },
+  {
+    "word": "取",
+    "start": 41.311,
+    "end": 41.411,
+    "score": 1.0,
+    "speaker": "SPEAKER_00"
+  },
+  {
+    "word": "り",
+    "start": 41.411,
+    "end": 41.551,
+    "score": 1.0,
+    "speaker": "SPEAKER_00"
+  },
+  {
+    "word": "組",
+    "start": 41.551,
+    "end": 41.671,
+    "score": 0.971,
+    "speaker": "SPEAKER_00"
+  },
+  {
+    "word": "む",
+    "start": 41.671,
+    "end": 41.731,
+    "score": 0.999,
+    "speaker": "SPEAKER_00"
+  },
+  {
+    "word": "か",
+    "start": 41.731,
+    "end": 41.872,
+    "score": 1.0,
+    "speaker": "SPEAKER_00"
+  },
+  {
+    "word": "に",
+    "start": 41.872,
+    "end": 41.972,
+    "score": 1.0,
+    "speaker": "SPEAKER_00"
+  },
+  {
+    "word": "よ",
+    "start": 41.972,
+    "end": 42.132,
+    "score": 0.972,
+    "speaker": "SPEAKER_00"
+  },
+  {
+    "word": "っ",
+    "start": 42.132,
+    "end": 42.172,
+    "score": 0.5,
+    "speaker": "SPEAKER_00"
+  },
+  {
+    "word": "て",
+    "start": 42.172,
+    "end": 42.853,
+    "score": 1.0,
+    "speaker": "SPEAKER_00"
+  },
+  {
+    "word": "得",
+    "start": 42.853,
+    "end": 42.974,
+    "score": 1.0,
+    "speaker": "SPEAKER_00"
+  },
+  {
+    "word": "ら",
+    "start": 42.974,
+    "end": 43.094,
+    "score": 0.995,
+    "speaker": "SPEAKER_00"
+  },
+  {
+    "word": "れ",
+    "start": 43.094,
+    "end": 43.194,
+    "score": 1.0,
+    "speaker": "SPEAKER_00"
+  },
+  {
+    "word": "る",
+    "start": 43.194,
+    "end": 43.314,
+    "score": 1.0,
+    "speaker": "SPEAKER_00"
+  },
+  {
+    "word": "も",
+    "start": 43.314,
+    "end": 43.434,
+    "score": 1.0,
+    "speaker": "SPEAKER_00"
+  },
+  {
+    "word": "の",
+    "start": 43.434,
+    "end": 43.555,
+    "score": 0.858,
+    "speaker": "SPEAKER_00"
+  },
+  {
+    "word": "も",
+    "start": 43.555,
+    "end": 43.795,
+    "score": 0.917,
+    "speaker": "SPEAKER_00"
+  },
+  {
+    "word": "変",
+    "start": 43.795,
+    "end": 43.935,
+    "score": 1.0,
+    "speaker": "SPEAKER_00"
+  },
+  {
+    "word": "わ",
+    "start": 43.935,
+    "end": 44.096,
+    "score": 0.853,
+    "speaker": "SPEAKER_00"
+  },
+  {
+    "word": "っ",
+    "start": 44.096,
+    "end": 44.116,
+    "score": 1.0,
+    "speaker": "SPEAKER_00"
+  },
+  {
+    "word": "て",
+    "start": 44.116,
+    "end": 44.276,
+    "score": 1.0,
+    "speaker": "SPEAKER_00"
+  },
+  {
+    "word": "く",
+    "start": 44.276,
+    "end": 44.356,
+    "score": 0.751,
+    "speaker": "SPEAKER_00"
+  },
+  {
+    "word": "る",
+    "start": 44.356,
+    "end": 44.456,
+    "score": 1.0,
+    "speaker": "SPEAKER_00"
+  },
+  {
+    "word": "か",
+    "start": 44.456,
+    "end": 44.576,
+    "score": 1.0,
+    "speaker": "SPEAKER_00"
+  },
+  {
+    "word": "も",
+    "start": 44.576,
+    "end": 44.777,
+    "score": 0.96,
+    "speaker": "SPEAKER_00"
+  },
+  {
+    "word": "し",
+    "start": 44.777,
+    "end": 44.877,
+    "score": 0.8,
+    "speaker": "SPEAKER_00"
+  },
+  {
+    "word": "れ",
+    "start": 44.877,
+    "end": 44.997,
+    "score": 1.0,
+    "speaker": "SPEAKER_00"
+  },
+  {
+    "word": "ま",
+    "start": 44.997,
+    "end": 45.097,
+    "score": 1.0,
+    "speaker": "SPEAKER_00"
+  },
+  {
+    "word": "せ",
+    "start": 45.097,
+    "end": 45.198,
+    "score": 1.0,
+    "speaker": "SPEAKER_00"
+  },
+  {
+    "word": "ん",
+    "start": 45.198,
+    "end": 45.218,
+    "score": 1.0,
+    "speaker": "SPEAKER_00"
+  },
+  {
+    "word": "校",
+    "start": 51.165,
+    "end": 51.425,
+    "score": 0.925,
+    "speaker": "SPEAKER_02"
+  },
+  {
+    "word": "長",
+    "start": 51.425,
+    "end": 51.666,
+    "score": 0.918,
+    "speaker": "SPEAKER_02"
+  },
+  {
+    "word": "先",
+    "start": 51.666,
+    "end": 51.946,
+    "score": 1.0,
+    "speaker": "SPEAKER_02"
+  },
+  {
+    "word": "生",
+    "start": 51.946,
+    "end": 52.166,
+    "score": 0.999,
+    "speaker": "SPEAKER_02"
+  },
+  {
+    "word": "が",
+    "start": 52.166,
+    "end": 52.426,
+    "score": 1.0,
+    "speaker": "SPEAKER_02"
+  },
+  {
+    "word": "伝",
+    "start": 52.426,
+    "end": 52.546,
+    "score": 1.0,
+    "speaker": "SPEAKER_02"
+  },
+  {
+    "word": "え",
+    "start": 52.546,
+    "end": 52.647,
+    "score": 0.999,
+    "speaker": "SPEAKER_02"
+  },
+  {
+    "word": "た",
+    "start": 52.647,
+    "end": 52.767,
+    "score": 1.0,
+    "speaker": "SPEAKER_02"
+  },
+  {
+    "word": "い",
+    "start": 52.767,
+    "end": 52.887,
+    "score": 1.0,
+    "speaker": "SPEAKER_02"
+  },
+  {
+    "word": "こ",
+    "start": 52.887,
+    "end": 53.027,
+    "score": 0.962,
+    "speaker": "SPEAKER_02"
+  },
+  {
+    "word": "と",
+    "start": 53.027,
+    "end": 53.187,
+    "score": 0.93,
+    "speaker": "SPEAKER_02"
+  },
+  {
+    "word": "は",
+    "start": 53.187,
+    "end": 53.668,
+    "score": 1.0,
+    "speaker": "SPEAKER_02"
+  },
+  {
+    "word": "ど",
+    "start": 53.668,
+    "end": 53.828,
+    "score": 1.0,
+    "speaker": "SPEAKER_02"
+  },
+  {
+    "word": "の",
+    "start": 53.828,
+    "end": 53.988,
+    "score": 1.0,
+    "speaker": "SPEAKER_02"
+  },
+  {
+    "word": "よ",
+    "start": 53.988,
+    "end": 54.048,
+    "score": 0.668,
+    "speaker": "SPEAKER_02"
+  },
+  {
+    "word": "う",
+    "start": 54.048,
+    "end": 54.128,
+    "score": 0.75,
+    "speaker": "SPEAKER_02"
+  },
+  {
+    "word": "な",
+    "start": 54.128,
+    "end": 54.268,
+    "score": 0.987,
+    "speaker": "SPEAKER_02"
+  },
+  {
+    "word": "こ",
+    "start": 54.268,
+    "end": 54.408,
+    "score": 1.0,
+    "speaker": "SPEAKER_02"
+  },
+  {
+    "word": "と",
+    "start": 54.408,
+    "end": 54.528,
+    "score": 1.0,
+    "speaker": "SPEAKER_02"
+  },
+  {
+    "word": "で",
+    "start": 54.528,
+    "end": 54.669,
+    "score": 1.0,
+    "speaker": "SPEAKER_02"
+  },
+  {
+    "word": "す",
+    "start": 54.669,
+    "end": 54.769,
+    "score": 0.995,
+    "speaker": "SPEAKER_02"
+  },
+  {
+    "word": "か",
+    "start": 54.769,
+    "end": 56.991,
+    "score": 1.0,
+    "speaker": "SPEAKER_02"
+  },
+  {
+    "word": "1",
+    "start": 56.991,
+    "end": 58.352,
+    "score": 0.985,
+    "speaker": "SPEAKER_01"
+  },
+  {
+    "word": "目",
+    "start": 58.352,
+    "end": 58.612,
+    "score": 1.0,
+    "speaker": "SPEAKER_02"
+  },
+  {
+    "word": "標",
+    "start": 58.612,
+    "end": 58.933,
+    "score": 0.998,
+    "speaker": "SPEAKER_02"
+  },
+  {
+    "word": "は",
+    "start": 58.933,
+    "end": 59.453,
+    "score": 1.0,
+    "speaker": "SPEAKER_02"
+  },
+  {
+    "word": "自",
+    "start": 59.453,
+    "end": 59.593,
+    "score": 1.0,
+    "speaker": "SPEAKER_01"
+  },
+  {
+    "word": "分",
+    "start": 59.593,
+    "end": 59.794,
+    "score": 1.0,
+    "speaker": "SPEAKER_01"
+  },
+  {
+    "word": "に",
+    "start": 59.794,
+    "end": 59.954,
+    "score": 0.996,
+    "speaker": "SPEAKER_01"
+  },
+  {
+    "word": "あ",
+    "start": 59.954,
+    "end": 60.154,
+    "score": 0.895,
+    "speaker": "SPEAKER_01"
+  },
+  {
+    "word": "っ",
+    "start": 60.154,
+    "end": 60.174,
+    "score": 1.0,
+    "speaker": "SPEAKER_01"
+  },
+  {
+    "word": "た",
+    "start": 60.174,
+    "end": 60.314,
+    "score": 0.999,
+    "speaker": "SPEAKER_01"
+  },
+  {
+    "word": "も",
+    "start": 60.314,
+    "end": 60.434,
+    "score": 1.0,
+    "speaker": "SPEAKER_01"
+  },
+  {
+    "word": "の",
+    "start": 60.434,
+    "end": 60.594,
+    "score": 0.879,
+    "speaker": "SPEAKER_01"
+  },
+  {
+    "word": "が",
+    "start": 60.594,
+    "end": 60.795,
+    "score": 1.0,
+    "speaker": "SPEAKER_01"
+  },
+  {
+    "word": "良",
+    "start": 60.795,
+    "end": 60.935,
+    "score": 0.857,
+    "speaker": "SPEAKER_01"
+  },
+  {
+    "word": "い",
+    "start": 60.935,
+    "end": 60.955,
+    "score": 1.0,
+    "speaker": "SPEAKER_01"
+  },
+  {
+    "word": "2",
+    "start": 64.118,
+    "end": 65.38,
+    "score": 0.969,
+    "speaker": "SPEAKER_01"
+  },
+  {
+    "word": "目",
+    "start": 65.38,
+    "end": 65.68,
+    "score": 1.0,
+    "speaker": "SPEAKER_01"
+  },
+  {
+    "word": "標",
+    "start": 65.68,
+    "end": 65.94,
+    "score": 0.967,
+    "speaker": "SPEAKER_01"
+  },
+  {
+    "word": "を",
+    "start": 65.94,
+    "end": 66.1,
+    "score": 1.0,
+    "speaker": "SPEAKER_01"
+  },
+  {
+    "word": "持",
+    "start": 66.1,
+    "end": 66.261,
+    "score": 1.0,
+    "speaker": "SPEAKER_01"
+  },
+  {
+    "word": "ち",
+    "start": 66.261,
+    "end": 66.521,
+    "score": 1.0,
+    "speaker": "SPEAKER_01"
+  },
+  {
+    "word": "続",
+    "start": 66.521,
+    "end": 66.661,
+    "score": 0.971,
+    "speaker": "SPEAKER_01"
+  },
+  {
+    "word": "け",
+    "start": 66.661,
+    "end": 66.761,
+    "score": 0.999,
+    "speaker": "SPEAKER_01"
+  },
+  {
+    "word": "る",
+    "start": 66.761,
+    "end": 66.881,
+    "score": 1.0,
+    "speaker": "SPEAKER_01"
+  },
+  {
+    "word": "こ",
+    "start": 66.881,
+    "end": 67.042,
+    "score": 1.0,
+    "speaker": "SPEAKER_01"
+  },
+  {
+    "word": "と",
+    "start": 67.042,
+    "end": 67.162,
+    "score": 1.0,
+    "speaker": "SPEAKER_01"
+  },
+  {
+    "word": "が",
+    "start": 67.162,
+    "end": 67.322,
+    "score": 1.0,
+    "speaker": "SPEAKER_01"
+  },
+  {
+    "word": "必",
+    "start": 67.322,
+    "end": 67.622,
+    "score": 1.0,
+    "speaker": "SPEAKER_01"
+  },
+  {
+    "word": "要",
+    "start": 67.622,
+    "end": 67.823,
+    "score": 1.0,
+    "speaker": "SPEAKER_01"
+  },
+  {
+    "word": "だ",
+    "start": 67.823,
+    "end": 71.086,
+    "score": 1.0,
+    "speaker": "SPEAKER_01"
+  },
+  {
+    "word": "。"
+  },
+  {
+    "word": "3",
+    "start": 71.086,
+    "end": 71.106,
+    "score": 0.0,
+    "speaker": "SPEAKER_01"
+  },
+  {
+    "word": "目",
+    "start": 72.431,
+    "end": 72.732,
+    "score": 0.998,
+    "speaker": "SPEAKER_01"
+  },
+  {
+    "word": "標",
+    "start": 72.732,
+    "end": 72.952,
+    "score": 0.91,
+    "speaker": "SPEAKER_01"
+  },
+  {
+    "word": "に",
+    "start": 72.952,
+    "end": 73.113,
+    "score": 1.0,
+    "speaker": "SPEAKER_01"
+  },
+  {
+    "word": "向",
+    "start": 73.113,
+    "end": 73.253,
+    "score": 1.0,
+    "speaker": "SPEAKER_01"
+  },
+  {
+    "word": "か",
+    "start": 73.253,
+    "end": 73.393,
+    "score": 0.892,
+    "speaker": "SPEAKER_01"
+  },
+  {
+    "word": "う",
+    "start": 73.393,
+    "end": 73.534,
+    "score": 0.99,
+    "speaker": "SPEAKER_01"
+  },
+  {
+    "word": "プ",
+    "start": 73.534,
+    "end": 73.634,
+    "score": 1.0,
+    "speaker": "SPEAKER_01"
+  },
+  {
+    "word": "ロ",
+    "start": 73.634,
+    "end": 73.794,
+    "score": 1.0,
+    "speaker": "SPEAKER_01"
+  },
+  {
+    "word": "セ",
+    "start": 73.794,
+    "end": 73.955,
+    "score": 0.985,
+    "speaker": "SPEAKER_01"
+  },
+  {
+    "word": "ス",
+    "start": 73.955,
+    "end": 74.075,
+    "score": 0.982,
+    "speaker": "SPEAKER_01"
+  },
+  {
+    "word": "に",
+    "start": 74.075,
+    "end": 74.216,
+    "score": 1.0,
+    "speaker": "SPEAKER_01"
+  },
+  {
+    "word": "も",
+    "start": 74.216,
+    "end": 74.376,
+    "score": 1.0,
+    "speaker": "SPEAKER_01"
+  },
+  {
+    "word": "意",
+    "start": 74.376,
+    "end": 74.516,
+    "score": 0.999,
+    "speaker": "SPEAKER_01"
+  },
+  {
+    "word": "味",
+    "start": 74.516,
+    "end": 74.677,
+    "score": 0.99,
+    "speaker": "SPEAKER_01"
+  },
+  {
+    "word": "が",
+    "start": 74.677,
+    "end": 74.817,
+    "score": 1.0,
+    "speaker": "SPEAKER_01"
+  },
+  {
+    "word": "あ",
+    "start": 74.817,
+    "end": 74.937,
+    "score": 1.0,
+    "speaker": "SPEAKER_01"
+  },
+  {
+    "word": "る",
+    "start": 74.937,
+    "end": 74.957,
+    "score": 1.0,
+    "speaker": "SPEAKER_01"
+  },
+  {
+    "word": "。"
+  },
+  {
+    "word": "時",
+    "start": 79.595,
+    "end": 79.715,
+    "score": 1.0,
+    "speaker": "SPEAKER_01"
+  },
+  {
+    "word": "々",
+    "start": 79.715,
+    "end": 80.216,
+    "score": 1.0,
+    "speaker": "SPEAKER_01"
+  },
+  {
+    "word": "、"
+  },
+  {
+    "word": "目",
+    "start": 80.216,
+    "end": 80.497,
+    "score": 0.997,
+    "speaker": "SPEAKER_01"
+  },
+  {
+    "word": "標",
+    "start": 80.497,
+    "end": 80.718,
+    "score": 0.974,
+    "speaker": "SPEAKER_01"
+  },
+  {
+    "word": "を",
+    "start": 80.718,
+    "end": 80.878,
+    "score": 1.0,
+    "speaker": "SPEAKER_01"
+  },
+  {
+    "word": "見",
+    "start": 80.878,
+    "end": 80.999,
+    "score": 1.0,
+    "speaker": "SPEAKER_01"
+  },
+  {
+    "word": "直",
+    "start": 80.999,
+    "end": 81.259,
+    "score": 1.0,
+    "speaker": "SPEAKER_01"
+  },
+  {
+    "word": "す",
+    "start": 81.259,
+    "end": 81.38,
+    "score": 1.0,
+    "speaker": "SPEAKER_01"
+  },
+  {
+    "word": "こ",
+    "start": 81.38,
+    "end": 81.52,
+    "score": 1.0,
+    "speaker": "SPEAKER_01"
+  },
+  {
+    "word": "と",
+    "start": 81.52,
+    "end": 81.66,
+    "score": 1.0,
+    "speaker": "SPEAKER_01"
+  },
+  {
+    "word": "が",
+    "start": 81.66,
+    "end": 81.821,
+    "score": 1.0,
+    "speaker": "SPEAKER_01"
+  },
+  {
+    "word": "大",
+    "start": 81.821,
+    "end": 82.082,
+    "score": 1.0,
+    "speaker": "SPEAKER_01"
+  },
+  {
+    "word": "事",
+    "start": 82.082,
+    "end": 82.242,
+    "score": 0.993,
+    "speaker": "SPEAKER_01"
+  },
+  {
+    "word": "だ",
+    "start": 82.242,
+    "end": 82.262,
+    "score": 0.994,
+    "speaker": "SPEAKER_01"
+  }
+]
