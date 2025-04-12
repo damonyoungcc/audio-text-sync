@@ -136,6 +136,61 @@
       "audio_file": "2023-12-N2-2-3.mp3",
       "path": "data/2023-12-N2/2-3",
       "word_corrected_json": "2023-12-N2-2-3.corrected.word.json"
+    },
+    "2-4": {
+      "audio_file": "2023-12-N2-2-4.mp3",
+      "path": "data/2023-12-N2/2-4",
+      "word_corrected_json": "2023-12-N2-2-4.corrected.word.json"
+    },
+    "2-5": {
+      "audio_file": "2023-12-N2-2-5.mp3",
+      "path": "data/2023-12-N2/2-5",
+      "word_corrected_json": "2023-12-N2-2-5.corrected.word.json"
+    },
+    "2-6": {
+      "audio_file": "2023-12-N2-2-6.mp3",
+      "path": "data/2023-12-N2/2-6",
+      "word_corrected_json": "2023-12-N2-2-6.corrected.word.json"
+    },
+    "3-1": {
+      "audio_file": "2023-12-N2-3-1.mp3",
+      "path": "data/2023-12-N2/3-1",
+      "word_corrected_json": "2023-12-N2-3-1.corrected.word.json"
+    },
+    "3-2": {
+      "audio_file": "2023-12-N2-3-2.mp3",
+      "path": "data/2023-12-N2/3-2",
+      "word_corrected_json": "2023-12-N2-3-2.corrected.word.json"
+    },
+    "3-3": {
+      "audio_file": "2023-12-N2-3-3.mp3",
+      "path": "data/2023-12-N2/3-3",
+      "word_corrected_json": "2023-12-N2-3-3.corrected.word.json"
+    },
+    "3-4": {
+      "audio_file": "2023-12-N2-3-4.mp3",
+      "path": "data/2023-12-N2/3-4",
+      "word_corrected_json": "2023-12-N2-3-4.corrected.word.json"
+    },
+    "3-5": {
+      "audio_file": "2023-12-N2-3-5.mp3",
+      "path": "data/2023-12-N2/3-5",
+      "word_corrected_json": "2023-12-N2-3-5.corrected.word.json"
+    },
+    "4-1-11": {
+      "audio_file": "2023-12-N2-4-1-11.mp3",
+      "path": "data/2023-12-N2/4-1-11",
+      "word_corrected_json": "2023-12-N2-4-1-11.corrected.word.json"
+    },
+    "5-1": {
+      "audio_file": "2023-12-N2-5-1.mp3",
+      "path": "data/2023-12-N2/5-1",
+      "word_corrected_json": "2023-12-N2-5-1.corrected.word.json"
+    },
+    "5-2": {
+      "audio_file": "2023-12-N2-5-2.mp3",
+      "path": "data/2023-12-N2/5-2",
+      "word_corrected_json": "2023-12-N2-5-2.corrected.word.json"
     }
   },
   "2024-7-N2": {

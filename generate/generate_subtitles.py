@@ -60,11 +60,11 @@ def generate_subtitles():
         "--align_model", ALIGN_MODEL,
         "--compute_type", COMPUTE_TYPE,
         "--output_format", "json",
-        "--diarize",
+        # "--diarize",
         "--min_speakers", MIN_SPEAKERS,
         "--max_speakers", MAX_SPEAKERS,
         "--hf_token", HF_TOKEN,
-        "--chunk_size", "10",
+        "--chunk_size", "20",
     ]
 
     print("\n🚀 正在运行 whisperx：")
