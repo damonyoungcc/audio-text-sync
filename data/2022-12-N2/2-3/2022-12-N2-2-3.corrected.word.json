@@ -1,0 +1,2626 @@
+[
+  {
+    "role": "bold-word",
+    "word": "2.",
+    "start": 0.902,
+    "end": 0.912
+  },
+  {
+    "word": "3",
+    "start": 0.912,
+    "end": 1.173,
+    "score": 0.923
+  },
+  {
+    "role": "line-break",
+    "word": ""
+  },
+  {
+    "word": "会",
+    "start": 2.474,
+    "end": 2.755,
+    "score": 1.0
+  },
+  {
+    "word": "社",
+    "start": 2.755,
+    "end": 2.955,
+    "score": 1.0
+  },
+  {
+    "word": "で",
+    "start": 2.955,
+    "end": 3.676,
+    "score": 1.0
+  },
+  {
+    "word": "、",
+    "start": 3.676,
+    "end": 3.676
+  },
+  {
+    "word": "女",
+    "start": 3.676,
+    "end": 4.037,
+    "score": 1.0
+  },
+  {
+    "word": "の",
+    "start": 4.037,
+    "end": 4.177,
+    "score": 1.0
+  },
+  {
+    "word": "人",
+    "start": 4.177,
+    "end": 4.437,
+    "score": 1.0
+  },
+  {
+    "word": "と",
+    "start": 4.437,
+    "end": 4.818,
+    "score": 1.0
+  },
+  {
+    "word": "男",
+    "start": 4.818,
+    "end": 4.958,
+    "score": 0.86
+  },
+  {
+    "word": "の",
+    "start": 4.958,
+    "end": 5.098,
+    "score": 1.0
+  },
+  {
+    "word": "人",
+    "start": 5.098,
+    "end": 5.339,
+    "score": 1.0
+  },
+  {
+    "word": "が",
+    "start": 5.339,
+    "end": 5.499,
+    "score": 1.0
+  },
+  {
+    "word": "話",
+    "start": 5.499,
+    "end": 5.759,
+    "score": 1.0
+  },
+  {
+    "word": "し",
+    "start": 5.759,
+    "end": 5.859,
+    "score": 1.0
+  },
+  {
+    "word": "て",
+    "start": 5.859,
+    "end": 5.979,
+    "score": 0.999
+  },
+  {
+    "word": "い",
+    "start": 5.979,
+    "end": 6.12,
+    "score": 0.999
+  },
+  {
+    "word": "ま",
+    "start": 6.12,
+    "end": 6.26,
+    "score": 1.0
+  },
+  {
+    "word": "す",
+    "start": 6.26,
+    "end": 8.363,
+    "score": 1.0
+  },
+  {
+    "word": "。",
+    "start": 8.363,
+    "end": 8.363
+  },
+  {
+    "word": "男",
+    "start": 8.363,
+    "end": 8.483,
+    "score": 1.0
+  },
+  {
+    "word": "の",
+    "start": 8.483,
+    "end": 8.623,
+    "score": 1.0
+  },
+  {
+    "word": "人",
+    "start": 8.623,
+    "end": 8.884,
+    "score": 1.0
+  },
+  {
+    "word": "が",
+    "start": 8.884,
+    "end": 9.725,
+    "score": 1.0
+  },
+  {
+    "word": "、",
+    "start": 9.725,
+    "end": 9.725
+  },
+  {
+    "word": "こ",
+    "start": 9.725,
+    "end": 9.865,
+    "score": 0.984
+  },
+  {
+    "word": "の",
+    "start": 9.865,
+    "end": 10.045,
+    "score": 1.0
+  },
+  {
+    "word": "専",
+    "start": 10.045,
+    "end": 10.266,
+    "score": 1.0
+  },
+  {
+    "word": "門",
+    "start": 10.266,
+    "end": 10.486,
+    "score": 0.947
+  },
+  {
+    "word": "学",
+    "start": 10.486,
+    "end": 10.726,
+    "score": 1.0
+  },
+  {
+    "word": "校",
+    "start": 10.726,
+    "end": 10.947,
+    "score": 1.0
+  },
+  {
+    "word": "を",
+    "start": 10.947,
+    "end": 11.087,
+    "score": 0.985
+  },
+  {
+    "word": "選",
+    "start": 11.087,
+    "end": 11.367,
+    "score": 1.0
+  },
+  {
+    "word": "ん",
+    "start": 11.367,
+    "end": 11.467,
+    "score": 1.0
+  },
+  {
+    "word": "だ",
+    "start": 11.467,
+    "end": 11.628,
+    "score": 1.0
+  },
+  {
+    "word": "一",
+    "start": 11.628,
+    "end": 11.908,
+    "score": 1.0
+  },
+  {
+    "word": "番",
+    "start": 11.908,
+    "end": 12.148,
+    "score": 1.0
+  },
+  {
+    "word": "の",
+    "start": 12.148,
+    "end": 12.308,
+    "score": 1.0
+  },
+  {
+    "word": "理",
+    "start": 12.308,
+    "end": 12.509,
+    "score": 1.0
+  },
+  {
+    "word": "由",
+    "start": 12.509,
+    "end": 12.769,
+    "score": 1.0
+  },
+  {
+    "word": "は",
+    "start": 12.769,
+    "end": 13.33,
+    "score": 1.0
+  },
+  {
+    "word": "何",
+    "start": 13.33,
+    "end": 13.57,
+    "score": 1.0
+  },
+  {
+    "word": "で",
+    "start": 13.57,
+    "end": 13.69,
+    "score": 1.0
+  },
+  {
+    "word": "す",
+    "start": 13.69,
+    "end": 13.851,
+    "score": 1.0
+  },
+  {
+    "word": "か",
+    "start": 13.851,
+    "end": 13.871,
+    "score": 1.0
+  },
+  {
+    "word": "。",
+    "start": 13.871,
+    "end": 39.821
+  },
+  {
+    "role": "line-break",
+    "word": ""
+  },
+  {
+    "role": "bold-word",
+    "word": "F:",
+    "start": 39.821,
+    "end": 39.821
+  },
+  {
+    "word": "佐",
+    "start": 39.821,
+    "end": 40.001,
+    "score": 0.891
+  },
+  {
+    "word": "藤",
+    "start": 40.001,
+    "end": 40.261,
+    "score": 0.99
+  },
+  {
+    "word": "さ",
+    "start": 40.261,
+    "end": 41.222,
+    "score": 0.978
+  },
+  {
+    "word": "ん",
+    "start": 41.222,
+    "end": 41.342,
+    "score": 0.833
+  },
+  {
+    "word": "、",
+    "start": 41.342,
+    "end": 41.342
+  },
+  {
+    "word": "仕",
+    "start": 41.342,
+    "end": 41.503,
+    "score": 0.996
+  },
+  {
+    "word": "事",
+    "start": 41.503,
+    "end": 41.743,
+    "score": 1.0
+  },
+  {
+    "word": "の",
+    "start": 41.743,
+    "end": 42.003,
+    "score": 0.983
+  },
+  {
+    "word": "後",
+    "start": 42.003,
+    "end": 42.704,
+    "score": 0.985
+  },
+  {
+    "word": "、",
+    "start": 42.704,
+    "end": 42.704
+  },
+  {
+    "word": "山",
+    "start": 42.704,
+    "end": 42.844,
+    "score": 0.999
+  },
+  {
+    "word": "川",
+    "start": 42.844,
+    "end": 43.504,
+    "score": 0.883
+  },
+  {
+    "word": "I",
+    "start": 43.504,
+    "end": 43.504
+  },
+  {
+    "word": "T",
+    "start": 43.504,
+    "end": 43.504
+  },
+  {
+    "word": "専",
+    "start": 43.504,
+    "end": 43.685,
+    "score": 0.889
+  },
+  {
+    "word": "門",
+    "start": 43.685,
+    "end": 43.885,
+    "score": 0.99
+  },
+  {
+    "word": "学",
+    "start": 43.885,
+    "end": 44.065,
+    "score": 0.994
+  },
+  {
+    "word": "校",
+    "start": 44.065,
+    "end": 44.265,
+    "score": 0.999
+  },
+  {
+    "word": "に",
+    "start": 44.265,
+    "end": 44.425,
+    "score": 1.0
+  },
+  {
+    "word": "通",
+    "start": 44.425,
+    "end": 44.746,
+    "score": 1.0
+  },
+  {
+    "word": "っ",
+    "start": 44.746,
+    "end": 44.786,
+    "score": 0.702
+  },
+  {
+    "word": "て",
+    "start": 44.786,
+    "end": 44.886,
+    "score": 0.999
+  },
+  {
+    "word": "る",
+    "start": 44.886,
+    "end": 44.986,
+    "score": 1.0
+  },
+  {
+    "word": "ん",
+    "start": 44.986,
+    "end": 45.046,
+    "score": 0.936
+  },
+  {
+    "word": "だ",
+    "start": 45.046,
+    "end": 45.226,
+    "score": 1.0
+  },
+  {
+    "word": "っ",
+    "start": 45.226,
+    "end": 45.266,
+    "score": 0.504
+  },
+  {
+    "word": "て",
+    "start": 45.266,
+    "end": 46.147,
+    "score": 1.0
+  },
+  {
+    "word": "？",
+    "start": 46.147,
+    "end": 46.147
+  },
+  {
+    "role": "line-break",
+    "word": ""
+  },
+  {
+    "role": "bold-word",
+    "word": "M:",
+    "start": 46.147,
+    "end": 46.147
+  },
+  {
+    "word": "う",
+    "start": 46.147,
+    "end": 46.287,
+    "score": 0.822
+  },
+  {
+    "word": "ん",
+    "start": 46.287,
+    "end": 47.268,
+    "score": 0.979
+  },
+  {
+    "word": "、",
+    "start": 47.268,
+    "end": 47.268
+  },
+  {
+    "word": "前",
+    "start": 47.268,
+    "end": 47.508,
+    "score": 1.0
+  },
+  {
+    "word": "か",
+    "start": 47.508,
+    "end": 47.628,
+    "score": 1.0
+  },
+  {
+    "word": "ら",
+    "start": 47.628,
+    "end": 47.888,
+    "score": 1.0
+  },
+  {
+    "word": "少",
+    "start": 47.888,
+    "end": 48.049,
+    "score": 1.0
+  },
+  {
+    "word": "し",
+    "start": 48.049,
+    "end": 48.189,
+    "score": 1.0
+  },
+  {
+    "word": "関",
+    "start": 48.189,
+    "end": 48.409,
+    "score": 0.959
+  },
+  {
+    "word": "心",
+    "start": 48.409,
+    "end": 48.589,
+    "score": 1.0
+  },
+  {
+    "word": "が",
+    "start": 48.589,
+    "end": 48.689,
+    "score": 1.0
+  },
+  {
+    "word": "あ",
+    "start": 48.689,
+    "end": 48.849,
+    "score": 0.875
+  },
+  {
+    "word": "っ",
+    "start": 48.849,
+    "end": 48.869,
+    "score": 1.0
+  },
+  {
+    "word": "た",
+    "start": 48.869,
+    "end": 48.989,
+    "score": 0.776
+  },
+  {
+    "word": "ん",
+    "start": 48.989,
+    "end": 49.049,
+    "score": 0.667
+  },
+  {
+    "word": "だ",
+    "start": 49.049,
+    "end": 49.13,
+    "score": 1.0
+  },
+  {
+    "word": "け",
+    "start": 49.13,
+    "end": 49.21,
+    "score": 0.992
+  },
+  {
+    "word": "ど",
+    "start": 49.21,
+    "end": 50.05,
+    "score": 1.0
+  },
+  {
+    "word": "、",
+    "start": 50.05,
+    "end": 50.05
+  },
+  {
+    "word": "W",
+    "start": 50.05,
+    "end": 50.11,
+    "score": 0.636
+  },
+  {
+    "word": "e",
+    "start": 50.11,
+    "end": 50.211,
+    "score": 0.894
+  },
+  {
+    "word": "b",
+    "start": 50.211,
+    "end": 50.311,
+    "score": 0.965
+  },
+  {
+    "word": "デ",
+    "start": 50.311,
+    "end": 50.451,
+    "score": 0.997
+  },
+  {
+    "word": "ザ",
+    "start": 50.451,
+    "end": 50.591,
+    "score": 0.994
+  },
+  {
+    "word": "イ",
+    "start": 50.591,
+    "end": 50.691,
+    "score": 0.801
+  },
+  {
+    "word": "ン",
+    "start": 50.691,
+    "end": 50.751,
+    "score": 0.668
+  },
+  {
+    "word": "の",
+    "start": 50.751,
+    "end": 50.971,
+    "score": 1.0
+  },
+  {
+    "word": "知",
+    "start": 50.971,
+    "end": 51.251,
+    "score": 1.0
+  },
+  {
+    "word": "識",
+    "start": 51.251,
+    "end": 51.352,
+    "score": 1.0
+  },
+  {
+    "word": "や",
+    "start": 51.352,
+    "end": 51.592,
+    "score": 1.0
+  },
+  {
+    "word": "技",
+    "start": 51.592,
+    "end": 51.692,
+    "score": 1.0
+  },
+  {
+    "word": "術",
+    "start": 51.692,
+    "end": 51.972,
+    "score": 0.999
+  },
+  {
+    "word": "を",
+    "start": 51.972,
+    "end": 52.152,
+    "score": 1.0
+  },
+  {
+    "word": "身",
+    "start": 52.152,
+    "end": 52.232,
+    "score": 0.995
+  },
+  {
+    "word": "に",
+    "start": 52.232,
+    "end": 52.393,
+    "score": 1.0
+  },
+  {
+    "word": "つ",
+    "start": 52.393,
+    "end": 52.453,
+    "score": 0.999
+  },
+  {
+    "word": "け",
+    "start": 52.453,
+    "end": 52.553,
+    "score": 1.0
+  },
+  {
+    "word": "ら",
+    "start": 52.553,
+    "end": 52.653,
+    "score": 1.0
+  },
+  {
+    "word": "れ",
+    "start": 52.653,
+    "end": 52.753,
+    "score": 1.0
+  },
+  {
+    "word": "た",
+    "start": 52.753,
+    "end": 52.853,
+    "score": 0.986
+  },
+  {
+    "word": "ら",
+    "start": 52.853,
+    "end": 52.953,
+    "score": 1.0
+  },
+  {
+    "word": "い",
+    "start": 52.953,
+    "end": 53.053,
+    "score": 0.841
+  },
+  {
+    "word": "い",
+    "start": 53.053,
+    "end": 53.133,
+    "score": 1.0
+  },
+  {
+    "word": "な",
+    "start": 53.133,
+    "end": 53.353,
+    "score": 0.909
+  },
+  {
+    "word": "っ",
+    "start": 53.353,
+    "end": 53.373,
+    "score": 1.0
+  },
+  {
+    "word": "て",
+    "start": 53.373,
+    "end": 53.554,
+    "score": 1.0
+  },
+  {
+    "word": "思",
+    "start": 53.554,
+    "end": 53.694,
+    "score": 1.0
+  },
+  {
+    "word": "っ",
+    "start": 53.694,
+    "end": 53.734,
+    "score": 0.999
+  },
+  {
+    "word": "て",
+    "start": 53.734,
+    "end": 53.754,
+    "score": 0.948
+  },
+  {
+    "start": 53.754,
+    "end": 54.678,
+    "word": "…"
+  },
+  {
+    "start": 54.678,
+    "end": 54.678,
+    "word": "…"
+  },
+  {
+    "role": "line-break",
+    "word": ""
+  },
+  {
+    "role": "bold-word",
+    "word": "F:",
+    "start": 54.678,
+    "end": 54.678
+  },
+  {
+    "word": "そ",
+    "start": 54.678,
+    "end": 54.938,
+    "score": 0.923
+  },
+  {
+    "word": "う",
+    "start": 54.938,
+    "end": 56.119,
+    "score": 0.983
+  },
+  {
+    "word": "、",
+    "start": 56.119,
+    "end": 56.119
+  },
+  {
+    "word": "私",
+    "start": 56.119,
+    "end": 56.499,
+    "score": 1.0
+  },
+  {
+    "word": "も",
+    "start": 56.499,
+    "end": 56.679,
+    "score": 1.0
+  },
+  {
+    "word": "興",
+    "start": 56.679,
+    "end": 56.899,
+    "score": 1.0
+  },
+  {
+    "word": "味",
+    "start": 56.899,
+    "end": 57.019,
+    "score": 0.9
+  },
+  {
+    "word": "あ",
+    "start": 57.019,
+    "end": 57.119,
+    "score": 1.0
+  },
+  {
+    "word": "る",
+    "start": 57.119,
+    "end": 57.239,
+    "score": 0.9
+  },
+  {
+    "word": "ん",
+    "start": 57.239,
+    "end": 57.299,
+    "score": 0.836
+  },
+  {
+    "word": "だ",
+    "start": 57.299,
+    "end": 57.439,
+    "score": 1.0
+  },
+  {
+    "word": "け",
+    "start": 57.439,
+    "end": 57.539,
+    "score": 1.0
+  },
+  {
+    "word": "ど",
+    "start": 57.539,
+    "end": 58.479,
+    "score": 1.0
+  },
+  {
+    "word": "、",
+    "start": 58.479,
+    "end": 58.479
+  },
+  {
+    "word": "ど",
+    "start": 58.479,
+    "end": 58.579,
+    "score": 0.88
+  },
+  {
+    "word": "う",
+    "start": 58.579,
+    "end": 58.699,
+    "score": 0.835
+  },
+  {
+    "word": "し",
+    "start": 58.699,
+    "end": 58.779,
+    "score": 0.996
+  },
+  {
+    "word": "て",
+    "start": 58.779,
+    "end": 59.08,
+    "score": 0.995
+  },
+  {
+    "word": "山",
+    "start": 59.08,
+    "end": 59.2,
+    "score": 0.999
+  },
+  {
+    "word": "川",
+    "start": 59.2,
+    "end": 59.86,
+    "score": 0.845
+  },
+  {
+    "word": "I",
+    "start": 59.86,
+    "end": 59.86
+  },
+  {
+    "word": "T",
+    "start": 59.86,
+    "end": 59.86
+  },
+  {
+    "word": "専",
+    "start": 59.86,
+    "end": 60.06,
+    "score": 0.972
+  },
+  {
+    "word": "門",
+    "start": 60.06,
+    "end": 60.26,
+    "score": 0.999
+  },
+  {
+    "word": "学",
+    "start": 60.26,
+    "end": 60.42,
+    "score": 0.983
+  },
+  {
+    "word": "校",
+    "start": 60.42,
+    "end": 60.62,
+    "score": 1.0
+  },
+  {
+    "word": "に",
+    "start": 60.62,
+    "end": 60.74,
+    "score": 1.0
+  },
+  {
+    "word": "し",
+    "start": 60.74,
+    "end": 60.8,
+    "score": 1.0
+  },
+  {
+    "word": "た",
+    "start": 60.8,
+    "end": 60.94,
+    "score": 1.0
+  },
+  {
+    "word": "の",
+    "start": 60.94,
+    "end": 62.081,
+    "score": 0.985
+  },
+  {
+    "word": "？",
+    "start": 62.081,
+    "end": 62.081
+  },
+  {
+    "word": "会",
+    "start": 62.081,
+    "end": 62.321,
+    "score": 1.0
+  },
+  {
+    "word": "社",
+    "start": 62.321,
+    "end": 62.441,
+    "score": 1.0
+  },
+  {
+    "word": "の",
+    "start": 62.441,
+    "end": 62.601,
+    "score": 1.0
+  },
+  {
+    "word": "帰",
+    "start": 62.601,
+    "end": 62.801,
+    "score": 1.0
+  },
+  {
+    "word": "り",
+    "start": 62.801,
+    "end": 62.941,
+    "score": 0.996
+  },
+  {
+    "word": "に",
+    "start": 62.941,
+    "end": 63.041,
+    "score": 1.0
+  },
+  {
+    "word": "い",
+    "start": 63.041,
+    "end": 63.161,
+    "score": 1.0
+  },
+  {
+    "word": "く",
+    "start": 63.161,
+    "end": 63.301,
+    "score": 1.0
+  },
+  {
+    "word": "に",
+    "start": 63.301,
+    "end": 63.421,
+    "score": 1.0
+  },
+  {
+    "word": "し",
+    "start": 63.421,
+    "end": 63.501,
+    "score": 1.0
+  },
+  {
+    "word": "て",
+    "start": 63.501,
+    "end": 63.661,
+    "score": 1.0
+  },
+  {
+    "word": "は",
+    "start": 63.661,
+    "end": 64.361,
+    "score": 1.0
+  },
+  {
+    "word": "、",
+    "start": 64.361,
+    "end": 64.361
+  },
+  {
+    "word": "時",
+    "start": 64.361,
+    "end": 64.501,
+    "score": 1.0
+  },
+  {
+    "word": "間",
+    "start": 64.501,
+    "end": 64.722,
+    "score": 1.0
+  },
+  {
+    "word": "が",
+    "start": 64.722,
+    "end": 64.862,
+    "score": 1.0
+  },
+  {
+    "word": "か",
+    "start": 64.862,
+    "end": 65.002,
+    "score": 1.0
+  },
+  {
+    "word": "か",
+    "start": 65.002,
+    "end": 65.122,
+    "score": 1.0
+  },
+  {
+    "word": "る",
+    "start": 65.122,
+    "end": 65.242,
+    "score": 1.0
+  },
+  {
+    "word": "で",
+    "start": 65.242,
+    "end": 65.402,
+    "score": 1.0
+  },
+  {
+    "word": "し",
+    "start": 65.402,
+    "end": 65.482,
+    "score": 0.761
+  },
+  {
+    "word": "ょ",
+    "start": 65.482,
+    "end": 66.402,
+    "score": 0.914
+  },
+  {
+    "start": 66.402,
+    "end": 66.402,
+    "word": "う"
+  },
+  {
+    "word": "？",
+    "start": 66.402,
+    "end": 66.402
+  },
+  {
+    "role": "line-break",
+    "word": ""
+  },
+  {
+    "role": "bold-word",
+    "word": "M:",
+    "start": 66.402,
+    "end": 66.402
+  },
+  {
+    "word": "ま",
+    "start": 66.402,
+    "end": 66.622,
+    "score": 0.999
+  },
+  {
+    "word": "あ",
+    "start": 66.622,
+    "end": 67.102,
+    "score": 1.0
+  },
+  {
+    "word": "、",
+    "start": 67.102,
+    "end": 67.102
+  },
+  {
+    "word": "も",
+    "start": 67.102,
+    "end": 67.282,
+    "score": 0.889
+  },
+  {
+    "word": "っ",
+    "start": 67.282,
+    "end": 67.322,
+    "score": 1.0
+  },
+  {
+    "word": "と",
+    "start": 67.322,
+    "end": 67.463,
+    "score": 1.0
+  },
+  {
+    "word": "通",
+    "start": 67.463,
+    "end": 67.743,
+    "score": 0.993
+  },
+  {
+    "word": "い",
+    "start": 67.743,
+    "end": 67.823,
+    "score": 0.968
+  },
+  {
+    "word": "や",
+    "start": 67.823,
+    "end": 67.983,
+    "score": 0.994
+  },
+  {
+    "word": "す",
+    "start": 67.983,
+    "end": 68.123,
+    "score": 0.971
+  },
+  {
+    "word": "い",
+    "start": 68.123,
+    "end": 68.223,
+    "score": 1.0
+  },
+  {
+    "word": "と",
+    "start": 68.223,
+    "end": 68.363,
+    "score": 0.999
+  },
+  {
+    "word": "こ",
+    "start": 68.363,
+    "end": 68.443,
+    "score": 0.999
+  },
+  {
+    "word": "ろ",
+    "start": 68.443,
+    "end": 68.563,
+    "score": 1.0
+  },
+  {
+    "word": "と",
+    "start": 68.563,
+    "end": 68.663,
+    "score": 1.0
+  },
+  {
+    "word": "か",
+    "start": 68.663,
+    "end": 69.383,
+    "score": 1.0
+  },
+  {
+    "word": "、",
+    "start": 69.383,
+    "end": 69.383
+  },
+  {
+    "word": "い",
+    "start": 69.383,
+    "end": 69.483,
+    "score": 1.0
+  },
+  {
+    "word": "く",
+    "start": 69.483,
+    "end": 69.603,
+    "score": 1.0
+  },
+  {
+    "word": "つ",
+    "start": 69.603,
+    "end": 69.703,
+    "score": 1.0
+  },
+  {
+    "word": "か",
+    "start": 69.703,
+    "end": 69.923,
+    "score": 1.0
+  },
+  {
+    "word": "候",
+    "start": 69.923,
+    "end": 70.143,
+    "score": 0.912
+  },
+  {
+    "word": "補",
+    "start": 70.143,
+    "end": 70.264,
+    "score": 0.836
+  },
+  {
+    "word": "あ",
+    "start": 70.364,
+    "end": 70.504,
+    "score": 0.857
+  },
+  {
+    "word": "っ",
+    "start": 70.504,
+    "end": 70.524,
+    "score": 1.0
+  },
+  {
+    "word": "た",
+    "start": 70.524,
+    "end": 70.624,
+    "score": 0.999
+  },
+  {
+    "word": "ん",
+    "start": 70.624,
+    "end": 70.684,
+    "score": 0.699
+  },
+  {
+    "word": "だ",
+    "start": 70.684,
+    "end": 70.764,
+    "score": 0.999
+  },
+  {
+    "word": "け",
+    "start": 70.764,
+    "end": 70.864,
+    "score": 0.8
+  },
+  {
+    "word": "ど",
+    "start": 70.864,
+    "end": 70.944,
+    "score": 0.996
+  },
+  {
+    "word": "ね",
+    "start": 70.944,
+    "end": 70.964,
+    "score": 0.859
+  },
+  {
+    "word": "、",
+    "start": 70.964,
+    "end": 72.315
+  },
+  {
+    "word": "山",
+    "start": 72.315,
+    "end": 72.435,
+    "score": 1.0
+  },
+  {
+    "word": "川",
+    "start": 72.435,
+    "end": 72.695,
+    "score": 0.944
+  },
+  {
+    "word": "は",
+    "start": 72.695,
+    "end": 73.316,
+    "score": 1.0
+  },
+  {
+    "word": "少",
+    "start": 73.316,
+    "end": 73.536,
+    "score": 0.907
+  },
+  {
+    "word": "人",
+    "start": 73.536,
+    "end": 73.776,
+    "score": 0.917
+  },
+  {
+    "word": "数",
+    "start": 73.776,
+    "end": 73.956,
+    "score": 0.888
+  },
+  {
+    "word": "制",
+    "start": 73.956,
+    "end": 74.116,
+    "score": 0.875
+  },
+  {
+    "word": "の",
+    "start": 74.116,
+    "end": 74.236,
+    "score": 0.833
+  },
+  {
+    "word": "ク",
+    "start": 74.236,
+    "end": 74.316,
+    "score": 0.75
+  },
+  {
+    "word": "ラ",
+    "start": 74.316,
+    "end": 74.456,
+    "score": 0.881
+  },
+  {
+    "word": "ス",
+    "start": 74.456,
+    "end": 74.536,
+    "score": 0.765
+  },
+  {
+    "word": "だ",
+    "start": 74.536,
+    "end": 74.636,
+    "score": 1.0
+  },
+  {
+    "word": "か",
+    "start": 74.636,
+    "end": 74.716,
+    "score": 1.0
+  },
+  {
+    "word": "ら",
+    "start": 74.716,
+    "end": 75.397,
+    "score": 1.0
+  },
+  {
+    "word": "、",
+    "start": 75.397,
+    "end": 75.397
+  },
+  {
+    "word": "丁",
+    "start": 75.397,
+    "end": 75.597,
+    "score": 0.942
+  },
+  {
+    "word": "寧",
+    "start": 75.597,
+    "end": 75.777,
+    "score": 0.942
+  },
+  {
+    "word": "に",
+    "start": 75.777,
+    "end": 75.937,
+    "score": 1.0
+  },
+  {
+    "word": "指",
+    "start": 75.937,
+    "end": 76.057,
+    "score": 0.985
+  },
+  {
+    "word": "導",
+    "start": 76.057,
+    "end": 76.257,
+    "score": 0.994
+  },
+  {
+    "word": "し",
+    "start": 76.257,
+    "end": 76.317,
+    "score": 1.0
+  },
+  {
+    "word": "て",
+    "start": 76.317,
+    "end": 76.437,
+    "score": 1.0
+  },
+  {
+    "word": "も",
+    "start": 76.437,
+    "end": 76.517,
+    "score": 0.75
+  },
+  {
+    "word": "ら",
+    "start": 76.517,
+    "end": 76.617,
+    "score": 0.8
+  },
+  {
+    "word": "え",
+    "start": 76.617,
+    "end": 76.677,
+    "score": 1.0
+  },
+  {
+    "word": "る",
+    "start": 76.677,
+    "end": 76.797,
+    "score": 1.0
+  },
+  {
+    "word": "と",
+    "start": 76.797,
+    "end": 76.977,
+    "score": 1.0
+  },
+  {
+    "word": "思",
+    "start": 76.977,
+    "end": 77.118,
+    "score": 1.0
+  },
+  {
+    "word": "っ",
+    "start": 77.118,
+    "end": 77.138,
+    "score": 0.998
+  },
+  {
+    "word": "て",
+    "start": 77.138,
+    "end": 78.558,
+    "score": 0.997
+  },
+  {
+    "word": "、",
+    "start": 78.558,
+    "end": 78.558
+  },
+  {
+    "word": "授",
+    "start": 78.558,
+    "end": 78.698,
+    "score": 0.998
+  },
+  {
+    "word": "業",
+    "start": 78.698,
+    "end": 78.878,
+    "score": 1.0
+  },
+  {
+    "word": "料",
+    "start": 78.878,
+    "end": 79.078,
+    "score": 0.907
+  },
+  {
+    "word": "が",
+    "start": 79.078,
+    "end": 79.239,
+    "score": 1.0
+  },
+  {
+    "word": "安",
+    "start": 79.239,
+    "end": 79.519,
+    "score": 0.995
+  },
+  {
+    "word": "い",
+    "start": 79.519,
+    "end": 79.619,
+    "score": 0.999
+  },
+  {
+    "word": "と",
+    "start": 79.619,
+    "end": 79.699,
+    "score": 1.0
+  },
+  {
+    "word": "は",
+    "start": 79.699,
+    "end": 79.799,
+    "score": 1.0
+  },
+  {
+    "word": "言",
+    "start": 79.799,
+    "end": 79.859,
+    "score": 0.769
+  },
+  {
+    "word": "え",
+    "start": 79.859,
+    "end": 79.959,
+    "score": 0.999
+  },
+  {
+    "word": "な",
+    "start": 79.959,
+    "end": 80.079,
+    "score": 0.794
+  },
+  {
+    "word": "い",
+    "start": 80.079,
+    "end": 80.159,
+    "score": 0.75
+  },
+  {
+    "word": "ん",
+    "start": 80.159,
+    "end": 80.199,
+    "score": 0.628
+  },
+  {
+    "word": "だ",
+    "start": 80.199,
+    "end": 80.299,
+    "score": 0.981
+  },
+  {
+    "word": "け",
+    "start": 80.299,
+    "end": 80.379,
+    "score": 1.0
+  },
+  {
+    "word": "ど",
+    "start": 80.379,
+    "end": 81.06,
+    "score": 1.0
+  },
+  {
+    "word": "、",
+    "start": 81.06,
+    "end": 81.06
+  },
+  {
+    "word": "行",
+    "start": 81.06,
+    "end": 81.2,
+    "score": 0.985
+  },
+  {
+    "word": "く",
+    "start": 81.2,
+    "end": 81.3,
+    "score": 1.0
+  },
+  {
+    "word": "価",
+    "start": 81.3,
+    "end": 81.46,
+    "score": 1.0
+  },
+  {
+    "word": "値",
+    "start": 81.46,
+    "end": 81.58,
+    "score": 1.0
+  },
+  {
+    "word": "は",
+    "start": 81.58,
+    "end": 81.7,
+    "score": 1.0
+  },
+  {
+    "word": "あ",
+    "start": 81.7,
+    "end": 81.78,
+    "score": 1.0
+  },
+  {
+    "word": "る",
+    "start": 81.78,
+    "end": 81.9,
+    "score": 1.0
+  },
+  {
+    "word": "と",
+    "start": 81.9,
+    "end": 82.1,
+    "score": 1.0
+  },
+  {
+    "word": "思",
+    "start": 82.1,
+    "end": 82.24,
+    "score": 0.857
+  },
+  {
+    "word": "っ",
+    "start": 82.24,
+    "end": 82.26,
+    "score": 1.0
+  },
+  {
+    "word": "た",
+    "start": 82.26,
+    "end": 82.36,
+    "score": 0.768
+  },
+  {
+    "word": "ん",
+    "start": 82.36,
+    "end": 82.44,
+    "score": 0.997
+  },
+  {
+    "word": "だ",
+    "start": 82.44,
+    "end": 83.221,
+    "score": 1.0
+  },
+  {
+    "word": "。",
+    "start": 83.221,
+    "end": 83.221
+  },
+  {
+    "role": "line-break",
+    "word": ""
+  },
+  {
+    "role": "bold-word",
+    "word": "F:",
+    "start": 83.221,
+    "end": 83.221
+  },
+  {
+    "word": "へ",
+    "start": 83.221,
+    "end": 83.541,
+    "score": 0.943
+  },
+  {
+    "word": "ー",
+    "start": 83.541,
+    "end": 84.841,
+    "score": 0.985
+  },
+  {
+    "word": "、",
+    "start": 84.841,
+    "end": 84.841
+  },
+  {
+    "word": "何",
+    "start": 84.841,
+    "end": 85.122,
+    "score": 1.0
+  },
+  {
+    "word": "か",
+    "start": 85.122,
+    "end": 85.662,
+    "score": 1.0
+  },
+  {
+    "word": "W",
+    "start": 85.662,
+    "end": 85.722,
+    "score": 0.597
+  },
+  {
+    "word": "e",
+    "start": 85.722,
+    "end": 85.842,
+    "score": 0.879
+  },
+  {
+    "word": "b",
+    "start": 85.842,
+    "end": 85.982,
+    "score": 0.864
+  },
+  {
+    "word": "関",
+    "start": 85.982,
+    "end": 86.202,
+    "score": 1.0
+  },
+  {
+    "word": "係",
+    "start": 86.202,
+    "end": 86.402,
+    "score": 1.0
+  },
+  {
+    "word": "の",
+    "start": 86.402,
+    "end": 86.542,
+    "score": 1.0
+  },
+  {
+    "word": "資",
+    "start": 86.542,
+    "end": 86.622,
+    "score": 0.886
+  },
+  {
+    "word": "格",
+    "start": 86.622,
+    "end": 86.922,
+    "score": 0.993
+  },
+  {
+    "word": "を",
+    "start": 86.922,
+    "end": 87.063,
+    "score": 1.0
+  },
+  {
+    "word": "取",
+    "start": 87.063,
+    "end": 87.183,
+    "score": 0.837
+  },
+  {
+    "word": "る",
+    "start": 87.183,
+    "end": 87.343,
+    "score": 1.0
+  },
+  {
+    "word": "つ",
+    "start": 87.343,
+    "end": 87.463,
+    "score": 1.0
+  },
+  {
+    "word": "も",
+    "start": 87.463,
+    "end": 87.583,
+    "score": 1.0
+  },
+  {
+    "word": "り",
+    "start": 87.583,
+    "end": 87.603,
+    "score": 1.0
+  },
+  {
+    "word": "？",
+    "start": 87.603,
+    "end": 88.688
+  },
+  {
+    "role": "line-break",
+    "word": ""
+  },
+  {
+    "role": "bold-word",
+    "word": "M:",
+    "start": 88.688,
+    "end": 88.688
+  },
+  {
+    "word": "う",
+    "start": 88.688,
+    "end": 88.709,
+    "score": 0.008
+  },
+  {
+    "word": "ー",
+    "start": 88.709,
+    "end": 88.749,
+    "score": 0.5
+  },
+  {
+    "word": "ん",
+    "start": 88.749,
+    "end": 89.39,
+    "score": 0.969
+  },
+  {
+    "word": "、",
+    "start": 89.39,
+    "end": 89.39
+  },
+  {
+    "word": "今",
+    "start": 89.39,
+    "end": 89.55,
+    "score": 1.0
+  },
+  {
+    "word": "は",
+    "start": 89.55,
+    "end": 89.71,
+    "score": 1.0
+  },
+  {
+    "word": "そ",
+    "start": 89.71,
+    "end": 89.85,
+    "score": 1.0
+  },
+  {
+    "word": "こ",
+    "start": 89.85,
+    "end": 89.971,
+    "score": 1.0
+  },
+  {
+    "word": "ま",
+    "start": 89.971,
+    "end": 90.071,
+    "score": 1.0
+  },
+  {
+    "word": "で",
+    "start": 90.071,
+    "end": 90.171,
+    "score": 1.0
+  },
+  {
+    "word": "は",
+    "start": 90.171,
+    "end": 90.311,
+    "score": 1.0
+  },
+  {
+    "word": "考",
+    "start": 90.311,
+    "end": 90.612,
+    "score": 0.974
+  },
+  {
+    "word": "え",
+    "start": 90.612,
+    "end": 90.692,
+    "score": 0.75
+  },
+  {
+    "word": "て",
+    "start": 90.692,
+    "end": 90.812,
+    "score": 0.996
+  },
+  {
+    "word": "な",
+    "start": 90.812,
+    "end": 90.892,
+    "score": 1.0
+  },
+  {
+    "word": "い",
+    "start": 90.892,
+    "end": 90.972,
+    "score": 0.751
+  },
+  {
+    "word": "け",
+    "start": 90.972,
+    "end": 91.072,
+    "score": 0.848
+  },
+  {
+    "word": "ど",
+    "start": 91.072,
+    "end": 91.894,
+    "score": 0.973
+  },
+  {
+    "word": "、",
+    "start": 91.894,
+    "end": 91.894
+  },
+  {
+    "word": "資",
+    "start": 91.894,
+    "end": 91.994,
+    "score": 0.828
+  },
+  {
+    "word": "格",
+    "start": 91.994,
+    "end": 92.294,
+    "score": 0.935
+  },
+  {
+    "word": "試",
+    "start": 92.294,
+    "end": 92.375,
+    "score": 1.0
+  },
+  {
+    "word": "験",
+    "start": 92.375,
+    "end": 92.535,
+    "score": 1.0
+  },
+  {
+    "word": "の",
+    "start": 92.535,
+    "end": 92.695,
+    "score": 1.0
+  },
+  {
+    "word": "た",
+    "start": 92.695,
+    "end": 92.795,
+    "score": 0.999
+  },
+  {
+    "word": "め",
+    "start": 92.795,
+    "end": 92.895,
+    "score": 1.0
+  },
+  {
+    "word": "の",
+    "start": 92.895,
+    "end": 93.076,
+    "score": 1.0
+  },
+  {
+    "word": "コ",
+    "start": 93.076,
+    "end": 93.176,
+    "score": 0.996
+  },
+  {
+    "word": "ー",
+    "start": 93.176,
+    "end": 93.276,
+    "score": 0.849
+  },
+  {
+    "word": "ス",
+    "start": 93.276,
+    "end": 93.376,
+    "score": 0.991
+  },
+  {
+    "word": "も",
+    "start": 93.376,
+    "end": 93.456,
+    "score": 1.0
+  },
+  {
+    "word": "あ",
+    "start": 93.456,
+    "end": 93.617,
+    "score": 0.875
+  },
+  {
+    "word": "っ",
+    "start": 93.617,
+    "end": 93.637,
+    "score": 1.0
+  },
+  {
+    "word": "て",
+    "start": 93.637,
+    "end": 94.438,
+    "score": 0.999
+  },
+  {
+    "word": "、",
+    "start": 94.438,
+    "end": 94.438
+  },
+  {
+    "word": "結",
+    "start": 94.438,
+    "end": 94.658,
+    "score": 1.0
+  },
+  {
+    "word": "構",
+    "start": 94.658,
+    "end": 94.999,
+    "score": 0.974
+  },
+  {
+    "word": "合",
+    "start": 94.999,
+    "end": 95.199,
+    "score": 0.935
+  },
+  {
+    "word": "格",
+    "start": 95.199,
+    "end": 95.4,
+    "score": 0.994
+  },
+  {
+    "word": "率",
+    "start": 95.4,
+    "end": 95.62,
+    "score": 0.952
+  },
+  {
+    "word": "も",
+    "start": 95.62,
+    "end": 95.9,
+    "score": 1.0
+  },
+  {
+    "word": "高",
+    "start": 95.9,
+    "end": 96.021,
+    "score": 0.957
+  },
+  {
+    "word": "い",
+    "start": 96.021,
+    "end": 96.081,
+    "score": 1.0
+  },
+  {
+    "word": "み",
+    "start": 96.081,
+    "end": 96.181,
+    "score": 0.812
+  },
+  {
+    "word": "た",
+    "start": 96.181,
+    "end": 96.281,
+    "score": 0.923
+  },
+  {
+    "word": "い",
+    "start": 96.281,
+    "end": 97.102,
+    "score": 0.993
+  },
+  {
+    "word": "。",
+    "start": 97.102,
+    "end": 97.102
+  },
+  {
+    "role": "line-break",
+    "word": ""
+  },
+  {
+    "role": "bold-word",
+    "word": "F:",
+    "start": 97.102,
+    "end": 97.102
+  },
+  {
+    "word": "そ",
+    "start": 97.102,
+    "end": 97.263,
+    "score": 0.906
+  },
+  {
+    "word": "う",
+    "start": 97.263,
+    "end": 97.423,
+    "score": 0.875
+  },
+  {
+    "word": "な",
+    "start": 97.423,
+    "end": 97.603,
+    "score": 0.897
+  },
+  {
+    "word": "ん",
+    "start": 97.603,
+    "end": 97.703,
+    "score": 0.802
+  },
+  {
+    "word": "だ",
+    "start": 97.703,
+    "end": 97.724,
+    "score": 1.0
+  },
+  {
+    "word": "。",
+    "start": 97.724,
+    "end": 106.34
+  },
+  {
+    "role": "line-break",
+    "word": ""
+  },
+  {
+    "role": "bold-word",
+    "word": "Q:",
+    "start": 106.34,
+    "end": 106.34
+  },
+  {
+    "word": "男",
+    "start": 106.34,
+    "end": 106.481,
+    "score": 1.0
+  },
+  {
+    "word": "の",
+    "start": 106.481,
+    "end": 106.621,
+    "score": 1.0
+  },
+  {
+    "word": "人",
+    "start": 106.621,
+    "end": 106.881,
+    "score": 1.0
+  },
+  {
+    "word": "が",
+    "start": 106.881,
+    "end": 107.622,
+    "score": 1.0
+  },
+  {
+    "word": "、",
+    "start": 107.622,
+    "end": 107.622
+  },
+  {
+    "word": "こ",
+    "start": 107.622,
+    "end": 107.742,
+    "score": 1.0
+  },
+  {
+    "word": "の",
+    "start": 107.742,
+    "end": 107.943,
+    "score": 1.0
+  },
+  {
+    "word": "専",
+    "start": 107.943,
+    "end": 108.163,
+    "score": 1.0
+  },
+  {
+    "word": "門",
+    "start": 108.163,
+    "end": 108.403,
+    "score": 0.999
+  },
+  {
+    "word": "学",
+    "start": 108.403,
+    "end": 108.644,
+    "score": 1.0
+  },
+  {
+    "word": "校",
+    "start": 108.644,
+    "end": 108.844,
+    "score": 1.0
+  },
+  {
+    "word": "を",
+    "start": 108.844,
+    "end": 108.964,
+    "score": 1.0
+  },
+  {
+    "word": "選",
+    "start": 108.964,
+    "end": 109.224,
+    "score": 1.0
+  },
+  {
+    "word": "ん",
+    "start": 109.224,
+    "end": 109.325,
+    "score": 0.976
+  },
+  {
+    "word": "だ",
+    "start": 109.325,
+    "end": 109.465,
+    "score": 1.0
+  },
+  {
+    "word": "一",
+    "start": 109.465,
+    "end": 109.765,
+    "score": 1.0
+  },
+  {
+    "word": "番",
+    "start": 109.765,
+    "end": 110.005,
+    "score": 0.999
+  },
+  {
+    "word": "の",
+    "start": 110.005,
+    "end": 110.146,
+    "score": 1.0
+  },
+  {
+    "word": "理",
+    "start": 110.146,
+    "end": 110.326,
+    "score": 1.0
+  },
+  {
+    "word": "由",
+    "start": 110.326,
+    "end": 110.606,
+    "score": 1.0
+  },
+  {
+    "word": "は",
+    "start": 110.606,
+    "end": 111.067,
+    "score": 1.0
+  },
+  {
+    "word": "何",
+    "start": 111.067,
+    "end": 111.307,
+    "score": 1.0
+  },
+  {
+    "word": "で",
+    "start": 111.307,
+    "end": 111.447,
+    "score": 1.0
+  },
+  {
+    "word": "す",
+    "start": 111.447,
+    "end": 111.608,
+    "score": 1.0
+  },
+  {
+    "word": "か",
+    "start": 111.608,
+    "end": 111.628,
+    "score": 1.0
+  },
+  {
+    "word": "。",
+    "start": 111.628,
+    "end": 111.638
+  },
+  {
+    "role": "line-break",
+    "word": ""
+  },
+  {
+    "role": "copy-marker",
+    "word": "### NO_ALIGN_BELOW"
+  },
+  {
+    "role": "line-break",
+    "word": ""
+  },
+  {
+    "word": "1",
+    "start": null,
+    "end": null
+  },
+  {
+    "word": ".",
+    "start": null,
+    "end": null
+  },
+  {
+    "word": "会",
+    "start": null,
+    "end": null
+  },
+  {
+    "word": "社",
+    "start": null,
+    "end": null
+  },
+  {
+    "word": "か",
+    "start": null,
+    "end": null
+  },
+  {
+    "word": "ら",
+    "start": null,
+    "end": null
+  },
+  {
+    "word": "行",
+    "start": null,
+    "end": null
+  },
+  {
+    "word": "き",
+    "start": null,
+    "end": null
+  },
+  {
+    "word": "や",
+    "start": null,
+    "end": null
+  },
+  {
+    "word": "す",
+    "start": null,
+    "end": null
+  },
+  {
+    "word": "い",
+    "start": null,
+    "end": null
+  },
+  {
+    "word": "場",
+    "start": null,
+    "end": null
+  },
+  {
+    "word": "所",
+    "start": null,
+    "end": null
+  },
+  {
+    "word": "に",
+    "start": null,
+    "end": null
+  },
+  {
+    "word": "あ",
+    "start": null,
+    "end": null
+  },
+  {
+    "word": "る",
+    "start": null,
+    "end": null
+  },
+  {
+    "word": "か",
+    "start": null,
+    "end": null
+  },
+  {
+    "word": "ら",
+    "start": null,
+    "end": null
+  },
+  {
+    "role": "line-break",
+    "word": ""
+  },
+  {
+    "word": "2",
+    "start": null,
+    "end": null
+  },
+  {
+    "word": ".",
+    "start": null,
+    "end": null
+  },
+  {
+    "word": "🐰",
+    "start": null,
+    "end": null
+  },
+  {
+    "word": "☞",
+    "start": null,
+    "end": null
+  },
+  {
+    "word": "ひ",
+    "start": null,
+    "end": null
+  },
+  {
+    "word": "と",
+    "start": null,
+    "end": null
+  },
+  {
+    "word": "ク",
+    "start": null,
+    "end": null
+  },
+  {
+    "word": "ラ",
+    "start": null,
+    "end": null
+  },
+  {
+    "word": "ス",
+    "start": null,
+    "end": null
+  },
+  {
+    "word": "の",
+    "start": null,
+    "end": null
+  },
+  {
+    "word": "人",
+    "start": null,
+    "end": null
+  },
+  {
+    "word": "数",
+    "start": null,
+    "end": null
+  },
+  {
+    "word": "が",
+    "start": null,
+    "end": null
+  },
+  {
+    "word": "少",
+    "start": null,
+    "end": null
+  },
+  {
+    "word": "な",
+    "start": null,
+    "end": null
+  },
+  {
+    "word": "い",
+    "start": null,
+    "end": null
+  },
+  {
+    "word": "か",
+    "start": null,
+    "end": null
+  },
+  {
+    "word": "ら",
+    "start": null,
+    "end": null
+  },
+  {
+    "role": "line-break",
+    "word": ""
+  },
+  {
+    "word": "3",
+    "start": null,
+    "end": null
+  },
+  {
+    "word": ".",
+    "start": null,
+    "end": null
+  },
+  {
+    "word": "授",
+    "start": null,
+    "end": null
+  },
+  {
+    "word": "業",
+    "start": null,
+    "end": null
+  },
+  {
+    "word": "料",
+    "start": null,
+    "end": null
+  },
+  {
+    "word": "が",
+    "start": null,
+    "end": null
+  },
+  {
+    "word": "安",
+    "start": null,
+    "end": null
+  },
+  {
+    "word": "い",
+    "start": null,
+    "end": null
+  },
+  {
+    "word": "か",
+    "start": null,
+    "end": null
+  },
+  {
+    "word": "ら",
+    "start": null,
+    "end": null
+  },
+  {
+    "role": "line-break",
+    "word": ""
+  },
+  {
+    "word": "4",
+    "start": null,
+    "end": null
+  },
+  {
+    "word": ".",
+    "start": null,
+    "end": null
+  },
+  {
+    "word": "資",
+    "start": null,
+    "end": null
+  },
+  {
+    "word": "格",
+    "start": null,
+    "end": null
+  },
+  {
+    "word": "試",
+    "start": null,
+    "end": null
+  },
+  {
+    "word": "験",
+    "start": null,
+    "end": null
+  },
+  {
+    "word": "の",
+    "start": null,
+    "end": null
+  },
+  {
+    "word": "合",
+    "start": null,
+    "end": null
+  },
+  {
+    "word": "格",
+    "start": null,
+    "end": null
+  },
+  {
+    "word": "率",
+    "start": null,
+    "end": null
+  },
+  {
+    "word": "が",
+    "start": null,
+    "end": null
+  },
+  {
+    "word": "高",
+    "start": null,
+    "end": null
+  },
+  {
+    "word": "い",
+    "start": null,
+    "end": null
+  },
+  {
+    "word": "か",
+    "start": null,
+    "end": null
+  },
+  {
+    "word": "ら",
+    "start": null,
+    "end": null
+  },
+  {
+    "role": "line-break",
+    "word": ""
+  }
+]
