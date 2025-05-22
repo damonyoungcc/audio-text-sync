@@ -369,3 +369,22 @@ function playNextQuestionIfPossible() {
     console.log("This is the last question for this practice.");
   }
 }
+
+// === 空格键控制播放暂停 ===
+document.addEventListener("keydown", function (event) {
+  // 防止输入框或选择框激活时触发
+  const tag = document.activeElement.tagName;
+  if (tag === "INPUT" || tag === "TEXTAREA" || tag === "SELECT") return;
+
+  if (event.code === "Space") {
+    event.preventDefault(); // 避免页面滚动
+
+    if (audio.paused) {
+      audio.play();
+    } else {
+      audio.pause();
+    }
+
+    updateFabIcon(); // 更新图标
+  }
+});
