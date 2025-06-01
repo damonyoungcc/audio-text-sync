@@ -96,6 +96,13 @@
       "word_corrected_json": "2019-7-N2-5-3.corrected.word.json"
     }
   },
+  "2021-07-N3": {
+    "01": {
+      "audio_file": "01.m4a",
+      "path": "data/2021-07-N3/01",
+      "word_corrected_json": "01.corrected.word.json"
+    }
+  },
   "2022-07-N2": {
     "1-1": {
       "audio_file": "2022-07-N2-1-1.mp3",
