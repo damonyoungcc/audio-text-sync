@@ -19,7 +19,7 @@ const furiganaToggleBtn = document.getElementById("fabToggleFurigana");
 
 let showFurigana = localStorage.getItem("showFurigana") !== "false";
 
-const targetDateStr = "2025-07-06";
+const targetDateStr = "2025-12-07";
 const targetDate = new Date(targetDateStr + "T00:00:00"); // 精确到日期，时间默认 00:00:00
 const countdownDisplay = document.getElementById("countdownDisplay");
 
