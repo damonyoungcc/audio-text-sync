@@ -19,8 +19,8 @@ const furiganaToggleBtn = document.getElementById("fabToggleFurigana");
 
 let showFurigana = localStorage.getItem("showFurigana") !== "false";
 
-const targetDateStr = "2025-12-07";
-const targetDate = new Date(targetDateStr + "T00:00:00"); // 精确到日期，时间默认 00:00:00
+const startDateStr = "2026-01-01";
+const startDate = new Date(`${startDateStr}T00:00:00`); // 精确到日期，时间默认 00:00:00
 const countdownDisplay = document.getElementById("countdownDisplay");
 
 // === 初始化逻辑 ===
@@ -268,22 +268,21 @@ function animateChange(span, newValue) {
 
 // 页面加载时先生成 DOM 结构（避免第一次为空）
 countdownDisplay.innerHTML = `
-  次の試験まであと:
+  2026年1月1日からの経過時間:
   <span id="days" class="countdown-number">00</span>日 
   <span id="hours" class="countdown-number">00</span>時間 
   <span id="minutes" class="countdown-number">00</span>分 
   <span id="seconds" class="countdown-number">00</span>秒`;
 
-function updateCountdown() {
+function updateElapsedTime() {
   const now = new Date();
-  const diff = targetDate - now;
+  const diff = now - startDate;
 
-  if (diff <= 0) {
+  if (diff < 0) {
     document.getElementById("days").textContent = "00";
     document.getElementById("hours").textContent = "00";
     document.getElementById("minutes").textContent = "00";
     document.getElementById("seconds").textContent = "00";
-    clearInterval(timer);
     return;
   }
 
@@ -299,8 +298,8 @@ function updateCountdown() {
 }
 
 // 初始化并每秒更新
-const timer = setInterval(updateCountdown, 1000);
-updateCountdown();
+const timer = setInterval(updateElapsedTime, 1000);
+updateElapsedTime();
 
 // === 禁用双击，这样就不会点击过快时选中很多文本，但是又没有禁止复制 ===
 document.addEventListener("mousedown", (e) => {
