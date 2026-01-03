@@ -299,8 +299,8 @@ function updateCountdown() {
 }
 
 // 初始化并每秒更新
-updateCountdown();
 const timer = setInterval(updateCountdown, 1000);
+updateCountdown();
 
 // === 禁用双击，这样就不会点击过快时选中很多文本，但是又没有禁止复制 ===
 document.addEventListener("mousedown", (e) => {
